@@ -1,0 +1,106 @@
+{
+  "en": [
+    {
+      "productions": "Production",
+      "solution": "Solution",
+      "about": "About",
+      "support": "Support"
+    },
+    {
+      "devices": [
+        {
+          "name": "PAC-4220",
+          "task": "Reserve switch DVB-ASI",
+          "options": "Designed to back up one or two critical streams DVB-ASI TS (MPEG T2-MI)."
+        },
+        {
+          "name": "PN-CAS-326",
+          "task": "ASI T2-MI seamless redundant switch",
+          "options": "Два режима автоматического резервирования: режим бесшовной и стандартной коммутации"
+        },
+        {
+          "name": "PBX-ENP-200",
+          "task": "Конвертер PBX-ENP-200 - это законченное аппаратное решение для преобразования ASI в IP, IP в ASI",
+          "options": ""
+        },
+        {
+          "name": "PBX-STR-500",
+          "task": "Сервер потокового вещания H.264 с функцией записи, кодер H.264 AVC HD/SD SDI",
+          "options": ""
+        },
+        {
+          "name": "PBX-MTV-508",
+          "task": "Мультивьювер выводит одновременно на один экран, до восьми независимых SDI-сигналов.",
+          "options": ""
+        },
+        {
+          "name": "PSGP-2059",
+          "task": "Генератор опорных видеосинхросигналов и сигналов 1PPS, 10МГц, PTP, NTP, LTC",
+          "options": ""
+        },
+        {
+          "name": "PPNTP-5021",
+          "task": "Сервер точного времени NTP сервер, приемник GPS/GLONASS, генератор LTC, 1PPS, 10МГц",
+          "options": ""
+        },
+        {
+          "name": "PN-CSE-055",
+          "task": "Коммутатор резерва 3G/HD/SD SDI бесподрывный",
+          "options": ""
+        }
+      ]
+    }
+  ],
+  "ru": [
+    {
+      "productions": "Продукты",
+      "solution": "Решения",
+      "about": "О нас",
+      "support": "Поддержка"
+    },
+    {
+      "devices": [
+        {
+          "name": "PAC-4220",
+          "task": "Коммутатор резерва DVB-ASI",
+          "options": "Cоздан для резервирования одного или двух критически важных потоков DVB-ASI TS (MPEG T2-MI)."
+        },
+        {
+          "name": "PN-CAS-326",
+          "task": "Коммутатор резерва ASI T2-MI бесшовный",
+          "options": "Два режима автоматического резервирования: режим бесшовной и стандартной коммутации"
+        },
+        {
+          "name": "PBX-ENP-200",
+          "task": "Конвертер PBX-ENP-200 - это законченное аппаратное решение для преобразования ASI в IP, IP в ASI",
+          "options": ""
+        },
+        {
+          "name": "PBX-STR-500",
+          "task": "Сервер потокового вещания H.264 с функцией записи, кодер H.264 AVC HD/SD SDI",
+          "options": ""
+        },
+        {
+          "name": "PBX-MTV-508",
+          "task": "Мультивьювер выводит одновременно на один экран, до восьми независимых SDI-сигналов.",
+          "options": ""
+        },
+        {
+          "name": "PSGP-2059",
+          "task": "Генератор опорных видеосинхросигналов и сигналов 1PPS, 10МГц, PTP, NTP, LTC",
+          "options": ""
+        },
+        {
+          "name": "PPNTP-5021",
+          "task": "Сервер точного времени NTP сервер, приемник GPS/GLONASS, генератор LTC, 1PPS, 10МГц",
+          "options": ""
+        },
+        {
+          "name": "PN-CSE-055",
+          "task": "Коммутатор резерва 3G/HD/SD SDI бесподрывный",
+          "options": ""
+        }
+      ]
+    }
+  ]
+}
