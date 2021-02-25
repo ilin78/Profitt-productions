@@ -1,10 +1,13 @@
 {
   "en": [
     {
-      "productions": "Production",
-      "solution": "Solution",
-      "about": "About",
-      "support": "Support"
+      "navigate":{
+          "productions": "Production",
+          "solution": "Solution",
+          "catalog": "Сatalog",
+          "about": "About us",
+          "support": "Support"
+        }
     },
     {
       "devices": [
@@ -53,10 +56,13 @@
   ],
   "ru": [
     {
-      "productions": "Продукты",
-      "solution": "Решения",
-      "about": "О нас",
-      "support": "Поддержка"
+      "navigate":{
+          "productions": "Продукты",
+          "solution": "Решения",
+          "catalog": "Каталог",
+          "about": "О нас",
+          "support": "Поддержка"
+        }
     },
     {
       "devices": [
