@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {
   Layout,
   Production,
@@ -11,6 +11,7 @@ import {
 } from "../components"
 import { Router } from "@reach/router"
 import JSONData from "../../content/locales/translation.json"
+import "../assets/style.scss"
 
 export default class Index extends React.Component {
   state = {
@@ -26,14 +27,17 @@ export default class Index extends React.Component {
   }
 
   render() {
-    let stateLanguageNavigate = "null";
-    let stateLanguageDevices = "null";
+    let stateLanguageNavigate = "null"
+    let stateLanguageDevices = "null"
+    let stateLanguageNotFound = "null"
     if (this.state.handleStateLanguage) {
-      stateLanguageNavigate = JSONData.ru[0].navigate;
-      stateLanguageDevices = JSONData.ru[1].devices;
+      stateLanguageNavigate = JSONData.ru[0].navigate
+      stateLanguageDevices = JSONData.ru[1].devices
+      stateLanguageNotFound = JSONData.ru[2].notfound
     } else {
-      stateLanguageNavigate = JSONData.en[0].navigate;
-      stateLanguageDevices = JSONData.en[1].devices;
+      stateLanguageNavigate = JSONData.en[0].navigate
+      stateLanguageDevices = JSONData.en[1].devices
+      stateLanguageNotFound = JSONData.en[2].notfound
     }
 
     return (
@@ -43,29 +47,25 @@ export default class Index extends React.Component {
           <Layout>
             <button onClick={this.toggeleLanguage}>Language</button>
             <Router>
-              <Production 
-                path="/" 
-                navigate={stateLanguageNavigate} 
+              <Production
+                path="/"
+                navigate={stateLanguageNavigate}
                 devices={stateLanguageDevices}
               ></Production>
-              <Solution 
-                path="/solution" 
+              <Solution
+                path="/solution"
                 navigate={stateLanguageNavigate}
               ></Solution>
               <Catalog
-                path="/catalog" 
+                path="/catalog"
                 navigate={stateLanguageNavigate}
               ></Catalog>
-              <About 
-                path="/about" 
-                navigate={stateLanguageNavigate}
-              ></About>
-              <Support path="/support" 
+              <About path="/about" navigate={stateLanguageNavigate}></About>
+              <Support
+                path="/support"
                 navigate={stateLanguageNavigate}
               ></Support>
-              <NotFound path="*" 
-                navigate={stateLanguageNavigate}
-              ></NotFound>
+              <NotFound path="*" notfound={stateLanguageNotFound}></NotFound>
             </Router>
           </Layout>
         </div>

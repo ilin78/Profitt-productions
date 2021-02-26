@@ -1,13 +1,13 @@
 {
   "en": [
     {
-      "navigate":{
-          "productions": "Production",
-          "solution": "Solution",
-          "catalog": "Сatalog",
-          "about": "About us",
-          "support": "Support"
-        }
+      "navigate": {
+        "productions": "Production",
+        "solution": "Solution",
+        "catalog": "Сatalog",
+        "about": "About us",
+        "support": "Support"
+      }
     },
     {
       "devices": [
@@ -52,17 +52,24 @@
           "options": ""
         }
       ]
+    },
+    {
+      "notfound": {
+        "title": "404",
+        "body": "Nothing found:(",
+        "notfound": "This is not the web page you are looking for"
+      }
     }
   ],
   "ru": [
     {
-      "navigate":{
-          "productions": "Продукты",
-          "solution": "Решения",
-          "catalog": "Каталог",
-          "about": "О нас",
-          "support": "Поддержка"
-        }
+      "navigate": {
+        "productions": "Продукты",
+        "solution": "Решения",
+        "catalog": "Каталог",
+        "about": "О нас",
+        "support": "Поддержка"
+      }
     },
     {
       "devices": [
@@ -107,6 +114,13 @@
           "options": ""
         }
       ]
+    },
+    {
+      "notfound": {
+        "title": "404",
+        "body": "Ничего не найдено :(",
+        "notfound": "K сожалению, ничего по данному адресу не найдено."
+      }
     }
   ]
 }
