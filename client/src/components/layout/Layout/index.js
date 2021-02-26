@@ -98,7 +98,7 @@ export default function Layout(props) {
 
       </div>
       <Solution title={'I am from props!'} />
-      {/* <Solution name={LANGUAGE.solution} /> */}
+      {/* <Solution name={LANGUAGE.solution} /> */
       /*{props.children}
     </div>
   )
