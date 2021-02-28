@@ -1,3 +1,16 @@
+import React from 'react'
+import App from "../app/App"
+
+import "../assets/style.scss"
+
+export default function index() {
+  return(
+    <App />
+  )
+}
+
+
+/*
 import React from "react"
 import {
   Layout,
@@ -11,9 +24,9 @@ import {
 } from "../components"
 import { Router } from "@reach/router"
 import JSONData from "../../content/locales/translation.json"
-import "../assets/style.scss"
 
-export default class Index extends React.Component {
+
+export default class App extends React.Component {
   state = {
     handleStateLanguage: true,
   }
@@ -43,9 +56,11 @@ export default class Index extends React.Component {
     return (
       <div>
         <div>
-          <Links navigate={stateLanguageNavigate} />
-          <Layout>
+          <div className="wrapper">
+            <Links navigate={stateLanguageNavigate} />
             <button onClick={this.toggeleLanguage}>Language</button>
+          </div>
+          <Layout>
             <Router>
               <Production
                 path="/"
@@ -73,3 +88,6 @@ export default class Index extends React.Component {
     )
   }
 }
+
+*/
+   

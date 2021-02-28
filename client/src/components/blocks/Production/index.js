@@ -6,7 +6,6 @@ export default class Production extends React.Component {
   render() {
     return (
       <div className="wrapper">
-        <h2>{this.props.navigate.productions}</h2>
         {this.props.devices.map((device, index) => {
           let id__style=index;
           return (
