@@ -1,19 +1,32 @@
 import React from "react"
-import { Layout, Production, Solution, Catalog, About, Support, NotFound, Links, Navigate } from "../components"
+import { Layout, Links, Navigate } from "../components"
+import {
+  Production,
+  Solution,
+  Catalog,
+  About,
+  Support,
+  NotFound,
+} from "../modules"
 import { Router } from "@reach/router"
+import Switch from "@material-ui/core/Switch"
 import JSONData_ru from "../../content/locales/ru/translation_ru.json"
 import JSONData_en from "../../content/locales/en/translation_en.json"
 
 export default class App extends React.Component {
-  state = { language: true }
+  state = {
+    language: true,
+  }
+
   toggeleLanguage = () => {
     this.setState(prevState => {
       return { language: !prevState.language }
     })
   }
   render() {
-
-    let navigate, devices, notFound = null
+    let navigate,
+      devices,
+      notFound = null
 
     if (this.state.language) {
       navigate = JSONData_ru.ru[0].navigate
@@ -37,9 +50,15 @@ export default class App extends React.Component {
               </div>
             </div>
             <div className="App__logo">PROFITT</div>
-            <button className="btn_lang" onClick={this.toggeleLanguage}>
+            <div>
               {this.state.language ? <>RU</> : <>EN</>}
-            </button>
+              <Switch
+                color="primary"
+                size="small"
+                checked={this.state.language}
+                onChange={this.toggeleLanguage}
+              ></Switch>
+            </div>
           </header>
           <Layout>
             <Router>

@@ -1,66 +1,77 @@
 .App {
-    &__header {
-        display: flex;
-        position: fixed;
-        z-index: 1000;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 44px;
-        background-color: rgba(235, 235, 235, 0.985);
-
-        &_mob {
-            display: none;
-        }
-
-        &_desk {
-            font-size: 14px;
-        }
+  &__header {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(235, 235, 235, 0.985);
+    //Burger
+    &_mob {
+      display: none;
     }
-
-    &__layout {
-        margin: $width-bar-desk 0;
+    //Burger
+    &_desk {
+      font-size: 15px;
     }
+    display: grid;
+    border: 1px solid #000;
+    grid-template-columns: 2fr  1fr 2fr;
+    grid-auto-rows: 1fr;
+  }
+
+  &__layout {
+    margin: $width-bar-desk 0;
+  }
+  .navigate__link {
+    display: flex;
+    & li {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      width: 100px;
+    }
+  }
 }
 @media screen and (max-width: 767px) {
+  .navigate__link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+    margin: 20px 0;
+    & li {
+      margin-bottom: 20px;
+    }
+  }
 
-    .navigate__link{
+  .App {
+    &__header {
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+
+      position: fixed;
+      z-index: 1000;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 48px;
+
+      background-color: rgba(235, 235, 235, 0.985);
+      //Burger
+      &_mob {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        font-size: 18px;
-        margin: 20px 0;
-        & li {
-            margin-bottom: 20px;
-        }
+        font-size: 17px;
+      } //Burger
+      &_desk {
+        display: none;
+      }
     }
-
-    
-
-    .App {
-        &__header {
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-
-            position: fixed;
-            z-index: 1000;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 48px;
-
-            background-color: rgba(235, 235, 235, 0.985);
-            &_mob {
-                display: flex;
-                font-size: 17px;
-            }
-            &_desk {
-                display: none;
-            }
-        }
-        &__layout {
-            margin: $width-bar-mob 0;
-        }
+    &__layout {
+      margin: $width-bar-mob 0;
     }
+  }
 }

@@ -13,3 +13,12 @@
     color: #000;
     box-shadow: #fff 0px 0px 1px;
 }
+
+.btn__header {
+    border-radius: 5px;
+    color: #000;
+    font-weight: 500;
+    &:hover {
+        box-shadow: #777;
+    }
+}

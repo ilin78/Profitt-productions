@@ -1,9 +1,5 @@
-export { default as Production } from "./blocks/Production"
-export { default as Solution } from "./blocks/Solution"
-export { default as Catalog } from "./blocks/Catalog"
-export { default as About } from "./blocks/About"
-export { default as Support } from "./blocks/Support"
-export { default as NotFound } from "./blocks/NotFound"
+export { default as About } from "../modules/About"
 export { default as Layout } from "./layout/Layout"
 export { default as Links } from "./layout/Links"
 export { default as Navigate } from "./layout/Navigate"
+
