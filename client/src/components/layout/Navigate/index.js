@@ -35,7 +35,9 @@ export default function Navigate(props) {
               open={state[anchor]}
               onClose={toggleDrawer(anchor, false)}
             >
+              <div className="App__header_mob-list">
               {list(anchor)}
+              </div>
             </Drawer>
           </React.Fragment>
         ))}

@@ -1,8 +1,8 @@
 .App {
-
   &__header {
     color: $text-header-color;
     display: flex;
+    align-items: center;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -12,25 +12,36 @@
     background-color: $background-header-color;
 
     &_logo {
-      border: 2px dashed rgb(255, 208, 0);
+      color: white;
+      margin-left: 20px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-end;
+      grid-area: logo;
       font-weight: 200;
       font-size: 20px;
+      cursor: default;
     }
-    &_langBtn {
-      border: 2px dashed rgb(9, 255, 0);
+    &_langBtn {    
+      margin-right: 20px;
+      display: flex;
+      grid-area: langBtn;
+      align-items: flex-start;
     }
     //Burger
     &_desk {
-      border: 2px dashed rgb(255, 0, 0);
+      grid-area: desk;
     }
     //Burger
     &_mob {
       display: none;
     }
-  
     display: grid;
-    grid-template-columns: 100px 1fr 100px ;
-    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr minmax(100px, 900px) 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+      "logo desk langBtn"
+    ;
   }
 
   &__layout {
@@ -38,14 +49,15 @@
   }
   .navigate__link {
     display: flex;
+    justify-content: space-around;
     & li {
       list-style: none;
-      display: flex;
-      justify-content: space-between;
-      width: 100px;
     }
     & li a {
       color: $text-header-color;
+    }
+    & :hover {
+      color: #fff;
     }
   }
 }
@@ -108,7 +120,10 @@
       &_mob {
         line-height: 25px;
         display: flex;
-      } //Burger
+        cursor: pointer;
+      }
+
+      //Burger
       &_desk {
         display: none;
       }
