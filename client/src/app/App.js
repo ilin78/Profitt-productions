@@ -9,9 +9,9 @@ import {
   NotFound,
 } from "../modules"
 import { Router } from "@reach/router"
-import Switch from "@material-ui/core/Switch"
 import JSONData_ru from "../../content/locales/ru/translation_ru.json"
 import JSONData_en from "../../content/locales/en/translation_en.json"
+import { Button } from "@material-ui/core"
 
 export default class App extends React.Component {
   state = {
@@ -41,26 +41,23 @@ export default class App extends React.Component {
       <div>
         <div className="App">
           <header className="App__header">
+ 
             <div className="App__header_mob">
               <Navigate navigate={navigate} />
             </div>
+
             <div className="App__header_desk">
               <div>
                 <Links navigate={navigate} />
               </div>
             </div>
-            <div className="App__logo">PROFITT</div>
-            <div>
-              {this.state.language ? <>Rus</> : <>Eng</>}
-              <Switch
-                color="primary"
-                inputProps={{ 'aria-label': 'primary checkbox' }}
-                size="small"
-                checked={this.state.language}
-                name="checkedC"
-                onChange={this.toggeleLanguage}
-              ></Switch>
+            <div className="App__header_logo">PROFITT</div>
+            <div className="App__header_langBtn">
+              <Button className="btn__lang" onClick={this.toggeleLanguage}>
+                {this.state.language ? <>Rus</> : <>Eng</>}
+              </Button>
             </div>
+ 
           </header>
           <Layout>
             <Router>

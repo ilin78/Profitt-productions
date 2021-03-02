@@ -1,10 +1,5 @@
 .App {
 
-//   .MuiSwitch-colorPrimary.Mui-checked {
-//     color: #00ff00 !important;
-// }
-
-
   &__header {
     color: $text-header-color;
     display: flex;
@@ -13,20 +8,28 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 44px;
-
+    height: $width-bar-desk;
     background-color: $background-header-color;
+
+    &_logo {
+      border: 2px dashed rgb(255, 208, 0);
+      font-weight: 200;
+      font-size: 20px;
+    }
+    &_langBtn {
+      border: 2px dashed rgb(9, 255, 0);
+    }
+    //Burger
+    &_desk {
+      border: 2px dashed rgb(255, 0, 0);
+    }
     //Burger
     &_mob {
       display: none;
     }
-    //Burger
-    &_desk {
-      font-size: 15px;
-    }
+  
     display: grid;
-    border: 1px solid #000;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 100px 1fr 100px ;
     grid-auto-rows: 1fr;
   }
 
@@ -51,24 +54,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 14px;
+    font-size: 19px;
     font-weight: 300;
     padding: 8px 0 0;
 
     & li {
-      padding: 5px;
-      margin: 5px;
-      & div:after {
-        content: "";
-        position: relative;
-        width: 100%;
-        height: 0.1px;
-        background-color: rgb(141, 141, 141);
-        display: inline-block;
-        margin: 0;
-        left: 0px;
-        top: -48px;
-      }
+      padding: 3px;
+      margin: 10px;
     }
 
     & li a {
@@ -76,7 +68,7 @@
       width: 340px;
       max-width: 300px;
       color: $text-header-color;
-      
+
       &:hover {
         color: rgb(255, 255, 255);
       }
@@ -86,16 +78,20 @@
   ul {
     width: 100%;
     height: 100%;
-    background-color: $background-header-color;
+    background-color: rgb(43, 43, 43);
   }
 
   .MuiList-padding {
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
 
   .App {
     &__header {
+      &_logo {
+        font-weight: 200;
+        font-size: 25px;
+      }
       padding: 10px;
       display: flex;
       justify-content: space-between;
@@ -105,13 +101,13 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 48px;
+      height: $width-bar-mob;
 
       background-color: $background-header-color;
       //Burger
       &_mob {
+        line-height: 25px;
         display: flex;
-        font-size: 17px;
       } //Burger
       &_desk {
         display: none;
