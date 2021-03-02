@@ -5,19 +5,19 @@ export default function Links(props) {
   return (
     <div className="navigate__link">
       <li>
-        <Link to="/">{props.navigate.productions}</Link>
+        <div><Link to="/">{props.navigate.productions}</Link></div>
       </li>
       <li>
-        <Link to="/solution">{props.navigate.solution}</Link>
+      <div><Link to="/solution">{props.navigate.solution}</Link></div>
       </li>
       <li>
-        <Link to="/catalog">{props.navigate.catalog}</Link>
+      <div><Link to="/catalog">{props.navigate.catalog}</Link></div>
       </li>
       <li>
-        <Link to="/about">{props.navigate.about}</Link>
+      <div><Link to="/about">{props.navigate.about}</Link></div>
       </li>
       <li>
-        <Link to="/support">{props.navigate.support}</Link>
+      <div><Link to="/support">{props.navigate.support}</Link></div>
       </li>
     </div>
   )

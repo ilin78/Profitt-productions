@@ -51,11 +51,13 @@ export default class App extends React.Component {
             </div>
             <div className="App__logo">PROFITT</div>
             <div>
-              {this.state.language ? <>RU</> : <>EN</>}
+              {this.state.language ? <>Rus</> : <>Eng</>}
               <Switch
                 color="primary"
+                inputProps={{ 'aria-label': 'primary checkbox' }}
                 size="small"
                 checked={this.state.language}
+                name="checkedC"
                 onChange={this.toggeleLanguage}
               ></Switch>
             </div>
