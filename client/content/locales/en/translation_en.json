@@ -2,9 +2,9 @@
   "en": [
     {
       "navigate": {
-        "productions": "Production",
-        "solution": "Solution",
-        "catalog": "Сatalog",
+        "productions": "Products",
+        "solution": "Solutions",
+        "catalog": "Catalogue",
         "about": "About us",
         "support": "Support"
       }
@@ -13,52 +13,57 @@
       "devices": [
         {
           "name": "PAC-4220",
-          "task": "Reserve switch DVB-ASI",
-          "options": "Designed to back up one or two critical streams DVB-ASI TS (MPEG T2-MI)."
+          "task": "DVB-ASI changeover",
+          "options": "Protects one or two DVB-ASI (MPEG T2-MI) transport streams"
         },
         {
           "name": "PN-CAS-326",
-          "task": "ASI T2-MI seamless redundant switch",
-          "options": "Два режима автоматического резервирования: режим бесшовной и стандартной коммутации"
+          "task": "ASI T2-MI seamless changeover",
+          "options": "Features the seamless (artifact-free) or plain mode of ASI switching"
         },
         {
           "name": "PBX-ENP-200",
-          "task": "Конвертер PBX-ENP-200 - это законченное аппаратное решение для преобразования ASI в IP, IP в ASI",
-          "options": ""
+          "task": "PBX-ENP-200 converter",
+          "options": "Bidirectional (ASI-to-IP and IP-to-ASI) converter solution"
         },
         {
           "name": "PBX-STR-500",
-          "task": "Сервер потокового вещания H.264 с функцией записи, кодер H.264 AVC HD/SD SDI",
-          "options": ""
+          "task": "H.264 streaming server",
+          "options": "H.264 AVC HD/SD SDI encoder with the reconding capability"
         },
         {
           "name": "PBX-MTV-508",
-          "task": "Мультивьювер выводит одновременно на один экран, до восьми независимых SDI-сигналов.",
-          "options": ""
+          "task": "Multiviewer",
+          "options": "SDI eight-input mosaics viewer"
         },
         {
           "name": "PSGP-2059",
-          "task": "Генератор опорных видеосинхросигналов и сигналов 1PPS, 10МГц, PTP, NTP, LTC",
-          "options": ""
+          "task": "Reference generator",
+          "options": "Generates 1PPS, 10MHz signals with PTP, NTP, LTC capability"
         },
         {
           "name": "PPNTP-5021",
-          "task": "Сервер точного времени NTP сервер, приемник GPS/GLONASS, генератор LTC, 1PPS, 10МГц",
-          "options": ""
+          "task": "NTP server",
+          "options": "GPS/GLONASS driven 1PPS, 10MHz signals generator with LTC capability"
         },
         {
           "name": "PN-CSE-055",
-          "task": "Коммутатор резерва 3G/HD/SD SDI бесподрывный",
-          "options": ""
+          "task": "Changeover",
+          "options": "3G/HD/SD SDI seamless changeover"
+        },
+        {
+          "next":"Next",
+          "info":"More..."
         }
       ]
     },
     {
       "notfound": {
         "title": "404",
-        "body": "Nothing found:(",
-        "notfound": "This is not the web page you are looking for"
+        "body": "Info not found",
+        "notfound": "No relevant information found"
       }
     }
+
   ]
 }
