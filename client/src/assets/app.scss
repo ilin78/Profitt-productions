@@ -19,10 +19,10 @@
       justify-content: flex-end;
       grid-area: logo;
       font-weight: 200;
-      font-size: 20px;
+      font-size: 15px;
       cursor: default;
     }
-    &_langBtn {    
+    &_langBtn {
       margin-right: 20px;
       display: flex;
       grid-area: langBtn;
@@ -31,17 +31,16 @@
     //Burger
     &_desk {
       grid-area: desk;
+      font-size: 13px;
+      font-weight: 300;
     }
-    //Burger
     &_mob {
       display: none;
     }
     display: grid;
-    grid-template-columns: 1fr minmax(100px, 900px) 1fr;
+    grid-template-columns: 1fr minmax(100px, 850px) 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: 
-      "logo desk langBtn"
-    ;
+    grid-template-areas: "logo desk langBtn";
   }
 
   &__layout {
@@ -61,7 +60,7 @@
     }
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 567px) {
   .navigate__link {
     display: flex;
     flex-direction: column;
@@ -90,7 +89,7 @@
   ul {
     width: 100%;
     height: 100%;
-    background-color: rgb(43, 43, 43);
+    background-color: $background-header-color;
   }
 
   .MuiList-padding {
@@ -107,7 +106,7 @@
       padding: 10px;
       display: flex;
       justify-content: space-between;
-
+      align-items: center;
       position: fixed;
       z-index: 1000;
       top: 0;
@@ -122,8 +121,6 @@
         display: flex;
         cursor: pointer;
       }
-
-      //Burger
       &_desk {
         display: none;
       }

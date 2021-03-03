@@ -1,0 +1,181 @@
+.blocks {
+  display: flex;
+  height: 570px;
+  width: 100%;
+  &__devices {
+    // style width for each block-divice
+    &_0,
+    &_1,
+    &_2,
+    &_3,
+    &_4,
+    &_5,
+    &_6,
+    &_7,
+    &_8,
+    &_9 {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &_0 {
+      grid-area: _0;
+    }
+    &_1 {
+      color: white;
+      background-color: #020011;
+      grid-area: _1;
+    }
+    &_2 {
+      grid-area: _2;
+    }
+    &_3 {
+      grid-area: _3;
+    }
+    &_4 {
+      grid-area: _4;
+    }
+    &_5 {
+      grid-area: _5;
+    }
+    &_6 {
+      color: white;
+      background-color: #002e58;
+      grid-area: _6;
+    }
+    &_7 {
+      grid-area: _7;
+    }
+    &_8 {
+      grid-area: _8;
+    }
+    &_9 {
+      grid-area: _9;
+    }
+
+    width: 100%;
+    border: rgb(255, 255, 255) solid 2px;
+    &_name {
+      font-size: 46px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      padding-top: 50px;
+    }
+
+    &_discription {
+      font-size: 14px;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      max-width: 700px;
+      &-task {
+        padding-top: 40px;
+      }
+      &-options {
+        padding-top: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .blocks {
+    display: flex;
+    height: 470px;
+    width: 100%;
+
+    &__devices {
+      width: 100%;
+      font-weight: 900;
+      border: rgb(255, 255, 255) solid 2px;
+      &_name {
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+      }
+      &_discription {
+        font-size: 14px;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        max-width: 300px;
+        &-task {
+          padding-top: 40px;
+        }
+        &-options {
+          font-size: 12px;
+          padding-top: 40px;
+        }
+      }
+    }
+  }
+}
+
+// display: grid;
+// grid-template-columns: 1fr;
+// grid-template-rows: repeat(12, 1fr);
+// grid-template-areas:
+//   "_0"
+//   "_1"
+//   "_2"
+//   "_3 _4"
+//   "_5"
+//   "_6"
+//   "_7"
+//   "_8"
+//   "_9"
+//   "_10"
+//   "_11"
+//   "_12";
+/*       -----------------------------------------          */
+//   grid-template:
+// [start] "_0" 1fr [row2]
+// [row2] "_1" 1fr [row3]
+// [row3] "_2" 1fr [row4]
+// [row4] "_3 _4" 1fr [row5]
+// [row5] "_5" 1fr [row6]
+// [row6] "_6" 1fr [row7]
+// [row7] "_7" 1fr [row8]
+// [row8] "_8" 1fr [row9]
+// [row9] "_9" 1fr[row9]
+// [row10] "_10" 1fr [row10]
+// [row11] "_11" 1fr [row11]
+// [row12] "_12" 1fr [row-end] / 150px 1fr;
+//   }
+
+//   grid-template-areas:
+//     "_0"
+//     "_1"
+//     "_2"
+//     "_3 _4"
+//     "_5"
+//     "_6"
+//     "_7"
+//     "_8"
+//     "_9"
+//     "_10"
+//     "_11"
+//     "_12";
+// }
+// }
+// @media screen and (max-width: 567px) {
+//   .blocks__devices {
+//     display: flex;
+//     border: 1px solid black;
+//     height: 670px;
+
+//     &_name {
+//       font-weight: 900;
+//       font-size: 44px;
+//     }
+//   }
+// }
