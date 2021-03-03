@@ -1,0 +1,136 @@
+/* ffa - Стиль шрифта */
+
+.areal {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* fz30 - Размер шрифта*/
+
+.fontsize30 {
+    font-size: 30px;
+}
+
+
+/* fsi - Курсивный шрифт*/
+
+.italic {
+    font-style: italic;
+}
+
+
+/* fw700 - Жирный шрифт */
+
+.font700 {
+    font-weight: 700;
+}
+
+.colorred {
+    color: red;
+}
+
+
+/* 
+    tar - Выровнять текст по правому краю
+    tac - Выровнять текст по центру
+*/
+
+.textright {
+    text-align: right;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+
+/* taj - На всю ширину пространства  */
+
+.taj {
+    text-align: justify;
+}
+
+
+/* tdu _ Подчеркнутый текст */
+
+.decoration_u {
+    text-decoration: underline;
+}
+
+
+/* tdo - Черта над текстом  */
+
+.decoration_o {
+    text-decoration: overline;
+}
+
+
+/* tdl  - Зачеркнутый текст*/
+
+.decoration_l {
+    text-decoration: line-through;
+}
+
+
+/* none - Убирет любой эффект */
+
+
+/* shadow - Тени
+1 - смешение по X
+2 - смещение по Y
+3 - размер размытия
+4 - цвет
+*/
+
+.shadow {
+    text-shadow: 1px 1px 5px #aaa;
+}
+
+
+/* 
+ttc - capitalize - Первая Буква
+ttu - uppercase - ПЕРВАЯ БУКВЫ
+none - первая буква
+*/
+
+.text_transform {
+    text-transform: capitalize;
+}
+
+
+/* Отступы */
+
+.ident {
+    text-indent: 50px;
+}
+
+
+/* Определяет интервал между буквами */
+
+.lspace {
+    letter-spacing: 5px;
+}
+
+
+/*  Определяет интервал между словами */
+
+.wspace {
+    word-spacing: 5px;
+}
+
+
+/* whs Пробелы между словами 
+nowrap - появится прокрутка
+normal - отменит
+*/
+
+.whitespace {
+    white-space: nowrap;
+}
+
+
+/* Межстрочный интервал */
+
+.line_height {
+    line-height: 31px;
+}

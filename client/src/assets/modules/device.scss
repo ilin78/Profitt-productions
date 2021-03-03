@@ -72,13 +72,18 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      text-align: center;
 
       max-width: 700px;
       &-task {
         padding-top: 40px;
+        padding-right: 10px;
+        padding-left: 10px;
       }
       &-options {
         padding-top: 40px;
+        padding-right: 10px;
+        padding-left: 10px;
       }
     }
   }
@@ -106,15 +111,24 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        text-align: center;
         max-width: 300px;
         &-task {
           padding-top: 40px;
+          padding-right: 10px;
+          padding-left: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
         &-options {
           font-size: 12px;
           padding-top: 40px;
-        }
+          padding-right: 10px;
+          padding-left: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;        }
       }
     }
   }
