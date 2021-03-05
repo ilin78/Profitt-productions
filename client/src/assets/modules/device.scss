@@ -1,7 +1,8 @@
 .containerDevices {
+  // tables for container devices
   display: grid;
-  grid-template-columns: 50% 50%; // 2е колонки
-  grid-template-rows: 1fr 1fr 1fr 1fr; // 2е строки
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
   grid-template-areas:
     "__0 __0"
     "__1 __1"
@@ -9,13 +10,21 @@
     "__3 __4"
     "__5 __5"
     "__6 __6"
-    "__7 __7";
+    "__7 __7"
+    "__8 __8"
+    "__9 __9"
+    "__10 __10"
+    "__11 __11"
+    "__12 __12";
   &__0 {
     grid-area: __0;
   }
   &__1 {
+    color: white;
+    background-color: #020011;
     grid-area: __1;
   }
+
   &__2 {
     grid-area: __2;
   }
@@ -29,6 +38,8 @@
     grid-area: __5;
   }
   &__6 {
+    background-color: #002e58;
+    color: white;
     grid-area: __6;
   }
   &__7 {
@@ -37,82 +48,61 @@
   &__8 {
     grid-area: __8;
   }
+  &__9 {
+    grid-area: __9;
+  }
+  &__10 {
+    grid-area: __10;
+  }
+  &__11 {
+    grid-area: __11;
+  }
+  &__12 {
+    grid-area: __12;
+  }
+  //text-color and other properties
+  &__1 .blocks__devices_discription-options {
+    color: rgb(199, 199, 199);
+  }
+  &__6 .blocks__devices_discription-options {
+    color: rgb(199, 199, 199);
+  }
 }
 
 .blocks {
   display: flex;
   height: 770px;
   width: 100%;
-
   &__devices {
-    // style width for each block-divice
-    &_0,
-    &_1,
-    &_2,
-    &_3,
-    &_4,
-    &_5,
-    &_6,
-    &_7,
-    &_8,
-    &_9 {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    &_0 {
-    }
-    &_1 {
-      color: white;
-      background-color: #020011;
-    }
-    &_2 {
-    }
-    &_3 {
-    }
-    &_4 {
-    }
-    &_5 {
-    }
-    &_6 {
-      color: white;
-      background-color: #002e58;
-    }
-    &_7 {
-    }
-    &_8 {
-    }
-    &_9 {
-    }
-
+    height: 100%;
     width: 100%;
-    border: rgb(255, 255, 255) solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &_name {
-      font-size: 46px;
+      font-size: 40px;
       font-weight: 700;
+      letter-spacing: 0.2em;
       display: flex;
       justify-content: center;
       padding-top: 50px;
     }
-
     &_discription {
-      font-size: 14px;
       font-weight: 400;
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
-
       max-width: 700px;
       &-task {
-        padding-top: 40px;
+        font-size: 19px;
+        padding-top: 20px;
         padding-right: 10px;
         padding-left: 10px;
       }
       &-options {
-        padding-top: 40px;
+        color: rgb(99, 99, 99);
+        padding-top: 10px;
         padding-right: 10px;
         padding-left: 10px;
       }
@@ -121,50 +111,11 @@
 }
 
 @media screen and (max-width: 567px) {
-
   .containerDevices {
     display: grid;
-    grid-template-columns: 1fr; // 2е колонки
-    grid-template-rows: repeat(1, 1fr); // 2е строки
-    grid-template-areas:
-      "__0"
-      "__1"
-      "__2"
-      "__3"
-      "__4"
-      "__5"
-      "__6"
-      "__7"
-      "__8"
-      "__9"
-      ;
-    &__0 {
-      grid-area: __0;
-    }
-    &__1 {
-      grid-area: __1;
-    }
-    &__2 {
-      grid-area: __2;
-    }
-    &__3 {
-      grid-area: __3;
-    }
-    &__4 {
-      grid-area: __4;
-    }
-    &__5 {
-      grid-area: __5;
-    }
-    &__6 {
-      grid-area: __6;
-    }
-    &__7 {
-      grid-area: __7;
-    }
-    &__8 {
-      grid-area: __8;
-    }
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: "__0" "__1" "__2" "__3" "__4" "__5" "__6" "__7" "__8" "__9";
   }
 
   .blocks {
@@ -178,6 +129,7 @@
       border: rgb(255, 255, 255) solid 2px;
       &_name {
         font-size: 35px;
+        letter-spacing: 0.2em;
         display: flex;
         justify-content: center;
         padding-top: 50px;
@@ -191,7 +143,8 @@
         text-align: center;
         max-width: 300px;
         &-task {
-          padding-top: 40px;
+          font-size: 18px;
+          padding-top: 10px;
           padding-right: 10px;
           padding-left: 10px;
           display: flex;
@@ -199,8 +152,8 @@
           align-items: center;
         }
         &-options {
-          font-size: 12px;
-          padding-top: 40px;
+          font-size: 14px;
+          padding-top: 5px;
           padding-right: 10px;
           padding-left: 10px;
           display: flex;
@@ -211,63 +164,3 @@
     }
   }
 }
-
-// display: grid;
-// grid-template-columns: 1fr;
-// grid-template-rows: repeat(12, 1fr);
-// grid-template-areas:
-//   "_0"
-//   "_1"
-//   "_2"
-//   "_3 _4"
-//   "_5"
-//   "_6"
-//   "_7"
-//   "_8"
-//   "_9"
-//   "_10"
-//   "_11"
-//   "_12";
-
-//   grid-template:
-// [start] "_0" 1fr [row2]
-// [row2] "_1" 1fr [row3]
-// [row3] "_2" 1fr [row4]
-// [row4] "_3 _4" 1fr [row5]
-// [row5] "_5" 1fr [row6]
-// [row6] "_6" 1fr [row7]
-// [row7] "_7" 1fr [row8]
-// [row8] "_8" 1fr [row9]
-// [row9] "_9" 1fr[row9]
-// [row10] "_10" 1fr [row10]
-// [row11] "_11" 1fr [row11]
-// [row12] "_12" 1fr [row-end] / 150px 1fr;
-//   }
-
-//   grid-template-areas:
-//     "_0"
-//     "_1"
-//     "_2"
-//     "_3 _4"
-//     "_5"
-//     "_6"
-//     "_7"
-//     "_8"
-//     "_9"
-//     "_10"
-//     "_11"
-//     "_12";
-// }
-// }
-// @media screen and (max-width: 567px) {
-//   .blocks__devices {
-//     display: flex;
-//     border: 1px solid black;
-//     height: 670px;
-
-//     &_name {
-//       font-weight: 900;
-//       font-size: 44px;
-//     }
-//   }
-// }

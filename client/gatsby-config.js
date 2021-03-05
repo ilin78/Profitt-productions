@@ -13,6 +13,18 @@ module.exports = {
       options: { prefixes: [`/*`] },
     },
     `gatsby-plugin-scss-typescript`,
-    `gatsby-plugin-react-helmet`
+    // header
+    `gatsby-plugin-react-helmet`,
+    // img  - размытие для предзагрузки и обработка перед показом
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
-};
+}

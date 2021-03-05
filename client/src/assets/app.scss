@@ -36,6 +36,7 @@
     }
     &_mob {
       display: none;
+      
     }
     display: grid;
     grid-template-columns: 1fr minmax(100px, 850px) 1fr;
@@ -68,6 +69,7 @@
     font-size: 19px;
     font-weight: 300;
     padding: 8px 0 0;
+    width: 100%;
 
     & li {
       padding: 3px;

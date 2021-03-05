@@ -14,46 +14,82 @@
         {
           "name": "PAC-4220",
           "task": "DVB-ASI changeover",
-          "options": "Protects one or two DVB-ASI (MPEG T2-MI) transport streams"
+          "options": "Protects one or two DVB-ASI (MPEG T2-MI) transport streams",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         },
         {
           "name": "PN-CAS-326",
           "task": "ASI T2-MI seamless changeover",
-          "options": "Features the seamless (artifact-free) or plain mode of ASI switching"
+          "options": "Features the seamless (artifact-free) or plain mode of ASI switching",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         },
         {
           "name": "PBX-ENP-200",
           "task": "PBX-ENP-200 converter",
-          "options": "Bidirectional (ASI-to-IP and IP-to-ASI) converter solution"
+          "options": "Bidirectional (ASI-to-IP and IP-to-ASI) converter solution",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         },
         {
           "name": "PBX-STR-500",
-          "task": "H.264 streaming server",
-          "options": "H.264 AVC HD/SD SDI encoder with the reconding capability"
+          "task": "Streaming server",
+          "options": "H.264 AVC HD/SD SDI encoder with the reconding capability",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         },
         {
           "name": "PBX-MTV-508",
           "task": "Multiviewer",
-          "options": "SDI eight-input mosaics viewer"
+          "options": "SDI eight-input mosaics viewer",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         },
         {
           "name": "PSGP-2059",
           "task": "Reference generator",
-          "options": "Generates 1PPS, 10MHz signals with PTP, NTP, LTC capability"
+          "options": "Generates 1PPS, 10MHz signals with PTP, NTP, LTC capability",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         },
         {
-          "name": "PPNTP-5021",
+          "name": "PNTP-5021",
           "task": "NTP server",
-          "options": "GPS/GLONASS driven 1PPS, 10MHz signals generator with LTC capability"
+          "options": "GPS/GLONASS driven 1PPS, 10MHz signals generator with LTC capability",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         },
         {
           "name": "PN-CSE-055",
           "task": "Changeover",
-          "options": "3G/HD/SD SDI seamless changeover"
-        },
-        {
-          "next":"Next",
-          "info":"More..."
+          "options": "3G/HD/SD SDI seamless changeover",
+          "other":"",
+          "img_A":"",
+          "img_B":"",
+          "img_C":"",
+          "link":""
         }
       ]
     },
@@ -61,7 +97,12 @@
       "notfound": {
         "title": "404",
         "body": "Info not found",
-        "notfound": "No relevant information found"
+        "notfound": "No relevant information found",
+        "other":"",
+        "img_A":"",
+        "img_B":"",
+        "img_C":"",
+        "link":""
       }
     }
 

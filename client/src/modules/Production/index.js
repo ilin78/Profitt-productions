@@ -12,10 +12,14 @@ export default class Production extends React.Component {
             <div className={"containerDevices__" + index}>
               <Device
                 key={index}
-                idStyle={index}
                 name={device.name}
                 task={device.task}
                 options={device.options}
+                other={device.other}
+                img_A={device.img_A}
+                img_B={device.img_B}
+                img_C={device.img_C}
+                link={device.link}
               />
             </div>
           )
