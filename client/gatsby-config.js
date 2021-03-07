@@ -1,3 +1,4 @@
+
 module.exports = {
   plugins: [
     {
@@ -15,16 +16,22 @@ module.exports = {
     `gatsby-plugin-scss-typescript`,
     // header
     `gatsby-plugin-react-helmet`,
-    // img  - размытие для предзагрузки и обработка перед показом
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `images`,
-    //     path: `${__dirname}/src/images`,
-    //   },
-    // },
-
-    // `gatsby-plugin-sharp`,
-    // `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-plugin-scss-typescript`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-CK4BZCS4XL`,
+      },
+    },
   ],
 }

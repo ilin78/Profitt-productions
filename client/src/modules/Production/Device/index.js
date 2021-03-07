@@ -1,10 +1,13 @@
 import React from "react"
 
-
 export default function Device(props) {
+
 
   return (
     <div className="blocks">
+      <div>
+
+      </div>
       <div className="blocks__devices">
         <div className="blocks__devices_name">{props.name}</div>
         <div className="blocks__devices_discription">
@@ -22,3 +25,25 @@ export default function Device(props) {
     </div>
   )
 }
+
+
+export const query = graphql`
+  query {
+    fluidImages: file(
+      relativePath: { regex: "/logo.jpg/" }
+    ) {
+      childImageSharp {
+        fluid(
+          traceSVG: {
+            color: "#f00e2e"
+            turnPolicy: TURNPOLICY_MINORITY
+            blackOnWhite: false
+          }
+          toFormat: PNG
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+  }
+`;
