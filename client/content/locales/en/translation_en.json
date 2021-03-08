@@ -16,8 +16,8 @@
           "task": "DVB-ASI changeover",
           "options": "Protects one or two DVB-ASI (MPEG T2-MI) transport streams",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"4220_A",
+          "img_B":"4220_B",
           "img_C":"",
           "link":""
         },
@@ -26,8 +26,8 @@
           "task": "ASI T2-MI seamless changeover",
           "options": "Features the seamless (artifact-free) or plain mode of ASI switching",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"326_B",
+          "img_B":"null",
           "img_C":"",
           "link":""
         },
@@ -36,8 +36,8 @@
           "task": "PBX-ENP-200 converter",
           "options": "Bidirectional (ASI-to-IP and IP-to-ASI) converter solution",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"200_A",
+          "img_B":"null",
           "img_C":"",
           "link":""
         },
@@ -46,8 +46,8 @@
           "task": "Streaming server",
           "options": "H.264 AVC HD/SD SDI encoder with the reconding capability",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"500_A",
+          "img_B":"null",
           "img_C":"",
           "link":""
         },
@@ -56,8 +56,8 @@
           "task": "Multiviewer",
           "options": "SDI eight-input mosaics viewer",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"508_A",
+          "img_B":"null",
           "img_C":"",
           "link":""
         },
@@ -66,8 +66,8 @@
           "task": "Reference generator",
           "options": "Generates 1PPS, 10MHz signals with PTP, NTP, LTC capability",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"2059_B",
+          "img_B":"null",
           "img_C":"",
           "link":""
         },
@@ -76,8 +76,8 @@
           "task": "NTP server",
           "options": "GPS/GLONASS driven 1PPS, 10MHz signals generator with LTC capability",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"5021_A",
+          "img_B":"5021_B",
           "img_C":"",
           "link":""
         },
@@ -86,8 +86,8 @@
           "task": "Changeover",
           "options": "3G/HD/SD SDI seamless changeover",
           "other":"",
-          "img_A":"",
-          "img_B":"",
+          "img_A":"PN-CSE-055",
+          "img_B":"null",
           "img_C":"",
           "link":""
         }

@@ -17,32 +17,40 @@
     "__11 __11"
     "__12 __12";
   &__0 {
+    // PAC-4220
     grid-area: __0;
   }
   &__1 {
+    // PN-CAS-326
     color: white;
-    background-color: #020011;
+    background-color: #000;
     grid-area: __1;
   }
 
   &__2 {
+    // PBX-ENP-200
     grid-area: __2;
   }
   &__3 {
+    // PBX-STR-500
     grid-area: __3;
   }
   &__4 {
+    // PBX-MTV-508
     grid-area: __4;
   }
   &__5 {
+    // PSGP-2059
     grid-area: __5;
   }
   &__6 {
+    // PNTP-5021
     background-color: #002e58;
     color: white;
     grid-area: __6;
   }
   &__7 {
+    // PN-CSE-055
     grid-area: __7;
   }
   &__8 {
@@ -67,16 +75,74 @@
   &__6 .blocks__devices_discription-options {
     color: rgb(199, 199, 199);
   }
-}
-
-.blocks {
-  display: flex;
-  height: 770px;
+  &__2 .blocks__image{
+  position: absolute;
+  z-index: -1;
+  height: 100%;
   width: 100%;
+  overflow: hidden;
+  }
+  &__2 .blocks__devices{
+    color: #000;
+  }
+  &__2 .blocks__image_view{
+    overflow: hidden;
+  }
+  &__2 .blocks__image_view-A {
+    height: 100%;
+    width: 100%;
+    max-width: 2500px;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  &__2 .blocks__devices_discription-options {
+    color: #000;
+  }
+}
+.Production {
+  height: 870px;
+  width: 100%;
+  overflow: hidden;
+}
+.blocks {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  &__image {
+    // max-width: 1070px;
+    // max-height: 200px;
+    height: 100%;
+    max-height: 870px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    &_view {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      &-A {
+        width: 100%;
+        max-width: 1070px;
+      }
+      &-B {
+        width: 100%;
+        max-width: 1070px;
+      }
+    }
+  }
+
   &__devices {
     height: 100%;
     width: 100%;
     display: flex;
+    flex-basis: 30%;
     flex-direction: column;
     align-items: center;
     &_name {
@@ -117,16 +183,16 @@
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: "__0" "__1" "__2" "__3" "__4" "__5" "__6" "__7" "__8" "__9";
   }
-
+  .Production {
+    height: 670px;
+    width: 100%;
+  }
   .blocks {
     display: flex;
-    height: 470px;
-    width: 100%;
 
     &__devices {
       width: 100%;
       font-weight: 900;
-      border: rgb(255, 255, 255) solid 2px;
       &_name {
         font-size: 35px;
         letter-spacing: 0.2em;
