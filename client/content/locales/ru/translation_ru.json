@@ -18,7 +18,7 @@
           "other":"",
           "img_A":"4220_A",
           "img_B":"4220_B",
-          "img_C":"",
+          "img_C":"null",
           "link":""
         },
         {
@@ -28,7 +28,7 @@
           "other":"",
           "img_A":"326_B",
           "img_B":"null",
-          "img_C":"",
+          "img_C":"null",
           "link":""
         },
         {
@@ -38,7 +38,7 @@
           "other":"",
           "img_A":"200_A",
           "img_B":"null",
-          "img_C":"",
+          "img_C":"null",
           "link":""
         },
         {
@@ -48,7 +48,7 @@
           "other":"",
           "img_A":"500_A",
           "img_B":"null",
-          "img_C":"",
+          "img_C":"null",
           "link":""
         },
         {
@@ -58,7 +58,7 @@
           "other":"",
           "img_A":"508_A",
           "img_B":"null",
-          "img_C":"",
+          "img_C":"null",
           "link":""
         },
         {
@@ -68,7 +68,7 @@
           "other":"",
           "img_A":"2059_B",
           "img_B":"null",
-          "img_C":"",
+          "img_C":"null",
           "link":""
         },
         {
@@ -78,7 +78,7 @@
           "other":"",
           "img_A":"5021_A",
           "img_B":"5021_B",
-          "img_C":"",
+          "img_C":"5021_C",
           "link":""
         },
         {
@@ -88,7 +88,7 @@
           "other":"",
           "img_A":"PN-CSE-055",
           "img_B":"null",
-          "img_C":"",
+          "img_C":"null",
           "link":""
         }       
       ]

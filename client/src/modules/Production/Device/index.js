@@ -31,6 +31,9 @@ export default function Device(props) {
               <div className="blocks__image_view-B">
                 <Image alt="Gatsby in Space" filename={`${props.img_B}.jpg`} />
               </div>
+              <div className="blocks__image_view-C">
+                <Image alt="Gatsby in Space" filename={`${props.img_C}.jpg`} />
+              </div>
           </div>
         </div>
     </div >

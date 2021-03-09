@@ -24,6 +24,7 @@
     // PN-CAS-326
     color: white;
     background-color: #000;
+    border: white solid 5px;
     grid-area: __1;
   }
 
@@ -47,6 +48,7 @@
     // PNTP-5021
     background-color: #002e58;
     color: white;
+    border: white solid 5px;
     grid-area: __6;
   }
   &__7 {
@@ -68,6 +70,9 @@
   &__12 {
     grid-area: __12;
   }
+  &__2 .blocks {
+    border: white solid 5px;
+  }
   &__3 .blocks {
     background-color: rgb(234, 232, 233);
     border: white solid 5px;
@@ -77,27 +82,43 @@
     border: white solid 5px;
   }
   &__4 .blocks__image_view {
-     // padding-top: 100px;
+    // padding-top: 100px;
     padding: 50px 50px 0px 100px;
   }
   &__4 .blocks__image_view-A {
     max-width: 750px;
-
   }
   &__3 .blocks__image_view-A {
     max-width: 800px;
   }
   &__0 .blocks__image_view-A {
-    max-width: 1800px;
+    max-width: 1500px;
     padding: 20px;
+  }
+  &__0 .blocks__image_view-B {
+    padding-bottom: 50px;
   }
 
   &__5 .blocks__image_view-A {
     max-width: 1800px;
-    padding: 20px;
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
-
+  &__6 .blocks__image_view-A {
+    max-width: 700px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &__6 .blocks__image_view-B {
+    border-radius: 15px;
+    max-width: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
   //text-color and other properties
   &__1 .blocks__devices_discription-options {
     color: rgb(199, 199, 199);
@@ -129,11 +150,11 @@
     color: #000;
   }
   &__4 .blocks__image_view {
-   padding: 20px;
- }
+    padding: 20px;
+  }
 }
 .Production {
-  height: 870px;
+  height: 810px;
   width: 100%;
   overflow: hidden;
 }
@@ -207,13 +228,26 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1080px) {
+  .Production {
+    height: 780px;
+    width: 100%;
+  }
   .containerDevices {
-    display: grid;
+    display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: "__0" "__1" "__2" "__3" "__4" "__5" "__6" "__7" "__8" "__9";
+    &__2 .blocks__image_view-A {
+      padding-top: 250px;
+      width: 130%;
+      overflow: hidden;
+    }
+  }
+}
 
+@media screen and (max-width: 567px) {
+  .containerDevices {
     &__2 .blocks {
       overflow: hidden;
     }
@@ -225,14 +259,21 @@
       width: 130%;
       overflow: hidden;
     }
+    &__6 .blocks__image_view-A {
+      max-width: 500px;
+    }
+    &__6 .blocks__image_view-B {
+      max-width: 500px;
+      padding-bottom: 30px;
+    }
   }
   .Production {
-    height: auto;
-    max-height: 100vh;
+    height: 480px;
     width: 100%;
   }
   .blocks {
-    height: 100vh;
+    height: 500px;
+    width: 100%;
     display: flex;
 
     &__devices {
