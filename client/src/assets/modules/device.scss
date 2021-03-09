@@ -68,6 +68,36 @@
   &__12 {
     grid-area: __12;
   }
+  &__3 .blocks {
+    background-color: rgb(234, 232, 233);
+    border: white solid 5px;
+  }
+  &__4 .blocks {
+    background-color: rgb(234, 232, 233);
+    border: white solid 5px;
+  }
+  &__4 .blocks__image_view {
+     // padding-top: 100px;
+    padding: 50px 50px 0px 100px;
+  }
+  &__4 .blocks__image_view-A {
+    max-width: 750px;
+
+  }
+  &__3 .blocks__image_view-A {
+    max-width: 800px;
+  }
+  &__0 .blocks__image_view-A {
+    max-width: 1800px;
+    padding: 20px;
+  }
+
+  &__5 .blocks__image_view-A {
+    max-width: 1800px;
+    padding: 20px;
+  }
+
+
   //text-color and other properties
   &__1 .blocks__devices_discription-options {
     color: rgb(199, 199, 199);
@@ -75,29 +105,32 @@
   &__6 .blocks__devices_discription-options {
     color: rgb(199, 199, 199);
   }
-  &__2 .blocks__image{
-  position: absolute;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
+  &__2 .blocks__image {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
   }
-  &__2 .blocks__devices{
+  &__2 .blocks__devices {
     color: #000;
   }
-  &__2 .blocks__image_view{
+  &__2 .blocks__image_view {
     overflow: hidden;
   }
   &__2 .blocks__image_view-A {
     height: 100%;
     width: 100%;
-    max-width: 2500px;
+    max-width: 1892px;
     object-fit: cover;
     overflow: hidden;
   }
   &__2 .blocks__devices_discription-options {
     color: #000;
   }
+  &__4 .blocks__image_view {
+   padding: 20px;
+ }
 }
 .Production {
   height: 870px;
@@ -111,8 +144,6 @@
   flex-direction: column;
   align-items: flex-end;
   &__image {
-    // max-width: 1070px;
-    // max-height: 200px;
     height: 100%;
     max-height: 870px;
     width: 100%;
@@ -176,25 +207,39 @@
   }
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 767px) {
   .containerDevices {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: "__0" "__1" "__2" "__3" "__4" "__5" "__6" "__7" "__8" "__9";
+
+    &__2 .blocks {
+      overflow: hidden;
+    }
+    &__2 .blocks__image_view {
+      background-color: rgb(236, 236, 236);
+    }
+    &__2 .blocks__image_view-A {
+      padding-top: 170px;
+      width: 130%;
+      overflow: hidden;
+    }
   }
   .Production {
-    height: 670px;
+    height: auto;
+    max-height: 100vh;
     width: 100%;
   }
   .blocks {
+    height: 100vh;
     display: flex;
 
     &__devices {
       width: 100%;
       font-weight: 900;
       &_name {
-        font-size: 35px;
+        font-size: 30px;
         letter-spacing: 0.2em;
         display: flex;
         justify-content: center;
