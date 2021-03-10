@@ -19,7 +19,9 @@
           "img_A": "4220_A",
           "img_B": "4220_B",
           "img_C": "null",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         },
         {
           "name": "PN-CAS-326",
@@ -29,17 +31,21 @@
           "img_A": "326_B",
           "img_B": "null",
           "img_C": "null",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         },
         {
           "name": "PBX-ENP-200",
-          "task": "PBX-ENP-200 converter",
+          "task": "Converter ASI & IP",
           "options": "Bidirectional (ASI-to-IP and IP-to-ASI) converter solution",
           "other": "",
           "img_A": "200_A",
           "img_B": "null",
           "img_C": "null",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         },
         {
           "name": "PBX-STR-500",
@@ -49,7 +55,9 @@
           "img_A": "500_A",
           "img_B": "null",
           "img_C": "null",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         },
         {
           "name": "PBX-MTV-508",
@@ -59,7 +67,9 @@
           "img_A": "508_A",
           "img_B": "null",
           "img_C": "null",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         },
         {
           "name": "PSGP-2059",
@@ -69,7 +79,9 @@
           "img_A": "2059_B",
           "img_B": "null",
           "img_C": "null",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         },
         {
           "name": "PNTP-5021",
@@ -79,7 +91,9 @@
           "img_A": "5021_A",
           "img_B": "5021_B",
           "img_C": "5021_C",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         },
         {
           "name": "PN-CSE-055",
@@ -89,9 +103,22 @@
           "img_A": "055",
           "img_B": "055_B",
           "img_C": "null",
-          "link": ""
+          "link": "",
+          "next":"Next",
+          "info":"More..."
         }
-      ]
+      ],
+      "solution": {
+        "commutation": "Commutation",
+        "fiber": "Fiber",
+        "stream": "Streaming",
+        "mixing": "Микширование",
+        "video": "Video",
+        "audio": "Audio",
+        "syncSystem": "Система синхронизации",
+        "modulSystem": "Модульные системы",
+        "accessory": "Аксессуары"
+      }
     },
     {
       "notfound": {
@@ -103,6 +130,7 @@
         "img_B": "",
         "img_C": "",
         "link": ""
+        
       }
     }
   ]

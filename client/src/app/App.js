@@ -41,11 +41,9 @@ export default class App extends React.Component {
       <div>
         <div className="App">
           <header className="App__header">
- 
             <div className="App__header_mob">
               <Navigate navigate={navigate} />
             </div>
-
             <div className="App__header_desk">
               <div>
                 <Links navigate={navigate} />
@@ -57,7 +55,6 @@ export default class App extends React.Component {
                 {this.state.language ? <>Rus</> : <>Eng</>}
               </Button>
             </div>
- 
           </header>
           <Layout>
             <Router>
