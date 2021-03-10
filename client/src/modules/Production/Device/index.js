@@ -1,10 +1,3 @@
-
-/* <div className="blocks__devices__image">
-   <div className="blocks__devices__image_A">
-     <Image alt="Gatsby in Space" filename={`${props.img_A}.jpg`} />
-   </div>*/
-
-
 import React from "react"
 import Image from "../../../components/Image";
 
@@ -26,13 +19,13 @@ export default function Device(props) {
       <div className="blocks__image">
           <div className="blocks__image_view">
               <div className="blocks__image_view-A">
-                <Image alt="Gatsby in Space" filename={`${props.img_A}.jpg`} />
+                <Image alt={`${props.name}.- front`} filename={`${props.img_A}.jpg`} />
               </div>
               <div className="blocks__image_view-B">
-                <Image alt="Gatsby in Space" filename={`${props.img_B}.jpg`} />
+                <Image alt={`${props.name}- back`} filename={`${props.img_B}.jpg`} />
               </div>
               <div className="blocks__image_view-C">
-                <Image alt="Gatsby in Space" filename={`${props.img_C}.jpg`} />
+                <Image alt={`${props.name}- common`} filename={`${props.img_C}.jpg`} />
               </div>
           </div>
         </div>

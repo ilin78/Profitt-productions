@@ -12,10 +12,17 @@ const Image = props => (
               relativePath
               name
               childImageSharp {
-                fluid (
+                fluid  (
                 maxWidth: 2048
                 quality: 100
                 ) {
+                  aspectRatio
+                  originalName
+                  sizes
+                  src
+                  srcSet
+                  srcWebp
+                  tracedSVG
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }

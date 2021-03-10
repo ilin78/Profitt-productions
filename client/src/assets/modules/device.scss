@@ -53,6 +53,7 @@
   }
   &__7 {
     // PN-CSE-055
+    background-color: #fff;
     grid-area: __7;
   }
   &__8 {
@@ -98,6 +99,9 @@
   &__0 .blocks__image_view-B {
     padding-bottom: 50px;
   }
+  &__7{
+     background-color: rgb(248, 248, 248);  
+  }
 
   &__5 .blocks__image_view-A {
     max-width: 1800px;
@@ -119,6 +123,23 @@
     padding-right: 30px;
     padding-bottom: 30px;
   }
+
+  &__7 .blocks__image_view {
+    display: flex;
+    max-width: 1500px;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+  }
+  &__7 .blocks__image_view-A {
+    max-width: 500px;
+  }
+
+  &__7 .blocks__image_view-B {
+    max-width: 500px;
+  }
+
   //text-color and other properties
   &__1 .blocks__devices_discription-options {
     color: rgb(199, 199, 199);
@@ -126,12 +147,11 @@
   &__6 .blocks__devices_discription-options {
     color: rgb(199, 199, 199);
   }
-  &__2 .blocks__image {
+  &__2 .blocks__devices{
     position: absolute;
-    z-index: -1;
+    z-index: 100;
     height: 100%;
     width: 100%;
-    overflow: hidden;
   }
   &__2 .blocks__devices {
     color: #000;
@@ -144,8 +164,12 @@
     width: 100%;
     max-width: 1892px;
     object-fit: cover;
-    overflow: hidden;
+    // overflow: hidden;
   }
+  &__2 .blocks__image_view {
+    min-height: 1800px;
+  }
+
   &__2 .blocks__devices_discription-options {
     color: #000;
   }
@@ -243,10 +267,14 @@
       width: 130%;
       overflow: hidden;
     }
+    &__7 .blocks__image_view {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 565px) {
   .containerDevices {
     &__2 .blocks {
       overflow: hidden;
@@ -266,9 +294,25 @@
       max-width: 500px;
       padding-bottom: 30px;
     }
+    &__7 .blocks__devices {
+     
+      padding-bottom: 30px;
+       
+    }
+    &__7 .blocks {
+      padding-bottom: 30px;
+    }
+    &__7 .blocks__image {
+      padding-top: 10px;
+      
+      max-height: 310px;
+      &_view-B {
+        max-height: 325px;
+      }
+    }
   }
   .Production {
-    height: 480px;
+    height: 485px;
     width: 100%;
   }
   .blocks {
