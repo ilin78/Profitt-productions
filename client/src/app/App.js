@@ -26,15 +26,18 @@ export default class App extends React.Component {
   render() {
     let navigate,
       devices,
+      solution,
       notFound = null
 
     if (this.state.language) {
       navigate = JSONData_ru.ru[0].navigate
       devices = JSONData_ru.ru[1].devices
+      solution = JSONData_ru.ru[1].solution
       notFound = JSONData_ru.ru[2].notfound
     } else {
       navigate = JSONData_en.en[0].navigate
       devices = JSONData_en.en[1].devices
+      solution = JSONData_en.en[1].solution
       notFound = JSONData_en.en[2].notfound
     }
     return (
@@ -59,7 +62,9 @@ export default class App extends React.Component {
           <Layout>
             <Router>
               <Production path="/" devices={devices} />
-              <Solution path="/solution" />
+              <Solution path="/solution" solution={solution}>
+                <Solution path=":solutionId" solution={solution}/>
+              </Solution>
               <Catalog path="/catalog" />
               <About path="/about" navigate={navigate} />
               <Support path="/support" />

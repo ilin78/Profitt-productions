@@ -10,9 +10,9 @@ export default function Links(props) {
       <li>
       <div><Link to="/solution">{props.navigate.solution}</Link></div>
       </li>
-      <li>
-      <div><Link to="/catalog">{props.navigate.catalog}</Link></div>
-      </li>
+      {/* <li> */}
+      {/* <div><Link to="/catalog">{props.navigate.catalog}</Link></div> */}
+      {/* </li> */}
       <li>
       <div><Link to="/about">{props.navigate.about}</Link></div>
       </li>

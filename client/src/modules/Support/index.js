@@ -1,16 +1,13 @@
-import React from "react";
+import React from "react"
 
 export default function Support(props) {
   return (
     <div className="wrapper">
       <h2>{props.navigate.support}</h2>
-
-      <p>
-      Санкт-Петербург, Россия
-+7 812 297 7120
-info@profitt.ru
-www.profitt.ru
-      </p>
+      <p>Санкт-Петербург, Россия </p>
+      <p> +7 812 297 7120</p>
+      <p>info@profitt.ru</p>
+      <p>www.profitt.ru</p>
     </div>
   )
 }

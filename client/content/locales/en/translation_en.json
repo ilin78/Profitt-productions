@@ -112,12 +112,12 @@
         "commutation": "Commutation",
         "fiber": "Fiber",
         "stream": "Streaming",
-        "mixing": "Микширование",
+        "mixing": "Mixing",
         "video": "Video",
         "audio": "Audio",
-        "syncSystem": "Система синхронизации",
-        "modulSystem": "Модульные системы",
-        "accessory": "Аксессуары"
+        "syncSystem": "Synchronization system",
+        "modulSystem": "Modular systems",
+        "accessory": "Accessories"
       }
     },
     {

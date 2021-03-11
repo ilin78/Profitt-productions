@@ -7,7 +7,6 @@ const Layout = ({ children }) => (
     <Helmet title="tv.profitt.ru" />
     <main className="App__layout">{children}</main>
   </div>
-
 )
 
 export default Layout;
