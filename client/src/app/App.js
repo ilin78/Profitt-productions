@@ -59,6 +59,7 @@ export default class App extends React.Component {
               </Button>
             </div>
           </header>
+          <div className="layoutContent">
           <Layout>
             <Router>
               <Production path="/" devices={devices} />
@@ -71,6 +72,7 @@ export default class App extends React.Component {
               <NotFound path="*" notfound={notFound} />
             </Router>
           </Layout>
+          </div>
         </div>
       </div>
     )
