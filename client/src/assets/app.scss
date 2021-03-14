@@ -35,7 +35,7 @@
     &_desk {
       grid-area: desk;
       font-size: 13px;
-      font-weight: 300;
+      font-weight: 400;
     }
     &_mob {
       display: none;
@@ -50,6 +50,7 @@
   }
 
   &__layout {
+
   }
   .navigate__link {
     display: flex;

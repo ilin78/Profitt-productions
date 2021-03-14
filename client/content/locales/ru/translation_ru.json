@@ -89,7 +89,7 @@
           "options": "Приемник GPS/GLONASS, генератор LTC, 1PPS, 10МГц",
           "other": "",
           "img_A": "5021_A",
-          "img_B": "5021_B",
+          "img_B": "5021_B1",
           "img_C": "5021_C",
           "link": "",
           "next": "Перейти",
@@ -117,7 +117,10 @@
         "audio": "Аудио",
         "syncSystem": "Система синхронизации",
         "modulSystem": "Модульные системы",
-        "accessory": "Аксессуары"
+        "accessory": "Аксессуары",
+        "solo_pbx":"ProBox",
+        "solo_profnext":"PROFNEXT",
+        "solo_standev":"Автономные устройства"
       }
     },
     {

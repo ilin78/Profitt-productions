@@ -17,49 +17,36 @@ export default function Solution(props) {
     <div className="Solutions">
       <div className="solution">
         <div className="solution__navbar">
-          <nav>
-            <p>
-              <a href="http://www.profitt.ru" target="_blank">
-                Profitt.ru
-              </a>
-            </p>
-            <p>
-              <Link to="/solution/commutation">
-                {" "}
-                {props.solution.commutation}
-              </Link>
-            </p>
-            <p>
-              <Link to="/solution/fiber-system"> {props.solution.fiber}</Link>
-            </p>
-            <p>
-              <Link to="/solution/stream"> {props.solution.stream}</Link>
-            </p>
-            <p>
-              <Link to="/solution/mixing"> {props.solution.mixing}</Link>
-            </p>
-            <p>
-              <Link to="/solution/video"> {props.solution.video}</Link>
-            </p>
-            <p>
-              <Link to="/solution/audio"> {props.solution.audio}</Link>
-            </p>
-            <p>
-              <Link to="/solution/sync-system">
-                {" "}
-                {props.solution.syncSystem}
-              </Link>
-            </p>
-            <p>
-              <Link to="/solution/modul-system">
-                {" "}
-                {props.solution.modulSystem}
-              </Link>
-            </p>
-            <p>
-              <Link to="/solution/accessory"> {props.solution.accessory}</Link>
-            </p>
-          </nav>
+          <a href="http://www.profitt.ru" target="_blank">
+            <button> Profitt.ru</button>
+          </a>
+          <Link to="/solution/commutation">
+            <button>{props.solution.commutation}</button>
+          </Link>
+          <Link to="/solution/fiber-system">
+            <button>{props.solution.fiber}</button>
+          </Link>
+          <Link to="/solution/stream">
+            <button> {props.solution.stream}</button>
+          </Link>
+          <Link to="/solution/mixing">
+            <button>{props.solution.mixing}</button>
+          </Link>
+          <Link to="/solution/video">
+            <button>{props.solution.video}</button>
+          </Link>
+          <Link to="/solution/audio">
+            <button> {props.solution.audio}</button>
+          </Link>
+          <Link to="/solution/sync-system">
+            <button>{props.solution.syncSystem}</button>
+          </Link>
+          <Link to="/solution/modul-system">
+            <button>{props.solution.modulSystem}</button>
+          </Link>
+          <Link to="/solution/accessory">
+            <button>{props.solution.accessory}</button>
+          </Link>
         </div>
         <div className="solution__content">
           <Router>
