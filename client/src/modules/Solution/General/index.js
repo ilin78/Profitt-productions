@@ -25,7 +25,7 @@ export default function General(props) {
           <div className="purposes">
             <div className="purposes__next">
               <div>
-                <a href="http://www.profitt.ru" target="_blank" rel="noopener noreferrer">
+                <a href="http://www.profitt.ru" target="_blank">
                   <button> Profitt.ru</button>
                 </a>
               </div>

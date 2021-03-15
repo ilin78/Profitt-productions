@@ -17,7 +17,7 @@ export default function Solution(props) {
     <div className="Solutions">
       <div className="solution">
         <div className="solution__navbar">
-          <a href="http://www.profitt.ru" target="_blank" rel="noopener noreferrer" >
+          <a href="http://www.profitt.ru" target="_blank">
             <button> Profitt.ru</button>
           </a>
           <Link to="/solution/commutation">
