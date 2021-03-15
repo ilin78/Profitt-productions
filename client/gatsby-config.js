@@ -1,7 +1,4 @@
 module.exports = {
-  // siteMetadata: {
-  //   title: "My Gatsby Site",
-  // },
   plugins: [
     {
       resolve: `gatsby-plugin-material-ui`,
@@ -26,7 +23,6 @@ module.exports = {
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sitemap",
-
     "gatsby-transformer-remark",  
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -41,25 +37,3 @@ module.exports = {
 };
 
 
-// "gatsby-plugin-mdx",
-// {
-//   resolve: "gatsby-source-contentful",
-//   options: {
-//     accessToken: "",
-//     spaceId: "",
-//   },
-// },
-// {
-//   resolve: "gatsby-plugin-manifest",
-//   options: {
-//     icon: "src/images/icon.png",
-//   },
-// },
-// {
-//   resolve: "gatsby-source-filesystem",
-//   options: {
-//     name: "images",
-//     path: "./src/images/",
-//   },
-//   __key: "images",
-// },
