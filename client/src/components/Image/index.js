@@ -1,36 +1,23 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const Image = props => (
     <StaticQuery
-        query={graphql`
-      query {
-        images: allFile {
-          edges {
-            node {
-              relativePath
-              name
-              childImageSharp {
-                fluid  (
-                maxWidth: 2048
-                quality: 100
-                ) {
-                  aspectRatio
-                  originalName
-                  sizes
-                  src
-                  srcSet
-                  srcWebp
-                  tracedSVG
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
-              }
-            }
-          }
+        query={graphql`{
+  images: allFile {
+    edges {
+      node {
+        relativePath
+        name
+        childImageSharp {
+          gatsbyImageData(quality: 100, placeholder: BLURRED, layout: FULL_WIDTH)
         }
       }
-    `}
+    }
+  }
+}
+`}
 
         render={data => {
             const image = data.images.edges.find(n => {
@@ -39,7 +26,7 @@ const Image = props => (
             if (!image) {
                 return null;
             }
-            return <Img alt={props.alt} fluid={image.node.childImageSharp.fluid} />;
+            return <GatsbyImage image={image.node.childImageSharp.gatsbyImageData} alt={props.alt} />;
         }}
     />
 );
