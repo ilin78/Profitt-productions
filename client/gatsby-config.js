@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "264691269",
+        trackingId: "G-CK4BZCS4XL",
       },
     },
     `gatsby-plugin-scss-typescript`,
@@ -31,12 +31,5 @@ module.exports = {
     `gatsby-plugin-scss-typescript`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    // `gatsby-plugin-offline`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `G-CK4BZCS4XL`,
-    //   },
-    // },
   ],
 }
