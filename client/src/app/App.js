@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Layout, Links, Navigate } from "../components"
 import {
   Production,
@@ -59,9 +60,10 @@ export default class App extends React.Component {
               </Button>
             </div>
           </header>
-          <div className="layoutContent">
+          <div className="App__content">
           <Layout>
-            <Router>
+            {/* <Link to="/">Home</Link> */}
+            <Router basepath="/app">
               <Production path="/" devices={devices} />
               <Solution path="/solution" solution={solution}>
                 <Solution path=":solutionId" solution={solution}/>

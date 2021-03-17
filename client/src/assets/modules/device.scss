@@ -148,10 +148,10 @@
     color: rgb(199, 199, 199);
   }
   &__2 .blocks__devices{
-    position: absolute;
-    z-index: 100;
-    height: 100%;
-    width: 100%;
+    // position: absolute;
+    // z-index: 100;
+    // top: 0;
+ 
   }
   &__2 .blocks__devices {
     color: #000;
@@ -163,11 +163,12 @@
     height: 100%;
     width: 100%;
     max-width: 1892px;
+
     object-fit: cover;
     // overflow: hidden;
   }
   &__2 .blocks__image_view {
-    min-height: 1800px;
+    min-height: 1500px;
   }
 
   &__2 .blocks__devices_discription-options {
@@ -263,7 +264,7 @@
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: "__0" "__1" "__2" "__3" "__4" "__5" "__6" "__7" "__8" "__9";
     &__2 .blocks__image_view-A {
-      padding-top: 250px;
+      padding-top: 100px;
       width: 130%;
       overflow: hidden;
     }

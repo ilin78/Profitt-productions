@@ -8,16 +8,16 @@ export default function Links(props) {
         <div><Link to="/">{props.navigate.productions}</Link></div>
       </li>
       <li>
-      <div><Link to="/solution">{props.navigate.solution}</Link></div>
+      <div><Link to="/app/solution">{props.navigate.solution}</Link></div>
       </li>
       {/* <li> */}
       {/* <div><Link to="/catalog">{props.navigate.catalog}</Link></div> */}
       {/* </li> */}
       <li>
-      <div><Link to="/about">{props.navigate.about}</Link></div>
+      <div><Link to="/app/about">{props.navigate.about}</Link></div>
       </li>
       <li>
-      <div><Link to="/support">{props.navigate.support}</Link></div>
+      <div><Link to="/app/support">{props.navigate.support}</Link></div>
       </li>
     </div>
   )

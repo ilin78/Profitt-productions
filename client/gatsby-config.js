@@ -1,5 +1,7 @@
-
 module.exports = {
+  siteMetadata: {
+    title: "profitt",
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-material-ui`,
@@ -19,7 +21,8 @@ module.exports = {
         trackingId: "UA-191500067-1",
       },
     },
-    `gatsby-plugin-scss-typescript`,
+    "gatsby-plugin-sass",
+    // `gatsby-plugin-scss-typescript`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -28,7 +31,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-scss-typescript`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],

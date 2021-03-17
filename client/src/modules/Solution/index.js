@@ -1,50 +1,54 @@
-import React from "react"
-import { Router, Link } from "@reach/router"
+import React from "react";
+import { Router, Link } from "@reach/router";
 
-import General from "./General"
-import Commutation from "./Commutation"
-import FiberSystem from "./FiberSystem"
-import Stream from "./Stream"
-import Mixing from "./Mixing"
-import Video from "./Video"
-import Audio from "./Audio"
-import SyncSystem from "./SyncSystem"
-import ModulSystem from "./ModulSystem"
-import Accessory from "./Accessory"
+import General from "./General";
+import Commutation from "./Commutation";
+import FiberSystem from "./FiberSystem";
+import Stream from "./Stream";
+import Mixing from "./Mixing";
+import Video from "./Video";
+import Audio from "./Audio";
+import SyncSystem from "./SyncSystem";
+import ModulSystem from "./ModulSystem";
+import Accessory from "./Accessory";
 
 export default function Solution(props) {
   return (
     <div className="Solutions">
       <div className="solution">
         <div className="solution__navbar">
-          <a href="http://www.profitt.ru" target="_blank">
+          <a
+            href="http://www.profitt.ru"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button> Profitt.ru</button>
           </a>
-          <Link to="/solution/commutation">
+          <Link to="/app/solution/commutation">
             <button>{props.solution.commutation}</button>
           </Link>
-          <Link to="/solution/fiber-system">
+          <Link to="/app/solution/fiber-system">
             <button>{props.solution.fiber}</button>
           </Link>
-          <Link to="/solution/stream">
+          <Link to="/app/solution/stream">
             <button> {props.solution.stream}</button>
           </Link>
-          <Link to="/solution/mixing">
+          <Link to="/app/solution/mixing">
             <button>{props.solution.mixing}</button>
           </Link>
-          <Link to="/solution/video">
+          <Link to="/app/solution/video">
             <button>{props.solution.video}</button>
           </Link>
-          <Link to="/solution/audio">
+          <Link to="/app/solution/audio">
             <button> {props.solution.audio}</button>
           </Link>
-          <Link to="/solution/sync-system">
+          <Link to="/app/solution/sync-system">
             <button>{props.solution.syncSystem}</button>
           </Link>
-          <Link to="/solution/modul-system">
+          <Link to="/app/solution/modul-system">
             <button>{props.solution.modulSystem}</button>
           </Link>
-          <Link to="/solution/accessory">
+          <Link to="/app/solution/accessory">
             <button>{props.solution.accessory}</button>
           </Link>
         </div>
@@ -64,5 +68,5 @@ export default function Solution(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
