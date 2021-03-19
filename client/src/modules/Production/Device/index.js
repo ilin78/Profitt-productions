@@ -3,7 +3,6 @@ import Image from "../../../components/Image";
 
 export default function Device(props) {
 
-
   return (
     <div className="Production">
     <div className="blocks">

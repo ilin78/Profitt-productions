@@ -3,7 +3,7 @@ import React from "react";
 export default function About(props) {
   return (
     <div className="">
-      <h2>{props.navigate.about}</h2>
+     
       <br />
       {/* <p>
         Компания “Профитт” специализируется на разработке высококачественного профессионального телевизионного и оптического оборудования.

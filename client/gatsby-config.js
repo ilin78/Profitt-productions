@@ -11,10 +11,10 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: `gatsby-plugin-create-client-paths`,
-      options: { prefixes: [`/*`] },
-    },
+    // {
+    //   resolve: `gatsby-plugin-create-client-paths`,
+    //   options: { prefixes: [`/*`] },
+    // },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
