@@ -1,5 +1,7 @@
 import React from "react";
 
+import './style.scss'
+
 export default function About(props) {
   return (
     <div className="">

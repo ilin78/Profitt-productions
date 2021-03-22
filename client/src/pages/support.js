@@ -4,10 +4,8 @@ import Support from "../modules/Support";
 
 export default function SupportPage() {
   return (
-    <div>
       <Layout>
         <Support />
       </Layout>
-    </div>
   );
 }

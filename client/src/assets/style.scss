@@ -1,12 +1,3 @@
-// modules
-@import "production";
 @import "variables";
 @import "common";
-@import "app";
-// fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Noto+Sans+JP&family=Raleway&family=Roboto:wght@300;400&display=swap');
-// components
-@import "./components/button.scss";
-@import "./modules/device.scss";
-@import "./modules/Solutions/solutions.scss";
-@import "./modules/Solutions/general.scss";

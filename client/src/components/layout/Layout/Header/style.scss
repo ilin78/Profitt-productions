@@ -1,4 +1,7 @@
-.App {
+$width-bar-mob: 52px;
+$width-bar-desk: 35px; 
+
+.Header {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -8,11 +11,11 @@
     position: sticky;
     z-index: 1000;
     top: 0px;
-    color: $text-header-color;
+    color: #e6e6e6;
     display: flex;
     align-items: center;
     height: $width-bar-desk;
-    background-color: $background-header-color;
+    background-color: #0069E5;
 
     &_logo {
       color: white;
@@ -65,7 +68,7 @@
       list-style: none;
     }
     & li a {
-      color: $text-header-color;
+      color: #e6e6e6;
     }
     & :hover {
       color: #fff;
@@ -91,7 +94,7 @@
       display: inline-block;
       width: 300px;
       max-width: 300px;
-      color: $text-header-color;
+      color: #e6e6e6;
 
       &:hover {
         color: rgb(255, 255, 255);
@@ -102,7 +105,7 @@
   ul {
     width: 100%;
     height: 100%;
-    background-color: $background-header-color;
+    background-color: #0069E5;
   }
 
   .MuiList-padding {
@@ -110,7 +113,7 @@
     padding-bottom: 10px;
   }
 
-  .App {
+  .Header {
     &__header {
       &_logo {
         font-weight: 200;
@@ -122,7 +125,7 @@
       align-items: center;
       height: $width-bar-mob; 
 
-      background-color: $background-header-color;
+      background-color: #0069E5;
       //Burger
       &_mob {
         line-height: 25px;
@@ -132,8 +135,6 @@
       &_desk {
         display: none;
       }
-    }
-    &__layout {
     }
   }
 }

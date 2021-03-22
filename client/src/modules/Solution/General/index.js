@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "@reach/router"
 import Image from "../../../components/Image";
 
+import './style.scss'
+
 export default function General(props) {
   return (
     <div className="General">
@@ -12,7 +14,6 @@ export default function General(props) {
                     <div className="divisions-standalone">
                     <Image alt={`${props.name}.- front`} filename={`${props.img_A}.jpg`}></Image>
                       <button>{props.solution.solo_standev}</button>
-                      
                     </div>
                     <div className="divisions-probox">
                       <button>{props.solution.solo_pbx}</button>

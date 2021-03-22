@@ -5,6 +5,8 @@ import { connect } from "react-redux";
 import JSONData_ru from "../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../content/locales/en/translation_en.json";
 
+import './style.scss'
+
 class Production extends React.Component {
 
   render() {

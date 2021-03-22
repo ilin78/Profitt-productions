@@ -4,10 +4,8 @@ import About from "../modules/About";
 
 export default function AboutPage() {
   return (
-    <div>
       <Layout>
         <About />
       </Layout>
-    </div>
   );
 }

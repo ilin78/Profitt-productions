@@ -12,7 +12,21 @@ import SyncSystem from "./SyncSystem";
 import ModulSystem from "./ModulSystem";
 import Accessory from "./Accessory";
 
-export default function Solution(props) {
+import { connect } from "react-redux";
+import JSONData_ru from "../../../content/locales/ru/translation_ru.json";
+import JSONData_en from "../../../content/locales/en/translation_en.json";
+
+import './style.scss'
+
+function Solution({ isLanguage }) {
+  
+  let solution = null;
+  if (isLanguage) {
+    solution = JSONData_ru.ru[1].solution
+  } else {
+    solution = JSONData_en.en[1].solution;
+  }
+
   return (
     <div className="Solutions">
       <div className="solution">
@@ -22,51 +36,60 @@ export default function Solution(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button> Profitt.ru</button>
+            <button>Profitt.ru</button>
           </a>
           <Link to="/app/solution/commutation">
-            <button>{props.solution.commutation}</button>
+            <button>{solution.commutation}</button>
           </Link>
           <Link to="/app/solution/fiber-system">
-            <button>{props.solution.fiber}</button>
+            <button>{solution.fiber}</button>
           </Link>
           <Link to="/app/solution/stream">
-            <button> {props.solution.stream}</button>
+            <button> {solution.stream}</button>
           </Link>
           <Link to="/app/solution/mixing">
-            <button>{props.solution.mixing}</button>
+            <button>{solution.mixing}</button>
           </Link>
           <Link to="/app/solution/video">
-            <button>{props.solution.video}</button>
+            <button>{solution.video}</button>
           </Link>
           <Link to="/app/solution/audio">
-            <button> {props.solution.audio}</button>
+            <button> {solution.audio}</button>
           </Link>
           <Link to="/app/solution/sync-system">
-            <button>{props.solution.syncSystem}</button>
+            <button>{solution.syncSystem}</button>
           </Link>
           <Link to="/app/solution/modul-system">
-            <button>{props.solution.modulSystem}</button>
+            <button>{solution.modulSystem}</button>
           </Link>
           <Link to="/app/solution/accessory">
-            <button>{props.solution.accessory}</button>
+            <button>{solution.accessory}</button>
           </Link>
         </div>
         <div className="solution__content">
           <Router>
-            <General path="/" solution={props.solution} />
-            <Commutation path="/commutation" solution={props.solution} />
-            <FiberSystem path="/fiber-system" solution={props.solution} />
-            <Stream path="/stream" solution={props.solution} />
-            <Mixing path="/mixing" solution={props.solution} />
-            <Video path="/video" solution={props.solution} />
-            <Audio path="/audio" solution={props.solution} />
-            <SyncSystem path="/sync-system" solution={props.solution} />
-            <ModulSystem path="/modul-system" solution={props.solution} />
-            <Accessory path="/accessory" solution={props.solution} />
+            <General path="/"  />
+            <Commutation path="/commutation" />
+            <FiberSystem path="/fiber-system" />
+            <Stream path="/stream" />
+            <Mixing path="/mixing" />
+            <Video path="/video" />
+            <Audio path="/audio" />
+            <SyncSystem path="/sync-system" />
+            <ModulSystem path="/modul-system" />
+            <Accessory path="/accessory" />
           </Router>
         </div>
       </div>
     </div>
   );
 }
+
+export default connect(
+  (state) => ({
+    isLanguage: state.app.isLanguage,
+  }),
+  null
+)(Solution);
+
+
