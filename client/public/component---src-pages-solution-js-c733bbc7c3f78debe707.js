@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[787],{3699:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var l=t(7294),u=t(9401);function r(){return l.createElement("div",null,l.createElement(u.Z,null,l.createElement("h1",null,"Solution"),l.createElement("p",null,"I’m good enough, I’m smart enough, and gosh darn it, people like me!")))}}}]);
+//# sourceMappingURL=component---src-pages-solution-js-c733bbc7c3f78debe707.js.map
