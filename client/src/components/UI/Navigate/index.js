@@ -7,6 +7,7 @@ import Divider from "@material-ui/core/Divider";
 import MenuIcon from "@material-ui/icons/Menu";
 
 import "./Navigate.scss";
+import Language from "../../layout/Layout/Header/Language";
 
 const useStyles = makeStyles({
   list: {
@@ -44,8 +45,8 @@ export default function Navigate({ children }) {
         [classes.fullList]: anchor === "top" || anchor === "bottom",
       })}
       role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
+      onClick={toggleDrawer(anchor, true)}
+      onKeyDown={toggleDrawer(anchor, true)}
     >
       <List className="Navigate__list">
         <a
@@ -57,6 +58,7 @@ export default function Navigate({ children }) {
         </a>
         <Divider />
         {children}
+        <Language />
       </List>
     </div>
   );
@@ -73,7 +75,7 @@ export default function Navigate({ children }) {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
-            onOpen={toggleDrawer(anchor, true)}
+            onOpen={toggleDrawer(anchor, false)}
           >
             {list(anchor)}
           </SwipeableDrawer>
