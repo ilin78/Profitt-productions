@@ -12,12 +12,22 @@ function Links({ isLanguage }) {
     navigate = JSONData_en.en[0].navigate;
   }
   return (
-    <nav className="navigate__link">
-      <Link to="/"><button> {navigate.productions} </button></Link>
-      <Link to="/solution/"><button> {navigate.solution} </button></Link>
-      <Link to="/support/"><button> {navigate.support} </button></Link>
-      <Link to="/about/"><button> {navigate.about} </button></Link>
-    </nav>
+    <div>
+      <nav className="navigate__link">
+        <Link to="/">
+          <button> {navigate.productions} </button>
+        </Link>
+        <Link to="/solution/">
+          <button> {navigate.solution} </button>
+        </Link>
+        <Link to="/support/">
+          <button> {navigate.support} </button>
+        </Link>
+        <Link to="/about/">
+          <button> {navigate.about} </button>
+        </Link>
+      </nav>
+    </div>
   );
 }
 

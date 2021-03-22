@@ -1,139 +1,133 @@
 $width-bar-mob: 52px;
-$width-bar-desk: 35px; 
-
+$width-bar-desk: 38px;
+button {
+  cursor: pointer;
+}
 .Header {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
-  &__header {
-    position: -webkit-sticky;
-    position: sticky;
-    z-index: 1000;
-    top: 0px;
+  &__container {
     color: #e6e6e6;
     display: flex;
     align-items: center;
     height: $width-bar-desk;
-    background-color: #0069E5;
+    background-color: #0069e5;
 
     &_logo {
-      color: white;
+      letter-spacing: 2px;
+      font-weight: 400;
+      color: #ffffff;
       margin-left: 20px;
       display: flex;
       align-items: flex-start;
       justify-content: flex-end;
       grid-area: logo;
-      font-weight: 200;
+      // font-weight: 200;
       font-size: 15px;
-      cursor: default;
+      cursor: default;    
+      span {
+        // color: rgb(252, 196, 42) !important;
     }
-    &_langBtn {
+    }
+    &_lang {
       margin-right: 20px;
       display: flex;
       grid-area: langBtn;
       align-items: flex-start;
+      button {
+        border: #e6e6e6 solid 0.5px;
+        border-radius: 3px;
+        background-color: rgba(0, 0, 0, 0);
+        color: #e6e6e6;
+        font-size: 14px;
+      }
+      & :hover {
+        color: #fff;
+      }
+    }
+    &_nav {
+      display: none;
     }
     //Burger
-    &_desk {
+    &_list {
       grid-area: desk;
       font-size: 13px;
       font-weight: 400;
-    }
-    &_mob {
-      display: none;
     }
     display: grid;
     grid-template-columns: 1fr minmax(100px, 850px) 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "logo desk langBtn";
   }
-  // .layoutContent {
-  //   min-height: 100%;
-  // }
 
- 
-    &__content {
-      overflow-y: auto;
-      width: 100%;
-      height: 100px;
-      min-height: calc(100vh - 35px);
-      background-color: #fcfcfc;
-    }
- 
+  &__content {
+    overflow-y: auto;
+    width: 100%;
+    height: 100px;
+    min-height: calc(100vh - 35px);
+    background-color: #fcfcfc;
+  }
+
   .navigate__link {
     display: flex;
     justify-content: space-around;
-    & li {
-      list-style: none;
-    }
-    & li a {
+    button {
+      border: none;
+      background-color: rgba(0, 0, 0, 0);
       color: #e6e6e6;
+      font-size: 14px;
     }
     & :hover {
       color: #fff;
     }
   }
 }
-@media screen and (max-width: 567px) {
-  .navigate__link {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 19px;
-    font-weight: 300;
-    padding: 8px 0 0;
-    width: 100%;
 
-    & li {
-      padding: 3px;
-      margin: 10px;
-    }
-
-    & li a {
-      display: inline-block;
-      width: 300px;
-      max-width: 300px;
-      color: #e6e6e6;
-
-      &:hover {
-        color: rgb(255, 255, 255);
-      }
-    }
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
   }
-
-  ul {
-    width: 100%;
-    height: 100%;
-    background-color: #0069E5;
-  }
-
-  .MuiList-padding {
-    padding-top: 0px;
-    padding-bottom: 10px;
-  }
-
   .Header {
-    &__header {
-      &_logo {
-        font-weight: 200;
-        font-size: 25px;
-      }
+    &__container {
       padding: 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      height: $width-bar-mob; 
-
-      background-color: #0069E5;
-      //Burger
-      &_mob {
-        line-height: 25px;
-        display: flex;
-        cursor: pointer;
-      }
-      &_desk {
+      height: 55px;
+      &_list {
         display: none;
+      }
+      &_logo {
+        letter-spacing: 2px;
+        font-weight: 400;
+        font-size: 18px;
+        cursor: default;
+      }
+      &_nav {
+        button {
+          min-width: 44px;
+          min-height: 44px;
+          background-color: rgba(0, 0, 0, 0);
+          border: none;
+          color: rgb(231, 231, 231);
+        }
+        display: flex;
+        margin-left: 8px;
+      }
+      &_lang {
+        margin-right: 8px;
+        display: flex;
+        button {
+          border: none;
+          border-radius: 3px;
+          min-width: 44px;
+          min-height: 44px;
+          background-color: rgba(0, 0, 0, 0);
+          color: #e6e6e6;
+          font-size: 16px;
+        }
       }
     }
   }

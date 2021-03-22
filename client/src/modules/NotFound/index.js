@@ -15,7 +15,7 @@ const NotFound = ({ isLanguage }) => {
   }
 
   return (
-    <div className="404">
+    <div className="Notfound">
       <h1>{notfound.title}</h1>
       <h1>{notfound.body}</h1>
       <p>{notfound.notfound}</p>

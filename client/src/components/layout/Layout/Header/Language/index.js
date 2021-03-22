@@ -5,7 +5,7 @@ import { toggleLanguage } from "../../../../../state/app";
 function Landuage({ isLanguage, dispatch }) {
   return (
     <div>
-        <button onClick={() => dispatch(toggleLanguage(!isLanguage))}> {isLanguage ? "RUS" : "ENG"} </button>
+        <button onClick={() => dispatch(toggleLanguage(!isLanguage))}> {isLanguage ? "Rus" : "Eng"} </button>
     </div>
   );
 }
