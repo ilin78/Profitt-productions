@@ -3,13 +3,15 @@ import clsx from "clsx";
 import { makeStyles } from "@material-ui/core/styles";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import List from "@material-ui/core/List";
-// import Divider from "@material-ui/core/Divider";
 import MenuIcon from "@material-ui/icons/Menu";
-
+import { Link } from "gatsby";
+import { connect } from "react-redux";
+import JSONData_ru from "../../../../content/locales/ru/translation_ru.json";
+import JSONData_en from "../../../../content/locales/en/translation_en.json";
 import "./Navigate.scss";
 
-
-import TreeLanguage from "./TreeLanguage"
+import TreeLanguage from "./TreeLanguage";
+import TreeSolution from "./TreeSolution";
 const useStyles = makeStyles({
   list: {
     width: 330,
@@ -19,7 +21,7 @@ const useStyles = makeStyles({
   },
 });
 
-function Navigate({ children }) {
+function Navigate({ isLanguage }) {
   const classes = useStyles();
   const [state, setState] = React.useState({
     top: false,
@@ -27,6 +29,13 @@ function Navigate({ children }) {
     bottom: false,
     right: false,
   });
+
+  let navigate = null;
+  if (isLanguage) {
+    navigate = JSONData_ru.ru[0].navigate;
+  } else {
+    navigate = JSONData_en.en[0].navigate;
+  }
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -58,16 +67,26 @@ function Navigate({ children }) {
         >
           <button className="siteProfitt">Profitt.ru</button>
         </a>
-
-        {children}
         <div>
           <TreeLanguage />
-          {/* <HomeOutlined /> - icon Home for */}
-          {/* <BulbOutlined /> - icon for solution */}
-          {/* <ToolOutlined /> - icon support */}
-          {/* <TranslationOutlined />  - icon */}
-          {/* <button>{navigate.language} <Language /></button> */}
         </div>
+        <div>
+          <nav className="navigate__link">
+            <Link to="/">
+              <button> {navigate.productions} </button>
+            </Link>
+              <div>
+                <TreeSolution />
+              </div>
+             <Link to="/support/">
+              <button> {navigate.support} </button>
+            </Link>
+            <Link to="/about/">
+              <button> {navigate.about} </button>
+            </Link>
+          </nav>
+        </div>
+
       </List>
     </div>
   );
@@ -93,7 +112,25 @@ function Navigate({ children }) {
     </div>
   );
 }
-export default Navigate
+export default connect(
+  (state) => ({
+    isLanguage: state.app.isLanguage,
+  }),
+  null
+)(Navigate);
 
-     
-  
+{
+  /* <HomeOutlined /> - icon Home for */
+}
+{
+  /* <BulbOutlined /> - icon for solution */
+}
+{
+  /* <ToolOutlined /> - icon support */
+}
+{
+  /* <TranslationOutlined />  - icon */
+}
+{
+  /* <button>{navigate.language} <Language /></button> */
+}
