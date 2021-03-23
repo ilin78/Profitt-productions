@@ -15,7 +15,7 @@ export default function Header() {
           </Navigate >
         </div>
         <div>
-          <logo className="Header__container_logo">PROFI<span>TT</span></logo>
+          <logo className="Header__container_logo">PROFITT</logo>
         </div>
         <div className="Header__container_list">
           <Links />

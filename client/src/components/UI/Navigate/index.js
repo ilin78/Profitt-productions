@@ -11,7 +11,7 @@ import Language from "../../layout/Layout/Header/Language";
 
 const useStyles = makeStyles({
   list: {
-    width: 250,
+    width: 450,
   },
   fullList: {
     width: "auto",
@@ -56,7 +56,7 @@ export default function Navigate({ children }) {
         >
           <button className="siteProfitt">Profitt.ru</button>
         </a>
-        <Divider />
+        {/* <Divider /> */}
         {children}
         <Language />
       </List>

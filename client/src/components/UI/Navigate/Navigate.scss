@@ -2,11 +2,11 @@
   &__list {
     overflow-y: auto;
     height: 100%;
-    max-width: 300px;
+    // width: 100%;
   }
   &__list button {
       text-align: left;
-      padding-left: 38px;
+      padding-left: 50px;
       margin: 1px 0;
       height: 50px;
       width: 100%;
@@ -16,7 +16,8 @@
       font-size: 18px;
       line-height: 10px;
       border: none;
-      background-color: #f7f7f700;
+      border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
+      background-color: #4e4e4e05;
     }
 }
 
@@ -25,7 +26,7 @@
 }
 .MuiDrawer-paper {
  margin-top: 55px;
-  width: 250px;
+  width: 290px;
   height: 100%;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
   border-radius: 5px;
