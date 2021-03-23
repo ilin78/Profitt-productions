@@ -24,7 +24,6 @@
     // PN-CAS-326
     color: white;
     background-color: #000;
-    border: white solid 5px;
     grid-area: __1;
   }
 
@@ -48,7 +47,7 @@
     // PNTP-5021
     background-color: #002e58;
     color: white;
-    border: white solid 5px;
+ 
     grid-area: __6;
   }
   &__7 {
@@ -72,7 +71,7 @@
     grid-area: __12;
   }
   &__2 .blocks {
-    border: white solid 5px;
+ 
   }
   &__3 .blocks {
     background-color: rgb(234, 232, 233);
@@ -280,13 +279,11 @@
     &__2 .blocks {
       overflow: hidden;
     }
-    &__2 .blocks__image_view {
-      background-color: rgb(236, 236, 236);
-    }
     &__2 .blocks__image_view-A {
-      padding-top: 170px;
-      width: 130%;
-      overflow: hidden;
+      padding-top:0;
+      // padding-top: -70px;
+      // width: 130%;
+      // overflow: hidden;
     }
     &__6 .blocks__image_view-A {
       max-width: 500px;
@@ -339,6 +336,7 @@
         align-items: center;
         text-align: center;
         max-width: 300px;
+        padding-bottom: 10px;
         &-task {
           font-size: 18px;
           padding-top: 10px;

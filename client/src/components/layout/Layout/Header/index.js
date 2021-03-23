@@ -15,7 +15,7 @@ export default function Header() {
           </Navigate >
         </div>
         <div>
-          <logo className="Header__container_logo">PROFITT</logo>
+          <div className="Header__container_logo">PROFITT</div>
         </div>
         <div className="Header__container_list">
           <Links />

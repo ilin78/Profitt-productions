@@ -21,6 +21,9 @@ input,
 textarea {
   font-family: inherit;
 }
+button {
+  cursor: pointer;
+}
 
 input::-ms-clear {
   display: none;

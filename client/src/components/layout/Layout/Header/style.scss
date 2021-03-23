@@ -24,12 +24,9 @@ button {
       align-items: flex-start;
       justify-content: flex-end;
       grid-area: logo;
-      // font-weight: 200;
       font-size: 15px;
       cursor: default;    
-      span {
-        // color: rgb(252, 196, 42) !important;
-    }
+
     }
     &_lang {
       margin-right: 20px;
