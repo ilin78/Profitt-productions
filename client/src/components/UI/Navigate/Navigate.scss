@@ -1,8 +1,18 @@
+.MuiList-root {
+  max-width: 290px;
+}
+.Navigate__list {
+  max-width: 290px;
+}
+.MuiList-padding {
+  max-width: 290px;
+}
+
 .Navigate {
+  max-width: 290px;
   &__list {
     overflow-y: auto;
     height: 100%;
-    // width: 100%;
   }
   &__list button {
       text-align: left;

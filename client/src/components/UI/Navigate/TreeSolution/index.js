@@ -10,9 +10,9 @@ import Language from "../../../layout/Layout/Header/Language";
 import JSONData_ru from "../../../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../../../content/locales/en/translation_en.json";
 
-import "./TreeLanguage.scss";
+import "./TreeSolution.scss";
 
-class TreeLanguage extends React.Component {
+class TreeSolution extends React.Component {
   state = {
     open: false,
   };
@@ -30,7 +30,7 @@ class TreeLanguage extends React.Component {
     }
 
     return (
-      <div className="TreeLanguage">
+      <div className="TreeSolution">
         <ListItem onClick={this.handleClick}>
           <ListItemText inset primary={navigate.language} />
           {this.state.open ? <ExpandMore /> : <ExpandLess />}
@@ -48,4 +48,4 @@ class TreeLanguage extends React.Component {
 export default connect(
   (state) => ({ isLanguage: state.app.isLanguage }),
   null
-)(TreeLanguage);
+)(TreeSolution);
