@@ -75,11 +75,11 @@
   }
   &__3 .blocks {
     background-color: rgb(234, 232, 233);
-    border: white solid 5px;
+    border: white solid 2px;
   }
   &__4 .blocks {
     background-color: rgb(234, 232, 233);
-    border: white solid 5px;
+    border: white solid 2px;
   }
   &__4 .blocks__image_view {
     // padding-top: 100px;
@@ -279,11 +279,21 @@
     &__2 .blocks {
       overflow: hidden;
     }
-    &__2 .blocks__image_view-A {
+    &__2 .blocks__image_view-A img{
       padding-top:0;
+      min-width: 490px;
+      min-height: 200px;
       // padding-top: -70px;
       // width: 130%;
-      // overflow: hidden;
+      overflow: hidden;
+    }
+    &__2 .blocks__image_view-A{
+      padding-top:10px;
+      // min-width: 490px;
+      // min-height: 600px;
+      // padding-top: -70px;
+      // width: 130%;
+      overflow: hidden;
     }
     &__6 .blocks__image_view-A {
       max-width: 500px;
