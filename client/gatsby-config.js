@@ -11,6 +11,7 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-antd',
     // {
     //   resolve: `gatsby-plugin-create-client-paths`,
     //   options: { prefixes: [`/*`] },

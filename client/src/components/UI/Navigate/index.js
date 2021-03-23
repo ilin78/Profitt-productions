@@ -7,18 +7,18 @@ import Divider from "@material-ui/core/Divider";
 import MenuIcon from "@material-ui/icons/Menu";
 
 import "./Navigate.scss";
-import Language from "../../layout/Layout/Header/Language";
 
+import TreeLanguage from "./TreeLanguage"
 const useStyles = makeStyles({
   list: {
-    width: 450,
+    width: 330,
   },
   fullList: {
     width: "auto",
   },
 });
 
-export default function Navigate({ children }) {
+function Navigate({ children }) {
   const classes = useStyles();
   const [state, setState] = React.useState({
     top: false,
@@ -49,6 +49,7 @@ export default function Navigate({ children }) {
       onKeyDown={toggleDrawer(anchor, true)}
     >
       <List className="Navigate__list">
+        {/* <Divider /> */}
         <a
           href="http://www.profitt.ru"
           target="_blank"
@@ -56,9 +57,16 @@ export default function Navigate({ children }) {
         >
           <button className="siteProfitt">Profitt.ru</button>
         </a>
-        {/* <Divider /> */}
+
         {children}
-        <Language />
+        <div>
+          <TreeLanguage />
+          {/* <HomeOutlined /> - icon Home for */}
+          {/* <BulbOutlined /> - icon for solution */}
+          {/* <ToolOutlined /> - icon support */}
+          {/* <TranslationOutlined />  - icon */}
+          {/* <button>{navigate.language} <Language /></button> */}
+        </div>
       </List>
     </div>
   );
@@ -84,3 +92,7 @@ export default function Navigate({ children }) {
     </div>
   );
 }
+export default Navigate
+
+     
+  
