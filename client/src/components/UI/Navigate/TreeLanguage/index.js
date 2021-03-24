@@ -31,7 +31,7 @@ class TreeLanguage extends React.Component {
 
     return (
       <div className="TreeLanguage">
-        <ListItem onClick={this.handleClick}>
+        <ListItem className="ListButton" onClick={this.handleClick}>
           <ListItemText inset primary={navigate.language} />
           {this.state.open ? <ExpandMore /> : <ExpandLess />}
         </ListItem>

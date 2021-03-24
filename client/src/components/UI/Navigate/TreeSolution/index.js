@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Link } from "@reach/router";
+import { Link } from "@reach/router";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
@@ -7,27 +7,14 @@ import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
 import { connect } from "react-redux";
 
-import Language from "../../../layout/Layout/Header/Language";
-
 import JSONData_ru from "../../../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../../../content/locales/en/translation_en.json";
-
-import General from "../../../../modules/Solution/General";
-import Commutation from "../../../../modules/Solution/Commutation";
-import FiberSystem from "../../../../modules/Solution/FiberSystem";
-import Stream from "../../../../modules/Solution/Stream";
-import Mixing from "../../../../modules/Solution/Mixing";
-import Video from "../../../../modules/Solution/Video";
-import Audio from "../../../../modules/Solution/Audio";
-import SyncSystem from "../../../../modules/Solution/SyncSystem";
-import ModulSystem from "../../../../modules/Solution/ModulSystem";
-import Accessory from "../../../../modules/Solution/Accessory";
 
 import "./TreeSolution.scss";
 
 class TreeSolution extends React.Component {
   state = {
-    open: true,
+    open: false,
   };
 
   handleClick = () => {
@@ -46,7 +33,7 @@ class TreeSolution extends React.Component {
 
     return (
       <div className="TreeSolution">
-        <ListItem onClick={this.handleClick}>
+        <ListItem className="ListButton" onClick={this.handleClick}>
            <ListItemText inset primary={navigate.solution} />
           {this.state.open ? <ExpandMore /> : <ExpandLess />}
         </ListItem>

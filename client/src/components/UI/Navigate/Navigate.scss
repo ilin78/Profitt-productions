@@ -1,15 +1,18 @@
+$Nav-maxWidth: 290px; 
+$Nav-MarginTop: 55px; 
+
 .MuiList-root {
-  max-width: 290px;
+  max-width:$Nav-maxWidth;
 }
 .Navigate__list {
-  max-width: 290px;
+  max-width: $Nav-maxWidth;
 }
 .MuiList-padding {
-  max-width: 290px;
+  max-width: $Nav-maxWidth;
 }
 
 .Navigate {
-  max-width: 290px;
+  max-width:$Nav-maxWidth;
   &__list {
     overflow-y: scroll;
     width: 100%;
@@ -22,7 +25,7 @@
       padding-left: 50px;
       margin: 1px 0;
       height: 50px;
-      width: 290px;
+      width: $Nav-maxWidth;
       font-weight: 400;
       cursor: pointer;
       color: rgb(54, 54, 54);
@@ -35,11 +38,46 @@
 }
 
 .MuiBackdrop-root {
-  background-color: #f7f7f700;
+  margin-top:$Nav-MarginTop;
+  background-color: #ffffff5e;
+
+ 
+  height: 100%;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  border-radius: 5px;
+  // position: relative;
+  // z-index: 1;
+  // background: inherit;
+  // overflow: hidden;
 }
+
+.MuiBackdrop-root:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(66, 66, 66, 0.118);  
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  -moz-backdrop-filter: blur(5px);
+  -o-backdrop-filter: blur(5px);
+  -ms-backdrop-filter: blur(5px);
+  // margin: -20px;
+}
+
+
+
+
+
+
+
 .MuiDrawer-paper {
- margin-top: 55px;
-  width: 290px;
+ margin-top: $Nav-MarginTop;
+  width: $Nav-maxWidth;
   height: 100%;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
   border-radius: 5px;
@@ -65,4 +103,14 @@
   -o-backdrop-filter: blur(5px);
   -ms-backdrop-filter: blur(5px);
   margin: -20px;
+}
+
+.ListButton {
+  border: none;
+  border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
+  background-color: #4e4e4e05;
+}
+
+.buttonLeft button{
+  padding-left: 60px;
 }
