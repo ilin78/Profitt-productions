@@ -1,8 +1,8 @@
-$Nav-maxWidth: 290px; 
-$Nav-MarginTop: 55px; 
+$Nav-maxWidth: 290px;
+$Nav-MarginTop: 55px;
 
 .MuiList-root {
-  max-width:$Nav-maxWidth;
+  max-width: $Nav-maxWidth;
 }
 .Navigate__list {
   max-width: $Nav-maxWidth;
@@ -12,7 +12,7 @@ $Nav-MarginTop: 55px;
 }
 
 .Navigate {
-  max-width:$Nav-maxWidth;
+  max-width: $Nav-maxWidth;
   &__list {
     overflow-y: scroll;
     width: 100%;
@@ -21,44 +21,39 @@ $Nav-MarginTop: 55px;
     padding-bottom: 200px;
   }
   &__list button {
-      text-align: left;
-      padding-left: 50px;
-      margin: 1px 0;
-      height: 50px;
-      width: $Nav-maxWidth;
-      font-weight: 400;
-      cursor: pointer;
-      color: rgb(54, 54, 54);
-      font-size: 18px;
-      line-height: 10px;
-      border: none;
-      border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
-      background-color: #4e4e4e05;
-    }
+    text-align: left;
+    padding-left: 50px;
+    margin: 1px 0;
+    height: 50px;
+    width: $Nav-maxWidth;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(54, 54, 54);
+    font-size: 18px;
+    line-height: 10px;
+    border: none;
+    border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
+    background-color: #4e4e4e05;
+  }
 }
 
 .MuiBackdrop-root {
-  // margin-top:$Nav-MarginTop;
   background-color: #4e4e4e05;
-
-  
+  cursor:grab;
   height: 100%;
-  // box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
- 
   border-radius: 5px;
 }
-
 
 .MuiBackdrop-root:before {
   content: "";
   position: absolute;
   background: inherit;
   z-index: -1;
-  top:$Nav-MarginTop;
+  top: $Nav-MarginTop;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(119, 119, 119, 0.158);  
+  background-color: rgba(119, 119, 119, 0.158);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   -moz-backdrop-filter: blur(20px);
@@ -82,22 +77,18 @@ $Nav-MarginTop: 55px;
   -moz-backdrop-filter: blur(20px);
   -o-backdrop-filter: blur(20px);
   -ms-backdrop-filter: blur(20px);
-  // margin: -20px;
+ }
+
+.MuiDrawer-paperAnchorLeft {
 }
-.MuiDrawer-paper {}
-.MuiDrawer-paperAnchorLeft{}
-.MuiPaper-elevation16 {}
-
-
-
-
-
+.MuiPaper-elevation16 {
+}
 
 .MuiDrawer-paper {
- margin-top: $Nav-MarginTop;
+  margin-top: $Nav-MarginTop;
   width: $Nav-maxWidth;
   height: 100%;
-  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   position: relative;
   z-index: 1;
@@ -114,7 +105,7 @@ $Nav-MarginTop: 55px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.918);  
+  background-color: rgba(255, 255, 255, 0.918);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(5px);
   -moz-backdrop-filter: blur(5px);
@@ -124,11 +115,12 @@ $Nav-MarginTop: 55px;
 }
 
 .ListButton {
+  cursor:pointer;
   border: none;
   border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
   background-color: #4e4e4e05;
 }
 
-.buttonLeft button{
+.buttonLeft button {
   padding-left: 60px;
 }

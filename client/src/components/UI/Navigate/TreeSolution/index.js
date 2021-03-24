@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "@reach/router";
+import { Link } from "gatsby";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
@@ -39,31 +39,31 @@ class TreeSolution extends React.Component {
         </ListItem>
         <Collapse in={this.state.open}>
           <div className="buttonLeft">
-          <Link to="/app/solution/commutation">
+          <Link to="/solution/commutation">
             <button>{solution.commutation}</button>
           </Link>
-          <Link to="/app/solution/fiber-system">
+          <Link to="/solution/fiber-system">
             <button>{solution.fiber}</button>
           </Link>
-          <Link to="/app/solution/stream">
+          <Link to="/solution/stream">
             <button> {solution.stream}</button>
           </Link>
-          <Link to="/app/solution/mixing">
+          <Link to="/solution/mixing">
             <button>{solution.mixing}</button>
           </Link>
-          <Link to="/app/solution/video">
+          <Link to="/solution/video">
             <button>{solution.video}</button>
           </Link>
-          <Link to="/app/solution/audio">
+          <Link to="/solution/audio">
             <button> {solution.audio}</button>
           </Link>
-          <Link to="/app/solution/sync-system">
+          <Link to="/solution/sync-system">
             <button>{solution.syncSystem}</button>
           </Link>
-          <Link to="/app/solution/modul-system">
+          <Link to="/solution/modul-system">
             <button>{solution.modulSystem}</button>
           </Link>
-          <Link to="/app/solution/accessory">
+          <Link to="/solution/accessory">
             <button>{solution.accessory}</button>
           </Link>
           </div>

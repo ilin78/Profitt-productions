@@ -86,7 +86,6 @@ function Navigate({ isLanguage }) {
             </Link>
           </nav>
         </div>
-
       </List>
     </div>
   );

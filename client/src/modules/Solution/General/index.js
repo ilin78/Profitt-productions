@@ -1,84 +1,84 @@
-import React from "react"
-import { Link } from "@reach/router"
+import React from "react";
+import { Link } from "gatsby";
 import Image from "../../../components/Image";
 
-import './style.scss'
+import "./style.scss";
 
-export default function General(props) {
+export default function General() {
   return (
     <div className="General">
       <div className="general">
         <div className="general__content">
           <div className="divisions">
             <div className="divisions__next">
-                    <div className="divisions-standalone">
-                    <Image alt={`${props.name}.- front`} filename={`${props.img_A}.jpg`}></Image>
-                      <button>{props.solution.solo_standev}</button>
-                    </div>
-                    <div className="divisions-probox">
-                      <button>{props.solution.solo_pbx}</button>
-                    </div>
-                    <div className="divisions-profnext">
-                      <button>{props.solution.solo_profnext}</button>
-                    </div>
+              <div className="divisions-standalone">
+                <button>solo_standev</button>
+              </div>
+              <div className="divisions-probox">
+                <button>solo_pbx</button>
+              </div>
+              <div className="divisions-profnext">
+                <button>solo_profnext</button>
+              </div>
             </div>
           </div>
-          <div className="purposes">
+
+       <div className="purposes">
             <div className="purposes__next">
             <div>
                 <a href="http://www.profitt.ru" target="_blank">
                   <button> Profitt.ru</button>
                 </a>
               </div>
-              <div>
-                <Link to="/app/solution/commutation">
-                  <button>{props.solution.commutation}</button>
+               <div>
+                <Link to="/solution/commutation">
+                  <button>solution.commutation</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/fiber-system">
-                  <button>{props.solution.fiber}</button>
+                <Link to="/solution/fiber-system">
+                  <button>solution.fiber</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/stream">
-                  <button> {props.solution.stream}</button>
+                <Link to="/solution/stream">
+                  <button>solution.stream</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/mixing">
-                  <button>{props.solution.mixing}</button>
+                <Link to="/solution/mixing">
+                  <button>solution.mixing</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/video">
-                  <button>{props.solution.video}</button>
+                <Link to="/solution/video">
+                  <button>solution.video</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/audio">
-                  <button> {props.solution.audio}</button>
+                <Link to="/solution/audio">
+                  <button> solution.audio</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/sync-system">
-                  <button>{props.solution.syncSystem}</button>
+                <Link to="/solution/sync-system">
+                  <button>solution.syncSystem</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/modul-system">
-                  <button>{props.solution.modulSystem}</button>
+                <Link to="/solution/modul-system">
+                  <button>solution.modulSystem</button>
                 </Link>
               </div>
               <div>
-                <Link to="/app/solution/accessory">
-                  <button>{props.solution.accessory}</button>
-                </Link>
+                <Link to="/solution/accessory">
+                  <button>solution.accessory</button>
+                </Link> 
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
