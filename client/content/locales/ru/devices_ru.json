@@ -1,159 +1,265 @@
 {
-    "ru": [
-      {
-        "all_devices": [
-            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            },            {
-                "name":"",
-                "discription":"",
-                "divisions":"",
-                "purposes":""
-            }
-        ]
-      }
-    ]
+  "ru": [
+    {
+      "EXAMPLE": {
+        "name": "PAC-4220",
+        "discription": "Двухканальный коммутатор резерва ASI T2-MI бесшовный",
+        "div_commut": "Есть",
+        "div_fiber": "Eсть",
+        "div_stream": "Есть",
+        "div_mixing": "Есть",
+        "div_video": "Есть",
+        "div_audio": "Есть",
+        "div_sync": "Есть",
+        "div_modul": "Есть",
+        "div_access": "Есть",
+        "type_pbx": "ProBox",
+        "type_next": "PROFNEXT",
+        "type_lex": "PROFLEX",
+        "type_stand": "Автономное устройство",
+        "div_ETHERNET": "Есть",
+        "link": ""
+      },
+      "list_devices": [
+        {
+          "name": "PAC-4220",
+          "discription": "Двухканальный коммутатор резерва ASI T2-MI бесшовный",
+          "div_commut": "Есть",
+          "div_stream": "Есть",
+          "type_stand": "Автономное устройство",
+          "link": ""
+        },
+        {
+          "name": "PAC-4212",
+          "discription": "Двухканальный коммутатор резерва ASI T2-MI",
+          "div_commut": "Есть",
+          "div_stream": "Есть",
+          "type_stand": "Автономное устройство",
+          "link": ""
+        },
+        {
+          "name": "PN-CAS-326",
+          "discription": "Коммутатор резерва ASI T2-MI бесшовный",
+          "div_commut": "Есть",
+          "div_stream": "Есть",
+          "div_modul": "Есть",
+          "type_stand": "PROFNEXT",
+          "link": ""
+        },
+        {
+          "name": "PCOS-7376",
+          "discription": "Коммутатор резерва HD/SD SDI бесподрывный",
+          "div_commut": "Есть",
+          "div_video": "Есть",
+          "div_sync": "Есть",
+          "div_modul": "Есть",
+          "type_lex": "PROFLEX",
+          "link": ""
+        },
+        {
+          "name": "PN-CSE-055",
+          "discription": "Коммутатор резерва HD/SD SDI бесподрывный",
+          "div_commut": "Есть",
+          "div_video": "Есть",
+          "div_sync": "Есть",
+          "div_modul": "Есть",
+          "type_next": "PROFNEXT",
+          "link": ""
+        },
+        {
+          "name": "PN-CSE-055",
+          "discription": "3G/HD/SD эфирный коммутатор с “чистым” выходом",
+          "div_commut": "Есть",
+          "div_fiber": "Eсть",
+          "div_mixing": "Есть",
+          "div_video": "Есть",
+          "type_stand": "Автономное устройство",
+          "link": ""
+        },
+        {
+          "name": "PBX-MF-150 12G",
+          "discription": "Многоканальный 12G и ETHERNET транспорт",
+          "div_commut": "Есть",
+          "div_fiber": "Eсть",
+          "div_video": "Есть",
+          "div_ETHERNET": "Есть",
+          "type_pbx": "ProBox",
+          "link": ""
+        },
+        {
+          "name": "PBX-3T1R1",
+          "discription": "Многоканальный 3G-SDI и ETHERNET транспорт по одному волокну",
+          "div_commut": "Есть",
+          "div_fiber": "Eсть",
+          "div_video": "Есть",
+          "div_ETHERNET": "Есть",
+          "type_pbx": "ProBox",
+          "link": ""
+        },
+        {
+          "name": "PN-TDM-066",
+          "discription": "Многканальный HD/SD-SDI передатчик CTM уплотнением",
+          "div_fiber": "Eсть",
+          "div_stream": "Есть",
+          "div_video": "Есть",
+          "type_next": "PROFNEXT",
+          "link": ""
+        },
+        {
+          "name": "PFC-01 и PBC-02",
+          "discription": "Оптический камерный канал",
+          "div_fiber": "Eсть",
+          "div_video": "Есть",
+          "div_audio": "Есть",
+          "type_stand": "Автономное устройство",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        },
+        {
+          "name": "PBX-ENP-200",
+          "discription": "Конвертор двунаправленный TSOIP-DVB-ASI",
+          "div_stream": "Есть",
+          "type_pbx": "ProBox",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        },
+        {
+          "name": "PBX-STR-500",
+          "discription": "Сервер потокового вещения H.264 ",
+          "div_stream": "Есть",
+          "div_mixing": "Есть",
+          "div_video": "Есть",
+          "div_audio": "Есть",
+          "type_pbx": "ProBox",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        },
+        {
+          "name": "PN-MPE-264",
+          "discription": "Кодер H.264 с входом HD/SD-SDI",
+          "div_stream": "Есть",
+          "div_mixing": "Есть",
+          "div_video": "Есть",
+          "div_audio": "Есть",
+          "div_modul": "Есть",
+          "div_ETHERNET": "Есть",
+          "type_next": "PROFNEXT",
+          "link": ""
+        },
+        {
+          "name": "PDMX-2106",
+          "discription": "HD-SDI эфирный микшер",
+          "div_commut": "Есть",
+          "div_mixing": "Есть",
+          "div_video": "Есть",
+          "div_audio": "Есть",
+          "div_sync": "Есть",
+          "type_stand": "Автономное устройство",
+          "link": ""
+        },
+        {
+          "name": "PBX-MTV-508",
+          "discription": "Мультиэкран 3G/HD/SD-SDI на 8 входов",
+          "div_stream": "Есть",
+          "div_video": "Есть",
+          "type_pbx": "ProBox",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        },
+        {
+          "name": "PBX-CC-300",
+          "discription": "Преобразователь стандартов разложения",
+          "div_video": "Есть",
+          "div_sync": "Есть",
+          "div_modul": "Есть",
+          "type_pbx": "ProBox",
+          "link": ""
+        },
+        {
+          "name": "PN-MSC-030 + PN-MEX-031-XX",
+          "discription": "Модульный каскадируемый мультиэкран",
+          "div_stream": "Есть",
+          "div_video": "Есть",
+          "div_modul": "Есть",
+          "type_next": "PROFNEXT",
+          "link": ""
+        },
+        {
+          "name": "PEAI-9088",
+          "discription": "ETHERNET аудиоинтерфейс",
+          "div_commut": "Есть",
+          "div_fiber": "Eсть",
+          "div_stream": "Есть",
+          "div_audio": "Есть",
+          "type_stand": "Автономное устройство",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        },
+        {
+          "name": "PRAA-4065ME",
+          "discription": "Вещательный аудиокоммутатор резерва",
+          "div_commut": "Есть",
+          "div_audio": "Есть",
+          "type_stand": "Автономное устройство",
+          "link": ""
+        },
+        {
+          "name": "PN-COA-305",
+          "discription": "Блок резервирования аудио AES для модульной системы PROFNEXT",
+          "div_commut": "Есть",
+          "div_audio": "Есть",
+          "div_modul": "Есть",
+          "type_next": "PROFNEXT",
+          "link": ""
+        },
+        {
+          "name": "PCOA-7105",
+          "discription": "Блок резервирования аудио AES для модульной системы PROFLEX",
+          "div_commut": "Есть",
+          "div_audio": "Есть",
+          "div_modul": "Есть",
+          "type_lex": "PROFLEX",
+          "link": ""
+        },
+        {
+          "name": "PSGP-2059",
+          "discription": "Генератор опорных видеосинхросигналов и сигналов РТР",
+          "div_video": "Есть",
+          "div_audio": "Есть",
+          "div_sync": "Есть",
+          "type_stand": "Автономное устройство",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        },
+        {
+          "name": "PESI-4259",
+          "discription": "Аварийный коммутатор синхросигналов",
+          "div_commut": "Есть",
+          "div_video": "Есть",
+          "div_audio": "Есть",
+          "type_stand": "Автономное устройство",
+          "link": ""
+        },
+        {
+          "name": "PNTP-2051",
+          "discription": "Сервер точного времени",
+          "div_sync": "Есть",
+          "div_video": "Есть",
+          "div_audio": "Есть",
+          "type_stand": "Автономное устройство",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        },
+        {
+          "name": "PNTP-5021",
+          "discription": "Сервер точного времени (NTP сервер, приемник GPS/GLONASS, генератор LTC, 1pps, 10МГц)",
+          "div_sync": "Есть",
+          "div_access": "Есть",
+          "type_stand": "Автономное устройство",
+          "div_ETHERNET": "Есть",
+          "link": ""
+        }
+      ]
+    }
+  ]
 }
