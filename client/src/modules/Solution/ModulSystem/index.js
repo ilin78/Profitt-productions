@@ -27,7 +27,7 @@ function ModulSystem({ isLanguage }) {
             </div>
           );
         } else {
-          return <div> Not found </div>
+          return
         }
       })}
     </div>
