@@ -42,7 +42,7 @@ class TreeSolution extends React.Component {
           <Link to="/solution/commutation">
             <button>{solution.commutation}</button>
           </Link>
-          <Link to="/solution/fiber-system">
+          <Link to="/solution/fiber">
             <button>{solution.fiber}</button>
           </Link>
           <Link to="/solution/stream">
