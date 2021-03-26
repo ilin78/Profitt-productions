@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import JSONList_devices_ru from "../../../../content/locales/ru/devices_ru.json";
 import JSONList_devices_en from "../../../../content/locales/en/devices_en.json";
-import VideoDevices from "./VideoDevices";
+import ListItem from "../ListItem";
 
 function Video({ isLanguage }) {
   let list_devices = null;
@@ -19,7 +19,7 @@ function Video({ isLanguage }) {
         if (list.div_sync === "Eсть" || list.div_sync === "Yes") {
           return (
             <div>
-              <VideoDevices
+              <ListItem
                 key={index}
                 name={list.name}
                 discription={list.discription}

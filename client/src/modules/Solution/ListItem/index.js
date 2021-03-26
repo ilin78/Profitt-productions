@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function FiberDevices(props) {
+export default function ListItem(props) {
   return (
-    <div className="FiberDevices">
+    <div className="ListItem">
       <div className="">
         <div className="">{props.name}</div>
         <div> {props.discription}</div>
@@ -10,5 +10,3 @@ export default function FiberDevices(props) {
     </div>
   );
 }
-
-

@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import JSONList_devices_ru from "../../../../content/locales/ru/devices_ru.json";
 import JSONList_devices_en from "../../../../content/locales/en/devices_en.json";
-import StreamDevices from "./StreamDevices";
+import ListItem from "../ListItem";
 
 function Stream({ isLanguage }) {
   let list_devices = null;
@@ -19,7 +19,7 @@ function Stream({ isLanguage }) {
         if (list.div_stream === "Eсть" || list.div_stream === "Yes") {
           return (
             <div>
-              <StreamDevices
+              <ListItem
                 key={index}
                 name={list.name}
                 discription={list.discription}

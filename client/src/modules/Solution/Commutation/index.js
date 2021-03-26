@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import JSONList_devices_ru from "../../../../content/locales/ru/devices_ru.json";
 import JSONList_devices_en from "../../../../content/locales/en/devices_en.json";
-import CommutDevices from "./CommutDevices";
+import ListItem from "../ListItem";
 
 function Commutation({ isLanguage }) {
   let list_devices = null;
@@ -15,14 +15,14 @@ function Commutation({ isLanguage }) {
 
   return (
     <div className="">
-      {list_devices.map((accessory, index) => {
-        if (accessory.div_commut === "Eсть" || accessory.div_commut === "Yes") {
+      {list_devices.map((list, index) => {
+        if (list.div_commut === "Eсть" || list.div_commut === "Yes") {
           return (
             <div>
-              <CommutDevices
+              <ListItem
                 key={index}
-                name={accessory.name}
-                discription={accessory.discription}
+                name={list.name}
+                discription={list.discription}
               />
             </div>
           );

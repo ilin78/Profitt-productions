@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import JSONList_devices_ru from "../../../../content/locales/ru/devices_ru.json";
 import JSONList_devices_en from "../../../../content/locales/en/devices_en.json";
-import FiberDevices from "./FiberDevices";
+import ListItem from "../ListItem";
 
 function FiberSystem({ isLanguage }) {
   let list_devices = null;
@@ -19,7 +19,7 @@ function FiberSystem({ isLanguage }) {
         if (list.div_fiber === "Eсть" || list.div_fiber === "Yes") {
           return (
             <div>
-              <FiberDevices
+              <ListItem
                 key={index}
                 name={list.name}
                 discription={list.discription}

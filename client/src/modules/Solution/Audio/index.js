@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import JSONList_devices_ru from "../../../../content/locales/ru/devices_ru.json";
 import JSONList_devices_en from "../../../../content/locales/en/devices_en.json";
-import AudioDevices from "./AudioDevices";
+import ListItem from "../ListItem";
 
 function Audio({ isLanguage }) {
   let list_devices = null;
@@ -15,14 +15,14 @@ function Audio({ isLanguage }) {
 
   return (
     <div className="">
-      {list_devices.map((accessory, index) => {
-        if (accessory.div_audio === "Eсть" || accessory.div_audio === "Yes") {
+      {list_devices.map((list, index) => {
+        if (list.div_audio === "Eсть" || list.div_audio === "Yes") {
           return (
             <div>
-              <AudioDevices
+              <ListItem
                 key={index}
-                name={accessory.name}
-                discription={accessory.discription}
+                name={list.name}
+                discription={list.discription}
               />
             </div>
           );

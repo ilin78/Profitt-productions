@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import JSONList_devices_ru from "../../../../content/locales/ru/devices_ru.json";
 import JSONList_devices_en from "../../../../content/locales/en/devices_en.json";
-import AccessDevices from "./AccessDevices";
+import ListItem from "../ListItem";
 
 function Accessory({ isLanguage }) {
   let list_devices = null;
@@ -15,14 +15,14 @@ function Accessory({ isLanguage }) {
 
   return (
     <div className="">
-      {list_devices.map((accessory, index) => {
-        if (accessory.div_access === "Eсть" || accessory.div_access === "Yes") {
+      {list_devices.map((list, index) => {
+        if (list.div_access === "Eсть" || list.div_access === "Yes") {
           return (
             <div>
-              <AccessDevices
+              <ListItem
                 key={index}
-                name={accessory.name}
-                discription={accessory.discription}
+                name={list.name}
+                discription={list.discription}
               />
             </div>
           );
