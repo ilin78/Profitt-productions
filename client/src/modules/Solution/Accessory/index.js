@@ -16,7 +16,7 @@ function Accessory({ isLanguage }) {
   return (
     <div className="">
       {list_devices.map((accessory, index) => {
-        if (accessory.div_access === "Есть" || accessory.div_access === "Yes") {
+        if (accessory.div_access === "Eсть" || accessory.div_access === "Yes") {
           return (
             <div>
               <AccessDevices

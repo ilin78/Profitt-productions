@@ -36,7 +36,7 @@ export default function General() {
                 </Link>
               </div>
               <div>
-                <Link to="/solution/fiber-system">
+                <Link to="/solution/fiber_system">
                   <button>solution.fiber</button>
                 </Link>
               </div>
