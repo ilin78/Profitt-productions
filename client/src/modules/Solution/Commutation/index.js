@@ -26,12 +26,14 @@ function Commutation({ isLanguage }) {
               />
             </div>
           );
+        } else {
+          return <div> Not found </div>
         }
       })}
     </div>
   );
 }
- 
+
 export default connect(
   (state) => ({
     isLanguage: state.app.isLanguage,

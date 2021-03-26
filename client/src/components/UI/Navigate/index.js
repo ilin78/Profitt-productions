@@ -118,18 +118,8 @@ export default connect(
   null
 )(Navigate);
 
-{
   /* <HomeOutlined /> - icon Home for */
-}
-{
   /* <BulbOutlined /> - icon for solution */
-}
-{
   /* <ToolOutlined /> - icon support */
-}
-{
   /* <TranslationOutlined />  - icon */
-}
-{
   /* <button>{navigate.language} <Language /></button> */
-}

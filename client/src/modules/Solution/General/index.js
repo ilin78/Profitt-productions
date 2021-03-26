@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
 // import Image from "../../../components/Image";
-
 import "./style.scss";
+import LinksSolution from "../../../components/layout/Layout/Main/LinksSolution";
 
 export default function General() {
   return (
@@ -22,59 +21,9 @@ export default function General() {
               </div>
             </div>
           </div>
-
        <div className="purposes">
             <div className="purposes__next">
-            <div>
-                <a href="http://www.profitt.ru" target="_blank">
-                  <button> Profitt.ru</button>
-                </a>
-              </div>
-               <div>
-                <Link to="/solution/commutation">
-                  <button>solution.commutation</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/fiber">
-                  <button>solution.fiber</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/stream">
-                  <button>solution.stream</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/mixing">
-                  <button>solution.mixing</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/video">
-                  <button>solution.video</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/audio">
-                  <button> solution.audio</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/sync-system">
-                  <button>solution.syncSystem</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/modul-system">
-                  <button>solution.modulSystem</button>
-                </Link>
-              </div>
-              <div>
-                <Link to="/solution/accessory">
-                  <button>solution.accessory</button>
-                </Link> 
-              </div>
+              <LinksSolution />
             </div>
           </div>
         </div>
