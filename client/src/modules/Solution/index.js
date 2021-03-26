@@ -30,7 +30,7 @@ function Solution({ isLanguage, children }) {
           <Link to="/solution/commutation">
             <button>{solution.commutation}</button>
           </Link>
-          <Link to="/solution/fiber_system">
+          <Link to="/solution/fiber-system">
             <button>{solution.fiber}</button>
           </Link>
           <Link to="/solution/stream">
