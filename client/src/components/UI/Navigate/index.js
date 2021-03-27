@@ -4,12 +4,16 @@ import { makeStyles } from "@material-ui/core/styles";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import List from "@material-ui/core/List";
 import MenuIcon from "@material-ui/icons/Menu";
+import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
+import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
+import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
+import ContactSupportOutlinedIcon from '@material-ui/icons/ContactSupportOutlined';
+import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
 import { Link } from "gatsby";
 import { connect } from "react-redux";
 import JSONData_ru from "../../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../../content/locales/en/translation_en.json";
 import "./Navigate.scss";
-
 import TreeLanguage from "./TreeLanguage";
 import TreeSolution from "./TreeSolution";
 const useStyles = makeStyles({
@@ -65,7 +69,7 @@ function Navigate({ isLanguage }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="siteProfitt">Profitt.ru</button>
+          <button className="siteProfitt"><ImportantDevicesIcon /> Profitt.ru</button>
         </a>
         <div>
           <TreeLanguage />
@@ -73,16 +77,16 @@ function Navigate({ isLanguage }) {
         <div>
           <nav className="navigate__link">
             <Link to="/">
-              <button> {navigate.productions} </button>
+              <button> <HomeOutlinedIcon/> {navigate.productions} <FiberNewOutlinedIcon color="secondary"/> </button>
             </Link>
-              <div>
-                <TreeSolution />
-              </div>
-             <Link to="/support/">
-              <button> {navigate.support} </button>
+            <div>
+              <TreeSolution />
+            </div>
+            <Link to="/support/">
+              <button> <ContactSupportOutlinedIcon/>{navigate.support} </button>
             </Link>
             <Link to="/about/">
-              <button> {navigate.about} </button>
+              <button> <InfoOutlinedIcon/> {navigate.about} </button>
             </Link>
           </nav>
         </div>
@@ -118,8 +122,8 @@ export default connect(
   null
 )(Navigate);
 
-  /* <HomeOutlined /> - icon Home for */
-  /* <BulbOutlined /> - icon for solution */
-  /* <ToolOutlined /> - icon support */
-  /* <TranslationOutlined />  - icon */
-  /* <button>{navigate.language} <Language /></button> */
+/* <HomeOutlined /> - icon Home for */
+/* <BulbOutlined /> - icon for solution */
+/* <ToolOutlined /> - icon support */
+/* <TranslationOutlined />  - icon */
+/* <button>{navigate.language} <Language /></button> */

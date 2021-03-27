@@ -3,12 +3,26 @@ import { Link } from "gatsby";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 import { connect } from "react-redux";
-
 import JSONData_ru from "../../../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../../../content/locales/en/translation_en.json";
+import ExploreOutlinedIcon from '@material-ui/icons/ExploreOutlined';
+import SyncAltRoundedIcon from '@material-ui/icons/SyncAltRounded';
+import SwitchVideoOutlinedIcon from '@material-ui/icons/SwitchVideoOutlined';
+import FourKOutlinedIcon from '@material-ui/icons/FourKOutlined';
+import MergeTypeOutlinedIcon from '@material-ui/icons/MergeTypeOutlined';
+import WidgetsOutlinedIcon from '@material-ui/icons/WidgetsOutlined';
+import DonutSmallOutlinedIcon from '@material-ui/icons/DonutSmallOutlined';
+import SettingsEthernetOutlinedIcon from '@material-ui/icons/SettingsEthernetOutlined';
+import FilterDramaOutlinedIcon from '@material-ui/icons/FilterDramaOutlined';
+import LiveTvOutlinedIcon from '@material-ui/icons/LiveTvOutlined';
+import QueueOutlinedIcon from '@material-ui/icons/QueueOutlined';
+import CallSplitOutlinedIcon from '@material-ui/icons/CallSplitOutlined';
+import CategoryOutlinedIcon from '@material-ui/icons/CategoryOutlined';
+import ShuffleOutlinedIcon from '@material-ui/icons/ShuffleOutlined';
+import GraphicEqOutlinedIcon from '@material-ui/icons/GraphicEqOutlined';
 
 import "./TreeSolution.scss";
 
@@ -34,37 +48,44 @@ class TreeSolution extends React.Component {
     return (
       <div className="TreeSolution">
         <ListItem className="ListButton" onClick={this.handleClick}>
-           <ListItemText inset primary={navigate.solution} />
-          {this.state.open ? <ExpandMore /> : <ExpandLess />}
+        <ExploreOutlinedIcon /> <ListItemText inset primary={navigate.solution} />
+        {this.state.open ? < RemoveIcon /> : <AddIcon />}
         </ListItem>
         <Collapse in={this.state.open}>
           <div className="buttonLeft">
           <Link to="/solution/commutation">
-            <button>{solution.commutation}</button>
+            <button><CallSplitOutlinedIcon />{solution.commutation}</button>
           </Link>
           <Link to="/solution/fiber">
-            <button>{solution.fiber}</button>
+            <button><SettingsEthernetOutlinedIcon/> {solution.fiber}</button>
           </Link>
           <Link to="/solution/stream">
-            <button> {solution.stream}</button>
+            <button> <FilterDramaOutlinedIcon/>{solution.stream}</button>
           </Link>
           <Link to="/solution/mixing">
-            <button>{solution.mixing}</button>
+            <button>
+              <ShuffleOutlinedIcon />
+              {/* <SwitchVideoOutlinedIcon /> */}
+              {solution.mixing}</button>
           </Link>
           <Link to="/solution/video">
-            <button>{solution.video}</button>
+            <button><LiveTvOutlinedIcon /> {solution.video}</button>
           </Link>
           <Link to="/solution/audio">
-            <button> {solution.audio}</button>
+            <button> <GraphicEqOutlinedIcon />
+              {solution.audio}</button>
           </Link>
           <Link to="/solution/sync-system">
-            <button>{solution.syncSystem}</button>
+            <button><SyncAltRoundedIcon/>{solution.syncSystem}</button>
           </Link>
           <Link to="/solution/modul-system">
-            <button>{solution.modulSystem}</button>
+            <button>
+              {/* <CategoryOutlinedIcon /> */}
+            <DonutSmallOutlinedIcon />
+            {solution.modulSystem}</button>
           </Link>
           <Link to="/solution/accessory">
-            <button>{solution.accessory}</button>
+            <button><QueueOutlinedIcon />{solution.accessory}</button>
           </Link>
           </div>
         </Collapse>

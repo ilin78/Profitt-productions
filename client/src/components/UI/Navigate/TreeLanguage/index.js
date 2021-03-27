@@ -2,14 +2,17 @@ import React from "react";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Collapse from "@material-ui/core/Collapse";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
+import LanguageIcon from '@material-ui/icons/Language';
 import { connect } from "react-redux";
 import Language from "../../../layout/Layout/Header/Language";
 import JSONData_ru from "../../../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../../../content/locales/en/translation_en.json";
 
 import "./TreeLanguage.scss";
+
+
 
 class TreeLanguage extends React.Component {
   state = {
@@ -31,8 +34,8 @@ class TreeLanguage extends React.Component {
     return (
       <div className="TreeLanguage">
         <ListItem className="ListButton" onClick={this.handleClick}>
-          <ListItemText inset primary={navigate.language} />
-          {this.state.open ? <ExpandMore /> : <ExpandLess />}
+          <LanguageIcon /><ListItemText inset primary={navigate.language} />
+          {this.state.open ? < RemoveIcon /> : <AddIcon />}
         </ListItem>
         <Collapse in={this.state.open}>
           <div className="buttonLeft">
