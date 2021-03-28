@@ -5,6 +5,8 @@ import JSONList_devices_ru from "../../../../content/locales/ru/devices_ru.json"
 import JSONList_devices_en from "../../../../content/locales/en/devices_en.json";
 import ListItem from "../ListItem";
 
+import "../ItemContent.scss"
+
 function Accessory({ isLanguage }) {
   let list_devices = null;
   if (isLanguage) {
@@ -14,11 +16,11 @@ function Accessory({ isLanguage }) {
   }
 
   return (
-    <div className="">
+    <div className="ItemContent">
       {list_devices.map((list, index) => {
         if (list.div_access === "Eсть" || list.div_access === "Yes") {
           return (
-            <div>
+            <div className="ItemContent__wrapper">
               <ListItem
                 key={index}
                 name={list.name}

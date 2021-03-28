@@ -24,7 +24,6 @@ import CategoryOutlinedIcon from '@material-ui/icons/CategoryOutlined';
 import ShuffleOutlinedIcon from '@material-ui/icons/ShuffleOutlined';
 import GraphicEqOutlinedIcon from '@material-ui/icons/GraphicEqOutlined';
 
-import "./TreeSolution.scss";
 
 class TreeSolution extends React.Component {
   state = {

@@ -14,11 +14,11 @@ function FiberSystem({ isLanguage }) {
   }
 
   return (
-    <div className="">
+    <div className="ItemContent">
       {list_devices.map((list, index) => {
         if (list.div_fiber === "Eсть" || list.div_fiber === "Yes") {
           return (
-            <div>
+            <div className="ItemContent__wrapper">
               <ListItem
                 key={index}
                 name={list.name}

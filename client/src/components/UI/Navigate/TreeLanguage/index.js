@@ -10,9 +10,6 @@ import Language from "../../../layout/Layout/Header/Language";
 import JSONData_ru from "../../../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../../../content/locales/en/translation_en.json";
 
-import "./TreeLanguage.scss";
-
-
 
 class TreeLanguage extends React.Component {
   state = {

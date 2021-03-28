@@ -14,11 +14,11 @@ function Commutation({ isLanguage }) {
   }
 
   return (
-    <div className="">
+    <div className="ItemContent">
       {list_devices.map((list, index) => {
         if (list.div_commut === "Eсть" || list.div_commut === "Yes") {
           return (
-            <div>
+            <div className="ItemContent__wrapper">
               <ListItem
                 key={index}
                 name={list.name}

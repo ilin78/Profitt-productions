@@ -14,11 +14,11 @@ function Mixing({ isLanguage }) {
   }
 
   return (
-    <div className="">
+    <div className="ItemContent">
       {list_devices.map((list, index) => {
         if (list.div_mixing === "Eсть" || list.div_mixing === "Yes") {
           return (
-            <div>
+            <div className="ItemContent__wrapper">
               <ListItem
                 key={index}
                 name={list.name}

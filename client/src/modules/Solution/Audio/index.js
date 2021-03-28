@@ -14,11 +14,11 @@ function Audio({ isLanguage }) {
   }
 
   return (
-    <div className="">
+    <div className="ItemContent">
       {list_devices.map((list, index) => {
         if (list.div_audio === "Eсть" || list.div_audio === "Yes") {
           return (
-            <div>
+            <div className="ItemContent__wrapper">
               <ListItem
                 key={index}
                 name={list.name}
