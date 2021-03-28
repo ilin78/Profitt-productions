@@ -48,41 +48,41 @@ class TreeSolution extends React.Component {
     return (
       <div className="TreeSolution">
         <ListItem className="ListButton" onClick={this.handleClick}>
-        <ExploreOutlinedIcon /><><ListItemText inset primary={navigate.solution} /></>
+        <ExploreOutlinedIcon fontSize="small"/><><ListItemText inset primary={navigate.solution} /></>
         {this.state.open ? < RemoveIcon /> : <AddIcon />}
         </ListItem>
         <Collapse in={this.state.open}>
           <div className="buttonLeft">
           <Link to="/solution/commutation">
-            <button><CallSplitOutlinedIcon /><div>{solution.commutation}</div></button>
+            <button><CallSplitOutlinedIcon fontSize="small" /><div>{solution.commutation}</div></button>
           </Link>
           <Link to="/solution/fiber">
-            <button><SettingsEthernetOutlinedIcon/><div>{solution.fiber}</div></button>
+            <button><SettingsEthernetOutlinedIcon fontSize="small"/><div>{solution.fiber}</div></button>
           </Link>
           <Link to="/solution/stream">
-            <button> <FilterDramaOutlinedIcon/><div>{solution.stream}</div></button>
+            <button> <FilterDramaOutlinedIcon fontSize="small"/><div>{solution.stream}</div></button>
           </Link>
           <Link to="/solution/mixing">
             <button>
-              <ShuffleOutlinedIcon /><div>{solution.mixing}</div></button>
+              <ShuffleOutlinedIcon fontSize="small"/><div>{solution.mixing}</div></button>
               {/* <SwitchVideoOutlinedIcon /> */}
           </Link>
           <Link to="/solution/video">
-            <button><LiveTvOutlinedIcon /><div>{solution.video}</div></button>
+            <button><LiveTvOutlinedIcon fontSize="small"/><div>{solution.video}</div></button>
           </Link>
           <Link to="/solution/audio">
-            <button> <GraphicEqOutlinedIcon /><div>{solution.audio}</div></button>
+            <button> <GraphicEqOutlinedIcon fontSize="small"/><div>{solution.audio}</div></button>
           </Link>
           <Link to="/solution/sync-system">
-            <button><SyncAltRoundedIcon/><div>{solution.syncSystem}</div></button>
+            <button><SyncAltRoundedIcon fontSize="small"/><div>{solution.syncSystem}</div></button>
           </Link>
           <Link to="/solution/modul-system">
             <button>
               {/* <CategoryOutlinedIcon /> */}
-            <DonutSmallOutlinedIcon /><div>{solution.modulSystem}</div></button>
+            <DonutSmallOutlinedIcon fontSize="small"/><div>{solution.modulSystem}</div></button>
           </Link>
           <Link to="/solution/accessory">
-            <button><QueueOutlinedIcon /><div>{solution.accessory}</div></button>
+            <button><QueueOutlinedIcon fontSize="small"/><div>{solution.accessory}</div></button>
           </Link>
           </div>
         </Collapse>
