@@ -48,7 +48,7 @@ class TreeSolution extends React.Component {
     return (
       <div className="TreeSolution">
         <ListItem className="ListButton" onClick={this.handleClick}>
-        <ExploreOutlinedIcon /> <ListItemText inset primary={navigate.solution} />
+        <ExploreOutlinedIcon /><ListItemText inset primary={navigate.solution} />
         {this.state.open ? < RemoveIcon /> : <AddIcon />}
         </ListItem>
         <Collapse in={this.state.open}>
@@ -57,7 +57,7 @@ class TreeSolution extends React.Component {
             <button><CallSplitOutlinedIcon />{solution.commutation}</button>
           </Link>
           <Link to="/solution/fiber">
-            <button><SettingsEthernetOutlinedIcon/> {solution.fiber}</button>
+            <button><SettingsEthernetOutlinedIcon/>{solution.fiber}</button>
           </Link>
           <Link to="/solution/stream">
             <button> <FilterDramaOutlinedIcon/>{solution.stream}</button>

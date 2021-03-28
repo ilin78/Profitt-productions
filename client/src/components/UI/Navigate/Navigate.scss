@@ -1,4 +1,4 @@
-$Nav-maxWidth: 290px;
+$Nav-maxWidth: 300px;
 $Nav-MarginTop: 55px;
 
 .MuiList-root {
@@ -12,8 +12,9 @@ $Nav-MarginTop: 55px;
 }
 
 .Navigate {
-  max-width: $Nav-maxWidth;
+
   &__list {
+    max-width: $Nav-maxWidth;
     overflow-y: scroll;
     width: 100%;
     height: 100px;
@@ -21,8 +22,11 @@ $Nav-MarginTop: 55px;
     padding-bottom: 200px;
   }
   &__list button {
+    display: flex;
+    align-items: center;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 1px 0;
     height: 50px;
     width: $Nav-maxWidth;
@@ -120,7 +124,26 @@ $Nav-MarginTop: 55px;
   border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
   background-color: #4e4e4e05;
 }
+.ListButton {
+  padding-left: 20px !important;
+}
 
 .buttonLeft button {
   padding-left: 60px;
+}
+
+// Для списков - влияет на расположение элементов внутри button
+.MuiListItemText-root {
+  // flex: 0 auto;
+  // min-width: 0;
+  // width: 250px;
+  // margin-top: 4px;
+  // margin-bottom: 4px;
+}
+.MuiListItem-gutters {
+}
+
+// Регулирование растояния от icon
+.MuiListItemText-inset {
+  padding-left: 1px !important; 
 }
