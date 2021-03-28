@@ -69,7 +69,7 @@ function Navigate({ isLanguage }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="siteProfitt"><ImportantDevicesIcon /> Profitt.ru</button>
+          <button className="siteProfitt"><ImportantDevicesIcon/><div>Profitt.ru</div></button>
         </a>
         <div>
           <TreeLanguage />
@@ -77,16 +77,19 @@ function Navigate({ isLanguage }) {
         <div>
           <nav className="navigate__link">
             <Link to="/">
-              <button> <HomeOutlinedIcon/> {navigate.productions} <FiberNewOutlinedIcon color="secondary"/> </button>
+              <button> <HomeOutlinedIcon /><div>{navigate.productions}</div>
+                {/*  FiberNewOutlinedIcon - использовать в сл. появ. нового прод.  */}
+                {/* <FiberNewOutlinedIcon color="secondary"/>  */}
+              </button>
             </Link>
             <div>
               <TreeSolution />
             </div>
             <Link to="/support/">
-              <button> <ContactSupportOutlinedIcon/>{navigate.support} </button>
+              <button><ContactSupportOutlinedIcon /><div>{navigate.support}</div></button>
             </Link>
             <Link to="/about/">
-              <button> <InfoOutlinedIcon/> {navigate.about} </button>
+              <button> <InfoOutlinedIcon /><div>{navigate.about}</div></button>
             </Link>
           </nav>
         </div>

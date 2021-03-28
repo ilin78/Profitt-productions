@@ -11,8 +11,8 @@ $Nav-MarginTop: 55px;
   max-width: $Nav-maxWidth;
 }
 
-.Navigate {
 
+.Navigate {
   &__list {
     max-width: $Nav-maxWidth;
     overflow-y: scroll;
@@ -38,12 +38,15 @@ $Nav-MarginTop: 55px;
     border: none;
     border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
     background-color: #4e4e4e05;
+    & div {
+      padding-left: 15px;
+    }
   }
 }
 
 .MuiBackdrop-root {
   background-color: #4e4e4e05;
-  cursor:grab;
+  cursor: grab;
   height: 100%;
   border-radius: 5px;
 }
@@ -81,7 +84,7 @@ $Nav-MarginTop: 55px;
   -moz-backdrop-filter: blur(20px);
   -o-backdrop-filter: blur(20px);
   -ms-backdrop-filter: blur(20px);
- }
+}
 
 .MuiDrawer-paperAnchorLeft {
 }
@@ -119,7 +122,7 @@ $Nav-MarginTop: 55px;
 }
 
 .ListButton {
-  cursor:pointer;
+  cursor: pointer;
   border: none;
   border-bottom: rgba(0, 0, 0, 0.08) solid 0.5px;
   background-color: #4e4e4e05;
@@ -129,7 +132,7 @@ $Nav-MarginTop: 55px;
 }
 
 .buttonLeft button {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 // Для списков - влияет на расположение элементов внутри button
@@ -145,5 +148,5 @@ $Nav-MarginTop: 55px;
 
 // Регулирование растояния от icon
 .MuiListItemText-inset {
-  padding-left: 1px !important; 
+  padding-left: 15px !important;
 }
