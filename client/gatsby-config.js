@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     {
+      // resolve: `gatsby-theme-material-ui`,
       resolve: `gatsby-plugin-material-ui`,
       options: {
         stylesProvider: {

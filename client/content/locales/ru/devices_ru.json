@@ -13,10 +13,10 @@
         "div_sync": "Есть",
         "div_modul": "Есть",
         "div_access": "Есть",
-        "type_pbx": "ProBox",
-        "type_next": "PROFNEXT",
-        "type_lex": "PROFLEX",
-        "type_stand": "Standalone Devices",
+        "type": "ProBox",
+        "type1": "PROFNEXT",
+        "type2": "PROFLEX",
+        "type3": "Standalone Devices",
         "div_ETHERNET": "Есть",
         "link": ""
       },
@@ -26,7 +26,7 @@
           "discription": "Двухканальный коммутатор резерва ASI T2-MI бесшовный",
           "div_commut": "Eсть",
           "div_stream": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "link": ""
         },
         {
@@ -34,7 +34,7 @@
           "discription": "Двухканальный коммутатор резерва ASI T2-MI",
           "div_commut": "Eсть",
           "div_stream": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "link": ""
         },
         {
@@ -43,7 +43,7 @@
           "div_commut": "Eсть",
           "div_stream": "Eсть",
           "div_modul": "Eсть",
-          "type_stand": "PROFNEXT",
+          "type": "PROFNEXT",
           "link": ""
         },
         {
@@ -53,7 +53,7 @@
           "div_video": "Eсть",
           "div_sync": "Eсть",
           "div_modul": "Eсть",
-          "type_lex": "PROFLEX",
+          "type": "PROFLEX",
           "link": ""
         },
         {
@@ -63,7 +63,7 @@
           "div_video": "Eсть",
           "div_sync": "Eсть",
           "div_modul": "Eсть",
-          "type_next": "PROFNEXT",
+          "type": "PROFNEXT",
           "link": ""
         },
         {
@@ -73,7 +73,7 @@
           "div_fiber": "Eсть",
           "div_mixing": "Eсть",
           "div_video": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "link": ""
         },
         {
@@ -83,7 +83,7 @@
           "div_fiber": "Eсть",
           "div_video": "Eсть",
           "div_ETHERNET": "Eсть",
-          "type_pbx": "ProBox",
+          "type": "ProBox",
           "link": ""
         },
         {
@@ -93,7 +93,7 @@
           "div_fiber": "Eсть",
           "div_video": "Eсть",
           "div_ETHERNET": "Eсть",
-          "type_pbx": "ProBox",
+          "type": "ProBox",
           "link": ""
         },
         {
@@ -102,7 +102,7 @@
           "div_fiber": "Eсть",
           "div_stream": "Eсть",
           "div_video": "Eсть",
-          "type_next": "PROFNEXT",
+          "type": "PROFNEXT",
           "link": ""
         },
         {
@@ -111,7 +111,7 @@
           "div_fiber": "Eсть",
           "div_video": "Eсть",
           "div_audio": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": ""
         },
@@ -119,7 +119,7 @@
           "name": "PBX-ENP-200",
           "discription": "Конвертор двунаправленный TSOIP-DVB-ASI",
           "div_stream": "Eсть",
-          "type_pbx": "ProBox",
+          "type": "ProBox",
           "div_ETHERNET": "Eсть",
           "link": ""
         },
@@ -130,7 +130,7 @@
           "div_mixing": "Eсть",
           "div_video": "Eсть",
           "div_audio": "Eсть",
-          "type_pbx": "ProBox",
+          "type": "ProBox",
           "div_ETHERNET": "Eсть",
           "link": ""
         },
@@ -143,7 +143,7 @@
           "div_audio": "Eсть",
           "div_modul": "Eсть",
           "div_ETHERNET": "Eсть",
-          "type_next": "PROFNEXT",
+          "type": "PROFNEXT",
           "link": ""
         },
         {
@@ -154,7 +154,7 @@
           "div_video": "Eсть",
           "div_audio": "Eсть",
           "div_sync": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "link": ""
         },
         {
@@ -162,7 +162,7 @@
           "discription": "Мультиэкран 3G/HD/SD-SDI на 8 входов",
           "div_stream": "Eсть",
           "div_video": "Eсть",
-          "type_pbx": "ProBox",
+          "type": "ProBox",
           "div_ETHERNET": "Eсть",
           "link": ""
         },
@@ -172,7 +172,7 @@
           "div_video": "Eсть",
           "div_sync": "Eсть",
           "div_modul": "Eсть",
-          "type_pbx": "ProBox",
+          "type": "ProBox",
           "link": ""
         },
         {
@@ -181,7 +181,7 @@
           "div_stream": "Eсть",
           "div_video": "Eсть",
           "div_modul": "Eсть",
-          "type_next": "PROFNEXT",
+          "type": "PROFNEXT",
           "link": ""
         },
         {
@@ -191,7 +191,7 @@
           "div_fiber": "Eсть",
           "div_stream": "Eсть",
           "div_audio": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": ""
         },
@@ -200,7 +200,7 @@
           "discription": "Вещательный аудиокоммутатор резерва",
           "div_commut": "Eсть",
           "div_audio": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "link": ""
         },
         {
@@ -209,7 +209,7 @@
           "div_commut": "Eсть",
           "div_audio": "Eсть",
           "div_modul": "Eсть",
-          "type_next": "PROFNEXT",
+          "type": "PROFNEXT",
           "link": ""
         },
         {
@@ -218,7 +218,7 @@
           "div_commut": "Eсть",
           "div_audio": "Eсть",
           "div_modul": "Eсть",
-          "type_lex": "PROFLEX",
+          "type": "PROFLEX",
           "link": ""
         },
         {
@@ -227,7 +227,7 @@
           "div_video": "Eсть",
           "div_audio": "Eсть",
           "div_sync": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": ""
         },
@@ -237,7 +237,7 @@
           "div_commut": "Eсть",
           "div_video": "Eсть",
           "div_audio": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "link": ""
         },
         {
@@ -246,7 +246,7 @@
           "div_sync": "Eсть",
           "div_video": "Eсть",
           "div_audio": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": ""
         },
@@ -255,7 +255,7 @@
           "discription": "Сервер точного времени (NTP сервер, приемник GPS/GLONASS, генератор LTC, 1pps, 10МГц)",
           "div_sync": "Eсть",
           "div_access": "Eсть",
-          "type_stand": "Standalone Devices",
+          "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": ""
         }

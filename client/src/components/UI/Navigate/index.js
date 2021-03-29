@@ -8,7 +8,7 @@ import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import ContactSupportOutlinedIcon from '@material-ui/icons/ContactSupportOutlined';
-import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
+// import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
 import { Link } from "gatsby";
 import { connect } from "react-redux";
 import JSONData_ru from "../../../../content/locales/ru/translation_ru.json";

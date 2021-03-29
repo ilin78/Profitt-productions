@@ -1,0 +1,41 @@
+.ListItem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 5px;
+    &__btn {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        border-radius: 10px;
+        border: #dbdbdb solid 1px;
+        background-color: rgba(240, 240, 240, 0.075);
+        overflow: hidden;
+    }
+    &__container {
+        width: 100%;
+        height: 100%;
+        &_type {
+            font-size: 16px;
+            width:100%;
+            height: 50px;
+            padding-top:15px;
+        }
+        &_img {
+            background-color: #fff;
+            width:100%;
+            height: 250px;
+        }
+        &_name {
+            letter-spacing: 0.1em;
+            color: rgb(0, 132, 255);
+            font-weight: 700;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        &_discription {
+            padding: 0 10px;
+            margin-top: 10px;
+        }
+    }
+}

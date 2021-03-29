@@ -10,20 +10,14 @@ import JSONData_ru from "../../../../../content/locales/ru/translation_ru.json";
 import JSONData_en from "../../../../../content/locales/en/translation_en.json";
 import ExploreOutlinedIcon from '@material-ui/icons/ExploreOutlined';
 import SyncAltRoundedIcon from '@material-ui/icons/SyncAltRounded';
-import SwitchVideoOutlinedIcon from '@material-ui/icons/SwitchVideoOutlined';
-import FourKOutlinedIcon from '@material-ui/icons/FourKOutlined';
-import MergeTypeOutlinedIcon from '@material-ui/icons/MergeTypeOutlined';
-import WidgetsOutlinedIcon from '@material-ui/icons/WidgetsOutlined';
 import DonutSmallOutlinedIcon from '@material-ui/icons/DonutSmallOutlined';
 import SettingsEthernetOutlinedIcon from '@material-ui/icons/SettingsEthernetOutlined';
 import FilterDramaOutlinedIcon from '@material-ui/icons/FilterDramaOutlined';
 import LiveTvOutlinedIcon from '@material-ui/icons/LiveTvOutlined';
 import QueueOutlinedIcon from '@material-ui/icons/QueueOutlined';
 import CallSplitOutlinedIcon from '@material-ui/icons/CallSplitOutlined';
-import CategoryOutlinedIcon from '@material-ui/icons/CategoryOutlined';
 import ShuffleOutlinedIcon from '@material-ui/icons/ShuffleOutlined';
 import GraphicEqOutlinedIcon from '@material-ui/icons/GraphicEqOutlined';
-
 
 class TreeSolution extends React.Component {
   state = {
@@ -94,3 +88,10 @@ export default connect(
   (state) => ({ isLanguage: state.app.isLanguage }),
   null
 )(TreeSolution);
+
+
+// import CategoryOutlinedIcon from '@material-ui/icons/CategoryOutlined';
+// import SwitchVideoOutlinedIcon from '@material-ui/icons/SwitchVideoOutlined';
+// import FourKOutlinedIcon from '@material-ui/icons/FourKOutlined';
+// import MergeTypeOutlinedIcon from '@material-ui/icons/MergeTypeOutlined';
+// import WidgetsOutlinedIcon from '@material-ui/icons/WidgetsOutlined';

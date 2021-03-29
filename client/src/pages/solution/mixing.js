@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Solution from "../../modules/Solution";
-import Mixing from "../../modules/Solution/Mixing";
+import Mixing from "../../modules/Solution/Category/Mixing";
 
 export default function MixingPage() {
   return (

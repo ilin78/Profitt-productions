@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/layout/Layout";
 import Solution from "../../modules/Solution";
-import Video from "../../modules/Solution/Video";
+import Video from "../../modules/Solution/Category/Video";
 
 export default function VideoPage() {
   return (
