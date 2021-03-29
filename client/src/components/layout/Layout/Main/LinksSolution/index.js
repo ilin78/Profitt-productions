@@ -14,7 +14,7 @@ function LinksSolution({ isLanguage }) {
   }
 
   return (
-        <div className="">
+        <div className="LinksSolution">
           <a
             href="http://www.profitt.ru"
             target="_blank"
