@@ -10,7 +10,7 @@ export default function General() {
         <div className="general__content">
           <div className="divisions">
             <div className="divisions__next">
-              <div className="divisions-standalone">
+              {/* <div className="divisions-standalone">
                 <button>solo_standev</button>
               </div>
               <div className="divisions-probox">
@@ -18,7 +18,7 @@ export default function General() {
               </div>
               <div className="divisions-profnext">
                 <button>solo_profnext</button>
-              </div>
+              </div> */}
             </div>
           </div>
        <div className="purposes">

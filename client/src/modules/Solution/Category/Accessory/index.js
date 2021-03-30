@@ -5,7 +5,7 @@ import JSONList_devices_ru from "../../../../../content/locales/ru/devices_ru.js
 import JSONList_devices_en from "../../../../../content/locales/en/devices_en.json";
 import ListItem from "../../../../components/ListItem";
 
-import "../Category.scss"
+import "../Category.scss";
 
 function Accessory({ isLanguage }) {
   let list_devices = null;
@@ -16,27 +16,27 @@ function Accessory({ isLanguage }) {
   }
 
   return (
-    <div className="ItemContent">
-      {list_devices.map((list, index) => {
-        if (list.div_access === "Eсть" || list.div_access === "Yes") {
-          return (
-            <div className="ItemContent__wrapper">
+    <div className="Category">
+      <div className="Category__item">
+        {list_devices.map((list, index) => {
+          if (list.div_access === "Eсть" || list.div_access === "Yes") {
+            return (
               <ListItem
                 key={index}
                 name={list.name}
                 discription={list.discription}
                 type={list.type}
               />
-            </div>
-          );
-        } else {
-          return null
-        }
-      })}
+            );
+          } else {
+            return null;
+          }
+        })}
+      </div>
     </div>
   );
 }
- 
+
 export default connect(
   (state) => ({
     isLanguage: state.app.isLanguage,

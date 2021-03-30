@@ -14,27 +14,27 @@ function Audio({ isLanguage }) {
   }
 
   return (
-    <div className="ItemContent">
-      {list_devices.map((list, index) => {
-        if (list.div_audio === "Eсть" || list.div_audio === "Yes") {
-          return (
-            <div className="ItemContent__wrapper">
+    <div className="Category">
+      <div className="Category__item">
+        {list_devices.map((list, index) => {
+          if (list.div_audio === "Eсть" || list.div_audio === "Yes") {
+            return (
               <ListItem
                 key={index}
                 name={list.name}
                 discription={list.discription}
                 type={list.type}
               />
-            </div>
-          );
-        } else {
-          return null
-        }
-      })}
+            );
+          } else {
+            return null;
+          }
+        })}
+      </div>
     </div>
   );
 }
- 
+
 export default connect(
   (state) => ({
     isLanguage: state.app.isLanguage,

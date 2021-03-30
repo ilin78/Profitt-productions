@@ -43,9 +43,10 @@
   height: 100%;
   display: flex;
   justify-content: center;
+  padding-bottom: 150px;
   &__next .LinksSolution{
     display:grid;
-    grid-template:  repeat(4, 1fr) /  repeat(4, 1fr );  // РЯДЫ / КОЛОНКИ
+    grid-template:  repeat(4, 1fr) /  repeat(4,  minmax(200px, 300px) );  // РЯДЫ / КОЛОНКИ
     row-gap: 20px;
     column-gap: 20px;
     max-width: 1600px;
@@ -58,7 +59,7 @@
       font-weight: 600;
       text-align: left;
       vertical-align: middle;
-      color: hsl(210, 88%, 33%);
+      color: #0a549e;
       text-align: left;
       padding: 0 24px;
       white-space: normal;
@@ -73,29 +74,22 @@
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1400px) {
   .purposes {
-    &__next {
+    &__next .LinksSolution{
       display: grid;
-      grid-template: repeat(5, 1fr) / repeat(3, 1fr); // РЯДЫ / КОЛОНКИ
+      grid-template: repeat(5, 1fr) / repeat(2,  minmax(200px, 600px)); // РЯДЫ / КОЛОНКИ
     }
   }
 }
 
-@media screen and (max-width: 580px) {
+
+
+@media screen and (max-width: 900px) {
   .purposes {
-    width: 100%;
-    &__next {
-      max-width: 100%;
-      margin: 0 14px;
-      margin-bottom: 20px;
-      width: 100%;
+    &__next .LinksSolution{
       display: grid;
-      grid-template: repeat(5, 1fr) / repeat(1, 1fr); // РЯДЫ / КОЛОНКИ
-      row-gap: 8px;
-      button {
-        width: 100%;
-      }
+      grid-template: repeat(5, 1fr) / repeat(1, minmax(200px, 600px)); // РЯДЫ / КОЛОНКИ
     }
   }
 }

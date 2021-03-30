@@ -5,7 +5,7 @@ import JSONList_devices_ru from "../../../../../content/locales/ru/devices_ru.js
 import JSONList_devices_en from "../../../../../content/locales/en/devices_en.json";
 import ListItem from "../../../../components/ListItem";
 
-import "../Category.scss"
+import "../Category.scss";
 
 function Video({ isLanguage }) {
   let list_devices = null;
@@ -16,23 +16,23 @@ function Video({ isLanguage }) {
   }
 
   return (
-    <div className="ItemContent">
-      {list_devices.map((list, index) => {
-        if (list.div_sync === "Eсть" || list.div_sync === "Yes") {
-          return (
-            <div className="ItemContent__wrapper">
+    <div className="Category">
+      <div className="Category__item">
+        {list_devices.map((list, index) => {
+          if (list.div_sync === "Eсть" || list.div_sync === "Yes") {
+            return (
               <ListItem
                 key={index}
                 name={list.name}
                 discription={list.discription}
                 type={list.type}
               />
-            </div>
-          );
-        } else {
-          return null
-        }
-      })}
+            );
+          } else {
+            return null;
+          }
+        })}
+      </div>
     </div>
   );
 }
