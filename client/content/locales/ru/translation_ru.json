@@ -14,13 +14,13 @@
       "devices": [
         {
           "name": "PAC-4220",
-          "task": "Коммутатор резерва DVB-ASI",
+          "task": "Коммутатор резерва DVB-ASI бесшовный",
           "options": "Cоздан для резервирования одного или двух критически важных потоков DVB-ASI TS (MPEG T2-MI).",
           "other": "",
           "img_A": "4220_A",
           "img_B": "4220_B",
           "img_C": "null",
-          "link": "",
+          "link": "/category/standalone/pac-4220",
           "next": "Перейти",
           "info": "Узнать больше"
         },
@@ -32,7 +32,7 @@
           "img_A": "326_B",
           "img_B": "null",
           "img_C": "null",
-          "link": "",
+          "link": "/category/profnext/pn-cas-326",
           "next": "Перейти",
           "info": "Узнать больше"
         },
@@ -44,7 +44,7 @@
           "img_A": "200_A",
           "img_B": "null",
           "img_C": "null",
-          "link": "",
+          "link": "/category/pbx/pbx-enp-200",
           "next": "Перейти",
           "info": "Узнать больше"
         },
@@ -56,7 +56,7 @@
           "img_A": "500_A",
           "img_B": "null",
           "img_C": "null",
-          "link": "",
+          "link": "/category/pbx/pbx-str-500",
           "next": "Перейти",
           "info": "Узнать больше"
         },
@@ -68,7 +68,7 @@
           "img_A": "508_A",
           "img_B": "null",
           "img_C": "null",
-          "link": "",
+          "link": "/category/pbx/pbx-mtv-508",
           "next": "Перейти",
           "info": "Узнать больше"
         },
@@ -80,7 +80,7 @@
           "img_A": "2059_B",
           "img_B": "null",
           "img_C": "null",
-          "link": "",
+          "link": "/category/standalone/psgp-2059",
           "next": "Перейти",
           "info": "Узнать больше"
         },
@@ -92,7 +92,7 @@
           "img_A": "5021_A",
           "img_B": "5021_B1",
           "img_C": "5021_C",
-          "link": "",
+          "link": "/category/standalone/pntp-2051",
           "next": "Перейти",
           "info": "Узнать больше"
         },
@@ -104,7 +104,7 @@
           "img_A": "055",
           "img_B": "055_B",
           "img_C": "null",
-          "link": "",
+          "link": "/category/profnext/pn-cse-055",
           "next": "Перейти",
           "info": "Узнать больше"
         }

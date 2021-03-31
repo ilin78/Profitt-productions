@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "../../../components/Image";
+import { Link } from "gatsby";
 
 export default function ListDevice(props) {
   return (
@@ -15,10 +16,12 @@ export default function ListDevice(props) {
             <div className="blocks__devices_discription-other">
               {props.other}
             </div>
-            <div className="blocks__devices_discription-link">{props.link}</div>
+            {/* <div className="blocks__devices_discription-link">{props.link}</div> */}
+            <Link to={props.link}>
             <div className="learn-btn">
-              <button>{props.info}</button>
+              <button >{props.info}</button>
             </div>
+            </Link>
           </div>
         </div>
         <div className="blocks__image">
