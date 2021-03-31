@@ -1,5 +1,5 @@
 import React from "react";
-import Device from "./Device";
+import ListDevice from "./ListDevice";
 import { connect } from "react-redux";
 
 import JSONData_ru from "../../../content/locales/ru/translation_ru.json";
@@ -22,7 +22,7 @@ class Production extends React.Component {
           {devices.map((device, index) => {
             return (
               <div className={"containerDevices__" + index}>
-                <Device
+                <ListDevice
                   key={index}
                   name={device.name}
                   task={device.task}
@@ -31,6 +31,7 @@ class Production extends React.Component {
                   img_A={device.img_A}
                   img_B={device.img_B}
                   img_C={device.img_C}
+                  info={device.info}
                   link={device.link}
                 />
               </div>

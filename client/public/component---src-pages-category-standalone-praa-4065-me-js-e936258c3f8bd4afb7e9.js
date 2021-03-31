@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[309],{5547:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PRAA4065ME")}}}]);
+//# sourceMappingURL=component---src-pages-category-standalone-praa-4065-me-js-e936258c3f8bd4afb7e9.js.map

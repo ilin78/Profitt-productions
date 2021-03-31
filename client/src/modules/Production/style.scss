@@ -332,11 +332,11 @@
     }
   }
   .Production {
-    height: 485px;
+    height: 550px;
     width: 100%;
   }
   .blocks {
-    height: 500px;
+    height: 550px;
     width: 100%;
     display: flex;
 
@@ -349,6 +349,7 @@
         display: flex;
         justify-content: center;
         padding-top: 50px;
+        padding-bottom: 0px;
       }
       &_discription {
         font-size: 14px;
@@ -358,26 +359,43 @@
         align-items: center;
         text-align: center;
         max-width: 300px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
         &-task {
           font-size: 18px;
-          padding-top: 10px;
-          padding-right: 10px;
-          padding-left: 10px;
+          padding-top: 5px;
+          padding-right: 7px;
+          padding-left: 7px;
           display: flex;
           flex-direction: column;
           align-items: center;
         }
         &-options {
           font-size: 14px;
-          padding-top: 5px;
-          padding-right: 10px;
-          padding-left: 10px;
+          padding-top: 3px;
+          padding-right: 7px;
+          padding-left: 7px;
           display: flex;
           flex-direction: column;
           align-items: center;
         }
       }
     }
+  }
+}
+.learn-btn {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  & button {
+    font-size: 15px;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    color: hsl(0, 0%, 90%);
+    border: none;
+    background-color: #0069e5;
+  }
+  & button:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: #0053b3;
   }
 }

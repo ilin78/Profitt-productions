@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[15],{8366:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PDMX2106")}}}]);
+//# sourceMappingURL=component---src-pages-category-standalone-pdmx-2106-js-0aff16d820968469c810.js.map

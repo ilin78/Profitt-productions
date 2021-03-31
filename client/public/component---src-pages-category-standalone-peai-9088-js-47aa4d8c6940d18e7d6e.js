@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[322],{937:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PEAI9088")}}}]);
+//# sourceMappingURL=component---src-pages-category-standalone-peai-9088-js-47aa4d8c6940d18e7d6e.js.map

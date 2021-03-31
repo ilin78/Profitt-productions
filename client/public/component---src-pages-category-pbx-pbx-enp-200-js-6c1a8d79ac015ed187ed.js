@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[259],{7442:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PBXENP200")}}}]);
+//# sourceMappingURL=component---src-pages-category-pbx-pbx-enp-200-js-6c1a8d79ac015ed187ed.js.map

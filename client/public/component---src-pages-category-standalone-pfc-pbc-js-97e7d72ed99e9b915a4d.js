@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[707],{1389:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PFCPBC")}}}]);
+//# sourceMappingURL=component---src-pages-category-standalone-pfc-pbc-js-97e7d72ed99e9b915a4d.js.map
