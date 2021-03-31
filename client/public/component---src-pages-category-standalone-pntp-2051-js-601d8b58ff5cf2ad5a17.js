@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[155],{4830:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PNTP2051")}}}]);
-//# sourceMappingURL=component---src-pages-category-standalone-pntp-2051-js-601d8b58ff5cf2ad5a17.js.map

@@ -26,6 +26,7 @@ function Mixing({ isLanguage }) {
                 name={list.name}
                 discription={list.discription}
                 type={list.type}
+                link={list.link}
               />
             );
           } else {

@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[576],{3392:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PCOS7376")}}}]);
-//# sourceMappingURL=component---src-pages-category-proflex-pcos-7376-js-0fe1f2cd1343af4a7810.js.map

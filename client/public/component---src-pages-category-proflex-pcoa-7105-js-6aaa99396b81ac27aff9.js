@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[509],{4877:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PCOA7105")}}}]);
-//# sourceMappingURL=component---src-pages-category-proflex-pcoa-7105-js-6aaa99396b81ac27aff9.js.map

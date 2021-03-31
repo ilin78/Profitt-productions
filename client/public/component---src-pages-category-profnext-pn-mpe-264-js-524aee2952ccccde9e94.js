@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[321],{6880:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PNMPE264")}}}]);
-//# sourceMappingURL=component---src-pages-category-profnext-pn-mpe-264-js-524aee2952ccccde9e94.js.map

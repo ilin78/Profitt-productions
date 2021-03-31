@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[572],{6051:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return r}});var u=n(7294);function r(){return u.createElement("div",null,"PESI4259")}}}]);
-//# sourceMappingURL=component---src-pages-category-standalone-pesi-4259-js-6b9065f2e60162569360.js.map
