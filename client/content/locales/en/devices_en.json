@@ -16,30 +16,30 @@
         "type": "ProBox",
         "type1": "PROFNEXT",
         "type2": "PROFLEX",
-        "type3": "Standalone Devices",
+        "type3": "Standalone device",
         "div_ETHERNET": "Есть",
         "link": ""
       },
       "list_devices": [
         {
           "name": "PAC-4220",
-          "discription": "Двухканальный коммутатор резерва ASI T2-MI бесшовный",
+          "discription": "Seamless ASI T2-MI changeover",
           "div_commut": "Yes",
           "div_stream": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "link": ""
         },
         {
           "name": "PAC-4212",
-          "discription": "Двухканальный коммутатор резерва ASI T2-MI",
+          "discription": "ASI T2-MI changeover",
           "div_commut": "Yes",
           "div_stream": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "link": ""
         },
         {
           "name": "PN-CAS-326",
-          "discription": "Коммутатор резерва ASI T2-MI бесшовный",
+          "discription": "Seamless ASI T2-MI changeover",
           "div_commut": "Yes",
           "div_stream": "Yes",
           "div_modul": "Yes",
@@ -48,7 +48,7 @@
         },
         {
           "name": "PCOS-7376",
-          "discription": "Коммутатор резерва HD/SD SDI бесподрывный",
+          "discription": "Seamless HD/SD SDI changeover",
           "div_commut": "Yes",
           "div_video": "Yes",
           "div_sync": "Yes",
@@ -58,7 +58,7 @@
         },
         {
           "name": "PN-CSE-055",
-          "discription": "Коммутатор резерва HD/SD SDI бесподрывный",
+          "discription": "Seamless HD/SD SDI changeover",
           "div_commut": "Yes",
           "div_video": "Yes",
           "div_sync": "Yes",
@@ -68,17 +68,17 @@
         },
         {
           "name": "PN-CSE-055",
-          "discription": "3G/HD/SD эфирный коммутатор с “чистым” выходом",
+          "discription": "3G/HD/SD postproduction master switcher with \"clean\" output",
           "div_commut": "Yes",
           "div_fiber": "Yes",
           "div_mixing": "Yes",
           "div_video": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "link": ""
         },
         {
           "name": "PBX-MF-150 12G",
-          "discription": "Многоканальный 12G и ETHERNET транспорт",
+          "discription": "Multichannel transport for 12G and ETHERNET",
           "div_commut": "Yes",
           "div_fiber": "Yes",
           "div_video": "Yes",
@@ -88,7 +88,7 @@
         },
         {
           "name": "PBX-3T1R1",
-          "discription": "Многоканальный 3G-SDI и ETHERNET транспорт по одному волокну",
+          "discription": "Multichannel single-fiber transport for 12G and ETHERNET",
           "div_commut": "Yes",
           "div_fiber": "Yes",
           "div_video": "Yes",
@@ -98,7 +98,7 @@
         },
         {
           "name": "PN-TDM-066",
-          "discription": "Многканальный HD/SD-SDI передатчик CTM уплотнением",
+          "discription": "Multichannel HD/SD-SDI transmitter with STM",
           "div_fiber": "Yes",
           "div_stream": "Yes",
           "div_video": "Yes",
@@ -111,13 +111,13 @@
           "div_fiber": "Yes",
           "div_video": "Yes",
           "div_audio": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "div_ETHERNET": "Yes",
           "link": ""
         },
         {
           "name": "PBX-ENP-200",
-          "discription": "Конвертор двунаправленный TSOIP-DVB-ASI",
+          "discription": "Bidirectional TSOIP-DVB-ASI converter",
           "div_stream": "Yes",
           "type": "ProBox",
           "div_ETHERNET": "Yes",
@@ -125,7 +125,7 @@
         },
         {
           "name": "PBX-STR-500",
-          "discription": "Сервер потокового вещения H.264 ",
+          "discription": "H.264 streaming server",
           "div_stream": "Yes",
           "div_mixing": "Yes",
           "div_video": "Yes",
@@ -136,7 +136,7 @@
         },
         {
           "name": "PN-MPE-264",
-          "discription": "Кодер H.264 с входом HD/SD-SDI",
+          "discription": "HD/SD-SDI H.264 encoder",
           "div_stream": "Yes",
           "div_mixing": "Yes",
           "div_video": "Yes",
@@ -148,18 +148,18 @@
         },
         {
           "name": "PDMX-2106",
-          "discription": "HD-SDI эфирный микшер",
+          "discription": "HD-SDI postpruduction master switcher",
           "div_commut": "Yes",
           "div_mixing": "Yes",
           "div_video": "Yes",
           "div_audio": "Yes",
           "div_sync": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "link": ""
         },
         {
           "name": "PBX-MTV-508",
-          "discription": "Мультиэкран 3G/HD/SD-SDI на 8 входов",
+          "discription": "Eight-input 3G/HD/SD-SDI multiscreen",
           "div_stream": "Yes",
           "div_video": "Yes",
           "type": "ProBox",
@@ -168,7 +168,7 @@
         },
         {
           "name": "PBX-CC-300",
-          "discription": "Преобразователь стандартов разложения",
+          "discription": "Standard cross-converter",
           "div_video": "Yes",
           "div_sync": "Yes",
           "div_modul": "Yes",
@@ -177,7 +177,7 @@
         },
         {
           "name": "PN-MSC-030 + PN-MEX-031-XX",
-          "discription": "Модульный каскадируемый мультиэкран",
+          "discription": "Modular cascadable Multiscreen",
           "div_stream": "Yes",
           "div_video": "Yes",
           "div_modul": "Yes",
@@ -186,26 +186,26 @@
         },
         {
           "name": "PEAI-9088",
-          "discription": "ETHERNET аудиоинтерфейс",
+          "discription": "Dante audio gateway",
           "div_commut": "Yes",
           "div_fiber": "Yes",
           "div_stream": "Yes",
           "div_audio": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "div_ETHERNET": "Yes",
           "link": ""
         },
         {
           "name": "PRAA-4065ME",
-          "discription": "Вещательный аудиокоммутатор резерва",
+          "discription": "Broadcast audio changeover",
           "div_commut": "Yes",
           "div_audio": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "link": ""
         },
         {
           "name": "PN-COA-305",
-          "discription": "Блок резервирования аудио AES для модульной системы PROFNEXT",
+          "discription": "AES changeover module, PROFNEXT formfactor",
           "div_commut": "Yes",
           "div_audio": "Yes",
           "div_modul": "Yes",
@@ -214,7 +214,7 @@
         },
         {
           "name": "PCOA-7105",
-          "discription": "Блок резервирования аудио AES для модульной системы PROFLEX",
+          "discription": "AES changeover module, PROFLEX formfactor",
           "div_commut": "Yes",
           "div_audio": "Yes",
           "div_modul": "Yes",
@@ -223,21 +223,21 @@
         },
         {
           "name": "PSGP-2059",
-          "discription": "Генератор опорных видеосинхросигналов и сигналов РТР",
+          "discription": "Reference generator with PTP",
           "div_video": "Yes",
           "div_audio": "Yes",
           "div_sync": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "div_ETHERNET": "Yes",
           "link": ""
         },
         {
           "name": "PESI-4259",
-          "discription": "Аварийный коммутатор синхросигналов",
+          "discription": "Sync puls changeover",
           "div_commut": "Yes",
           "div_video": "Yes",
           "div_audio": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "link": ""
         },
         {
@@ -246,16 +246,16 @@
           "div_sync": "Yes",
           "div_video": "Yes",
           "div_audio": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "div_ETHERNET": "Yes",
           "link": ""
         },
         {
           "name": "PNTP-5021",
-          "discription": "Сервер точного времени (NTP сервер, приемник GPS/GLONASS, генератор LTC, 1pps, 10МГц)",
+          "discription": "GPS/GLONASS driven 1PPS, 10MHz signals generator with NTP and LTC capability",
           "div_sync": "Yes",
           "div_access": "Yes",
-          "type": "Standalone Devices",
+          "type": "Standalone device",
           "div_ETHERNET": "Yes",
           "link": ""
         }

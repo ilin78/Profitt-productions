@@ -1,3 +1,9 @@
+.ProductionContainer {
+  position: relative;
+  max-width: 2560px;
+  margin: 0 auto;
+}
+
 .containerDevices {
   // tables for container devices
   display: grid;
@@ -47,7 +53,7 @@
     // PNTP-5021
     background-color: #002e58;
     color: white;
- 
+
     grid-area: __6;
   }
   &__7 {
@@ -71,7 +77,6 @@
     grid-area: __12;
   }
   &__2 .blocks {
- 
   }
   &__3 .blocks {
     background-color: rgb(234, 232, 233);
@@ -98,8 +103,8 @@
   &__0 .blocks__image_view-B {
     padding-bottom: 50px;
   }
-  &__7{
-     background-color: rgb(248, 248, 248);  
+  &__7 {
+    background-color: rgb(248, 248, 248);
   }
 
   &__5 .blocks__image_view-A {
@@ -146,11 +151,10 @@
   &__6 .blocks__devices_discription-options {
     color: rgb(199, 199, 199);
   }
-  &__2 .blocks__devices{
+  &__2 .blocks__devices {
     // position: absolute;
     // z-index: 100;
     // top: 0;
- 
   }
   &__2 .blocks__devices {
     color: #000;
@@ -161,10 +165,13 @@
   &__2 .blocks__image_view-A {
     height: 100%;
     width: 100%;
-    max-width: 1892px;
-
+    max-width: 2560px;
     object-fit: cover;
-    // overflow: hidden;
+  }
+
+  &__2 .blocks__image_view-A img {
+    padding-bottom: 550px;
+    object-fit: cover;
   }
   &__2 .blocks__image_view {
     min-height: 1500px;
@@ -252,13 +259,29 @@
   }
 }
 
+@media screen and (max-width: 1790px) {
+  .containerDevices {
+    &__2 .blocks__image_view-A img {
+      padding-bottom: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .containerDevices {
+    &__2 .blocks__image_view-A img {
+      padding-bottom: 10px;
+    }
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .Production {
     height: 780px;
     width: 100%;
   }
   .containerDevices {
-    display: grid; 
+    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(1, 1fr);
     grid-template-areas: "__0" "__1" "__2" "__3" "__4" "__5" "__6" "__7" "__8" "__9";
@@ -279,22 +302,13 @@
     &__2 .blocks {
       overflow: hidden;
     }
-    &__2 .blocks__image_view-A img{
-      padding-top:0;
-      min-width: 490px;
-      min-height: 200px;
-      // padding-top: -70px;
-      // width: 130%;
-      overflow: hidden;
+    &__2 .blocks__image_view-A {
+      padding-top: 50px;
     }
-    &__2 .blocks__image_view-A{
-      padding-top:10px;
-      // min-width: 490px;
-      // min-height: 600px;
-      // padding-top: -70px;
-      // width: 130%;
-      overflow: hidden;
+    &__2 .blocks__image_view-A img {
+      padding-bottom: 0px;
     }
+
     &__6 .blocks__image_view-A {
       max-width: 500px;
     }
@@ -303,16 +317,14 @@
       padding-bottom: 30px;
     }
     &__7 .blocks__devices {
-     
       padding-bottom: 30px;
-       
     }
     &__7 .blocks {
       padding-bottom: 30px;
     }
     &__7 .blocks__image {
       padding-top: 10px;
-      
+
       max-height: 310px;
       &_view-B {
         max-height: 325px;
