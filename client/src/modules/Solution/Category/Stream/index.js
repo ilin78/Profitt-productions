@@ -24,7 +24,7 @@ function Stream({ isLanguage }) {
               <ListItem
                 key={index}
                 name={list.name}
-                discription={list.link}
+                discription={list.discription}
                 type={list.type}
                 link={list.link}
               />

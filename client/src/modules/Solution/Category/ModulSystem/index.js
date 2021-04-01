@@ -19,7 +19,7 @@ function ModulSystem({ isLanguage }) {
     <div className="Category">
       <div className="Category__item">
         {list_devices.map((list, index) => {
-          if (list.div_mixing === "Eсть" || list.div_mixing === "Yes") {
+          if (list.div_modul === "Eсть" || list.div_modul === "Yes") {
             return (
               <ListItem
                 key={index}

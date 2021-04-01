@@ -19,7 +19,7 @@ function Video({ isLanguage }) {
     <div className="Category">
       <div className="Category__item">
         {list_devices.map((list, index) => {
-          if (list.div_sync === "Eсть" || list.div_sync === "Yes") {
+          if (list.div_video === "Eсть" || list.div_video === "Yes") {
             return (
               <ListItem
                 key={index}

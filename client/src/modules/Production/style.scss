@@ -185,7 +185,7 @@
   }
 }
 .Production {
-  height: 810px;
+  height: 1010px;
   width: 100%;
   overflow: hidden;
 }
@@ -234,7 +234,7 @@
       letter-spacing: 0.2em;
       display: flex;
       justify-content: center;
-      padding-top: 50px;
+      padding-top: 150px;
     }
     &_discription {
       font-weight: 400;
@@ -269,6 +269,9 @@
 
 @media screen and (max-width: 1300px) {
   .containerDevices {
+    .blocks__devices_name {
+      padding-top: 70px;
+    }
     &__2 .blocks__image_view-A img {
       padding-bottom: 10px;
     }
@@ -277,7 +280,7 @@
 
 @media screen and (max-width: 1080px) {
   .Production {
-    height: 780px;
+    height: 880px;
     width: 100%;
   }
   .containerDevices {
@@ -299,6 +302,7 @@
 
 @media screen and (max-width: 565px) {
   .containerDevices {
+
     &__2 .blocks {
       overflow: hidden;
     }
@@ -348,8 +352,7 @@
         letter-spacing: 0.2em;
         display: flex;
         justify-content: center;
-        padding-top: 50px;
-        padding-bottom: 0px;
+         padding-bottom: 0px;
       }
       &_discription {
         font-size: 14px;
@@ -386,16 +389,25 @@
   padding-top: 20px;
   padding-bottom: 10px;
   & button {
+    transition-duration: 0.2s;
     font-size: 15px;
     width: 180px;
     height: 40px;
     border-radius: 50px;
-    color: hsl(0, 0%, 90%);
-    border: none;
-    background-color: #0069e5;
+    color: #0069e5; 
+    border: #0069e5 solid 1px;
+    background-color: #ffffff00;
   }
   & button:hover {
-    color: hsl(0, 0%, 100%);
-    background-color: #0053b3;
+    color: #fff;
+    border: none;
+    background-color: #0069e5;
+    transition-timing-function:ease-in-out;
+  }
+  & button:active {
+    color: #fff;
+    border: none;
+    background-color: #0069e5;
+    transition-timing-function:ease-in-out;
   }
 }
