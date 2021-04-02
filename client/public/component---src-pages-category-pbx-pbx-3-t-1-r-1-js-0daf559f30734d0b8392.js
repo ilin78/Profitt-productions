@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[600],{384:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(574);function f(){return r.createElement(u.Z,{id:"PBX3T1R1"})}}}]);
+//# sourceMappingURL=component---src-pages-category-pbx-pbx-3-t-1-r-1-js-0daf559f30734d0b8392.js.map

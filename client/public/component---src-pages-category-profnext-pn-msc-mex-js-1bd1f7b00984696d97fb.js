@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[57],{4623:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(574);function f(){return r.createElement(u.Z,{id:"PNMSCMEX"})}}}]);
+//# sourceMappingURL=component---src-pages-category-profnext-pn-msc-mex-js-1bd1f7b00984696d97fb.js.map

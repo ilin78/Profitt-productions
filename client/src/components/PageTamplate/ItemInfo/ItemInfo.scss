@@ -1,0 +1,31 @@
+.ItemInfo {
+    border: #000 solid 1px;
+    &__content{
+        border: rgb(30, 255, 206) solid 1px;
+    }
+    &__image {
+        max-width: 700px;
+        height: 300px;
+        border: rgb(30, 101, 255) solid 1px;
+    }
+    &__descriptshort {
+        border: rgb(30, 255, 68) solid 1px;
+        padding: 10px;
+    }
+    &__description {
+        border: rgb(30, 120, 255) solid 1px;
+        padding: 10px;
+    }
+    &__properties {
+        border: rgb(255, 30, 154) solid 1px;
+        padding: 10px;
+    }
+    &__specifications {
+        border: rgb(255, 30, 30) solid 1px;
+        padding: 10px;
+    }
+    &__header {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
