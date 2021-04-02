@@ -1,31 +1,39 @@
 .ItemInfo {
-    border: #000 solid 1px;
-    &__content{
-        border: rgb(30, 255, 206) solid 1px;
-    }
-    &__image {
-        max-width: 700px;
-        height: 300px;
-        border: rgb(30, 101, 255) solid 1px;
-    }
-    &__descriptshort {
-        border: rgb(30, 255, 68) solid 1px;
-        padding: 10px;
-    }
-    &__description {
-        border: rgb(30, 120, 255) solid 1px;
-        padding: 10px;
-    }
-    &__properties {
-        border: rgb(255, 30, 154) solid 1px;
-        padding: 10px;
-    }
-    &__specifications {
-        border: rgb(255, 30, 30) solid 1px;
-        padding: 10px;
-    }
-    &__header {
-        font-size: 20px;
-        font-weight: 600;
-    }
+  border: #000 solid 1px;
+  &__content {
+  }
+  &__image {
+    max-width: 700px;
+    height: 300px;
+  }
+  &__descriptshort {
+
+  }
+  &__description {
+
+  }
+  &__properties {
+
+  }
+  &__specifications {
+
+  }
+  &__applying {
+
+  }
+  &__positive {
+
+  }
+  &__code {
+   
+  }
+
+  &__header {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.padd {
+    padding: 10px;
 }

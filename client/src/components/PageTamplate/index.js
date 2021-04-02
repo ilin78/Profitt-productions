@@ -28,6 +28,7 @@ function PageTamplate(props) {
                 return (
                   <ItemInfo
                     key={index}
+                    // Заголовки 
                     specifications={headers.specifications}
                     applying={headers.applying}
                     positive={headers.positive}
@@ -36,6 +37,7 @@ function PageTamplate(props) {
                     properties={headers.properties}
                     descript_short={headers.descript_short}
                     description={headers.description}
+                    
                     type={info.type}
                     name={info.name}
                     definition={info.definition}

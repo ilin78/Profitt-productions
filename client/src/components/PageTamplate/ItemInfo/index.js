@@ -4,31 +4,31 @@ export default function ItemInfo(props) {
   return (
     <div className="ItemInfo">
       <div>
-        <div className="ItemInfo__content">
+        <div className="ItemInfo__content padd">
           <div>{props.type}</div>
           <div className="ItemInfo__header">{props.name2}</div>
           <div className="ItemInfo__image"></div>
-          <div className="ItemInfo__descriptshort">
+          <div className="ItemInfo__descriptshort padd">
             <div className="ItemInfo__descriptshort_name">{props.name}</div>
             <div className="ItemInfo__descriptshort_name-text">
               {props.definition}
             </div>
           </div>
-          <div className="ItemInfo__description">
+          <div className="ItemInfo__description padd">
             <div className="ItemInfo__header">{props.description}</div>
             <div className="ItemInfo__description-1">{props.description_1}</div>
             <div className="ItemInfo__description-2">{props.description_2}</div>
             <div className="ItemInfo__description-3">{props.description_3}</div>
             <div className="ItemInfo__description-4">{props.description_4}</div>
           </div>
-          <div className="ItemInfo__properties">
+          <div className="ItemInfo__properties padd">
             <div className="ItemInfo__header">{props.properties}</div>
             <div className="ItemInfo__properties-1">{props.properties_1}</div>
             <div className="ItemInfo__properties-2">{props.properties_2}</div>
             <div className="ItemInfo__properties-3">{props.properties_3}</div>
             <div className="ItemInfo__properties-4">{props.properties_4}</div>
           </div>
-          <div className="ItemInfo__specifications">
+          <div className="ItemInfo__specifications padd">
             <div className="ItemInfo__header">{props.specifications}</div>
             <div className="ItemInfo__specifications-header">
               {props.specifications_1}
@@ -85,7 +85,7 @@ export default function ItemInfo(props) {
             <div className="ItemInfo__spec_item">{props.item_6_5}</div>
             <div className="ItemInfo__spec_item">{props.item_6_6}</div>
           </div>
-          <div className="ItemInfo__applying">
+          <div className="ItemInfo__applying padd">
             <div className="ItemInfo__header">{props.applying}</div>
             <div className="ItemInfo__appl_item">{props.applying_1}</div>
             <div className="ItemInfo__appl_item">{props.applying_2}</div>
@@ -95,8 +95,8 @@ export default function ItemInfo(props) {
             <div className="ItemInfo__appl_item">{props.applying_6}</div>
           </div>
           <div>
-            <div className="ItemInfo__positive">
-              <div className="ItemInfo__pos_item">{props.positive}</div>
+            <div className="ItemInfo__positive padd">
+              <div className="ItemInfo__header">{props.positive}</div>
               <div className="ItemInfo__pos_item">{props.positive_1}</div>
               <div className="ItemInfo__pos_item">{props.positive_2}</div>
               <div className="ItemInfo__pos_item">{props.positive_3}</div>
@@ -109,34 +109,25 @@ export default function ItemInfo(props) {
               <div className="ItemInfo__pos_item">{props.positive_10}</div>
             </div>
           </div>
-          <div>
+          <div className="ItemInfo__code padd">
             <div className="ItemInfo__header">{props.order}</div>
             <div className="ItemInfo__code_header">{props.code_order}</div>
             <div>
               <div className="ItemInfo__code_item">{props.code_order_1}</div>
-              <div>{props.option_1}</div>
+              <div className="ItemInfo__code_text">{props.option_1}</div>
             </div>
             <div>
               <div className="ItemInfo__code_item">{props.code_order_2}</div>
-              <div>{props.option_2}</div>
+              <div className="ItemInfo__code_text">{props.option_2}</div>
             </div>
             <div>
               <div className="ItemInfo__code_item">{props.code_order_3}</div>
-              <div>{props.option_3}</div>
+              <div className="ItemInfo__code_text">{props.option_3}</div>
             </div>
             <div>
               <div className="ItemInfo__code_item">{props.code_order_4}</div>
-              <div>{props.option_4}</div>
+              <div className="ItemInfo__code_text">{props.option_4}</div>
             </div>
-          </div>
-          <div></div>
-          <div className="ItemInfo__description">
-            <div className="ItemInfo__description_head"></div>
-            <div className="ItemInfo__description_text"></div>
-          </div>
-          <div className="ItemInfo__specifications">
-            <div className="ItemInfo__specifications_head"></div>
-            <div className="ItemInfo__specifications_text"></div>
           </div>
         </div>
       </div>
