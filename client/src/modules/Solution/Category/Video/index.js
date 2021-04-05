@@ -27,13 +27,17 @@ function Video({ isLanguage }) {
                 discription={list.discription}
                 type={list.type}
                 link={list.link}
+                img_A={list.img_A}
+                img_B={list.img_B}
+                img_C={list.img_C}
               />
             );
           } else {
             return null;
           }
-        })}
+        })} <div className="Category__footer"></div>
       </div>
+     
     </div>
   );
 }

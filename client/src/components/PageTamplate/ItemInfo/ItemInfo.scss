@@ -1,39 +1,124 @@
 .ItemInfo {
   border: #000 solid 1px;
+  font-size: 15px;
   &__content {
   }
+  &__type {
+    font-size: 40px;
+  }
+
+  &__header {
+    font-size: 45px;
+    font-weight: 600;
+  }
+
   &__image {
     max-width: 700px;
     height: 300px;
   }
   &__descriptshort {
-
+    &_name {
+    }
+    &_text {
+    }
+    &_item {
+    }
   }
-  &__description {
 
-  }
   &__properties {
-
+    &_item {
+    }
   }
-  &__specifications {
-
+  &__spec {
+    &_head {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    &_item {
+    }
   }
-  &__applying {
-
+  &__apply {
   }
   &__positive {
-
   }
   &__code {
-   
-  }
-
-  &__header {
-    font-size: 20px;
-    font-weight: 600;
+    &_head {
+    }
+    &_item {
+    }
+    &_text {
+    }
   }
 }
 
+.codeBlock {
+  display: flex;
+}
 .padd {
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .ItemInfo {
+    border: #000 solid 1px;
+    font-size: 15px;
+    &__content {
+    }
+    &__type {
+      font-size: 25px;
+    }
+  
+    &__header {
+      font-size: 30px;
+      font-weight: 600;
+    }
+  
+    &__image {
+      max-width: 700px;
+      height: 300px;
+    }
+    &__descriptshort {
+      &_name {
+      }
+      &_text {
+      }
+      &_item {
+      }
+    }
+  
+    &__properties {
+      &_item {
+      }
+    }
+    &__spec {
+      &_head {
+        font-size: 15px;
+        font-weight: 600;
+      }
+      &_item {
+      }
+    }
+    &__apply {
+    }
+    &__positive {
+    }
+    &__code {
+      &_head {
+      }
+      &_item {
+      }
+      &_text {
+      }
+    }
+  }
+  
+  .codeBlock {
+    display: flex;
+  }
+  .padd {
     padding: 10px;
+  }
+  
+  
 }

@@ -29,10 +29,26 @@
 @media screen and (max-width: 1024px) {
   .Category__item {
     display: grid;
-    grid-template: repeat(1, 400px) / repeat(1, minmax(300px, 600px)); // РЯДЫ / КОЛОНКИ
+    grid-template: repeat(1, 600px) / repeat(1, minmax(300px, 600px)); // РЯДЫ / КОЛОНКИ
     column-gap: 10px;
     row-gap: 10px;
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Category {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgba(206, 206, 206, 0.336);
+    &__item {
+      display: grid;
+      grid-template: repeat(1, 600px) / repeat(1, minmax(300px, 600px)); // РЯДЫ / КОЛОНКИ
+      column-gap: 0px;
+      row-gap: 10px;
+      padding: 0px;
+    }
+
   }
 }
