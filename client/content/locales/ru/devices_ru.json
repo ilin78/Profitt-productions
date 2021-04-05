@@ -66,7 +66,7 @@
           "div_modul": "Eсть",
           "type": "PROFLEX",
           "link": "/category/proflex/pcos-7376",
-          "img_A": "null",
+          "img_A": "pcos_7376_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -80,7 +80,7 @@
           "div_modul": "Eсть",
           "type": "PROFNEXT",
           "link": "/category/profnext/pn-cse-055",
-          "img_A": "null",
+          "img_A": "CSE-055_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -94,7 +94,7 @@
           "div_video": "Eсть",
           "type": "Standalone Devices",
           "link": "/category/standalone/chamelion",
-          "img_A": "null",
+          "img_A": "CHAMELION",
           "img_B": "null",
           "img_C": "null"
         },
@@ -108,13 +108,13 @@
           "div_ETHERNET": "Eсть",
           "type": "ProBox",
           "link": "/category/pbx/pbx-mf-150",
-          "img_A": "null",
+          "img_A": "MF-150_A",
           "img_B": "null",
           "img_C": "null"
         },
         { 
           "id": "PBX3T1R1",
-          "name": "PBX-3T1R1",
+          "name": "PBX-2T2RE1-12G",
           "discription": "Многоканальный 3G-SDI и ETHERNET транспорт по одному волокну",
           "div_commut": "Eсть",
           "div_fiber": "Eсть",
@@ -122,7 +122,7 @@
           "div_ETHERNET": "Eсть",
           "type": "ProBox",
           "link": "/category/pbx/pbx-3t1r1",
-          "img_A": "null",
+          "img_A": "2t2re1-12G_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -135,7 +135,7 @@
           "div_video": "Eсть",
           "type": "PROFNEXT",
           "link": "/category/profnext/pn-tdm-066",
-          "img_A": "null",
+          "img_A": "TDM_066",
           "img_B": "null",
           "img_C": "null"
         },
