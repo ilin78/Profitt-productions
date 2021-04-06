@@ -27,7 +27,7 @@
           "div_stream": "Eсть",
           "type": "Standalone Devices",
           "link": "/category/standalone/pac-4220",
-          "img_A": "null",
+          "img_A": "4220_A0",
           "img_B": "null",
           "img_C": "null"
         },
@@ -39,7 +39,7 @@
           "div_stream": "Eсть",
           "type": "Standalone Devices",
           "link": "/category/standalone/pac-4212",
-          "img_A": "null",
+          "img_A": "4212_A0",
           "img_B": "null",
           "img_C": "null"
         },
@@ -52,7 +52,7 @@
           "div_modul": "Eсть",
           "type": "PROFNEXT",
           "link": "/category/profnext/pn-cas-326",
-          "img_A": "null",
+          "img_A": "CAS326_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -129,7 +129,7 @@
         {
           "id": "PNTDM066",
           "name": "PN-TDM-066",
-          "discription": "Многканальный HD/SD-SDI передатчик CTM уплотнением",
+          "discription": "Многоканальный HD/SD-SDI передатчик CTM уплотнением",
           "div_fiber": "Eсть",
           "div_stream": "Eсть",
           "div_video": "Eсть",
@@ -141,7 +141,7 @@
         },
         {
           "id": "PFCPBC",
-          "name": "PFC-01 и PBC-02",
+          "name": "PFC-01 и PFB-02",
           "discription": "Оптический камерный канал",
           "div_fiber": "Eсть",
           "div_video": "Eсть",
@@ -149,7 +149,7 @@
           "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": "/category/standalone/pfc-pbc",
-          "img_A": "null",
+          "img_A": "PFC_PFB_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -161,7 +161,7 @@
           "type": "ProBox",
           "div_ETHERNET": "Eсть",
           "link": "/category/pbx/pbx-enp-200",
-          "img_A": "null",
+          "img_A": "ENP200_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -192,9 +192,9 @@
           "div_ETHERNET": "Eсть",
           "type": "PROFNEXT",
           "link": "/category/profnext/pn-mpe-264",
-          "img_A": "null",
-          "img_B": "null",
-          "img_C": "null"
+          "img_A": "MPE-264_A",
+          "img_B": "MPE-264_B",
+          "img_C": "MPE-264_C"
         },
         {
           "id": "PDMX2106",
@@ -207,7 +207,7 @@
           "div_sync": "Eсть",
           "type": "Standalone Devices",
           "link": "/category/standalone/pdmx-2106",
-          "img_A": "null",
+          "img_A": "PDMX2106_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -220,7 +220,7 @@
           "type": "ProBox",
           "div_ETHERNET": "Eсть",
           "link": "/category/pbx/pbx-mtv-508",
-          "img_A": "null",
+          "img_A": "MTV508_A0",
           "img_B": "null",
           "img_C": "null"
         },
@@ -233,7 +233,7 @@
           "div_modul": "Eсть",
           "type": "ProBox",
           "link": "/category/pbx/pbx-cc-300",
-          "img_A": "null",
+          "img_A": "CC300_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -246,7 +246,7 @@
           "div_modul": "Eсть",
           "type": "PROFNEXT",
           "link": "/category/profnext/pn-msc-mex",
-          "img_A": "null",
+          "img_A": "MSC30MEX31_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -261,7 +261,7 @@
           "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": "/category/standalone/peai-9088",
-          "img_A": "null",
+          "img_A": "PEAI9088_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -313,7 +313,7 @@
           "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": "/category/standalone/psgp-2059",
-          "img_A": "null",
+          "img_A": "2059_A0",
           "img_B": "null",
           "img_C": "null"
         },
@@ -326,7 +326,7 @@
           "div_audio": "Eсть",
           "type": "Standalone Devices",
           "link": "/category/standalone/pesi-4259",
-          "img_A": "null",
+          "img_A": "PESI4259_A",
           "img_B": "null",
           "img_C": "null"
         },
@@ -353,7 +353,7 @@
           "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",
           "link": "/category/standalone/pntp-5021",
-          "img_A": "null",
+          "img_A": "5021_A0",
           "img_B": "null",
           "img_C": "null"
         }

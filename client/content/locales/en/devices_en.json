@@ -27,7 +27,10 @@
           "div_commut": "Yes",
           "div_stream": "Yes",
           "type": "Standalone device",
-          "link": "/category/standalone/pac-4220"
+          "link": "/category/standalone/pac-4220",
+          "img_A": "4220_A0",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PAC-4212",
@@ -35,7 +38,10 @@
           "div_commut": "Yes",
           "div_stream": "Yes",
           "type": "Standalone device",
-          "link": "/category/standalone/pac-4212"
+          "link": "/category/standalone/pac-4212",
+          "img_A": "4212_A0",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PN-CAS-326",
@@ -44,7 +50,10 @@
           "div_stream": "Yes",
           "div_modul": "Yes",
           "type": "PROFNEXT",
-          "link": "/category/profnext/pn-cas-326"
+          "link": "/category/profnext/pn-cas-326",
+          "img_A": "CAS326_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PCOS-7376",
@@ -54,7 +63,10 @@
           "div_sync": "Yes",
           "div_modul": "Yes",
           "type": "PROFLEX",
-          "link": "/category/proflex/pcos-7376"
+          "link": "/category/proflex/pcos-7376",
+          "img_A": "pcos_7376_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PN-CSE-055",
@@ -64,7 +76,10 @@
           "div_sync": "Yes",
           "div_modul": "Yes",
           "type": "PROFNEXT",
-          "link": "/category/profnext/pn-cse-055"
+          "link": "/category/profnext/pn-cse-055",
+          "img_A": "CSE-055_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "CHAMELION",
@@ -74,7 +89,10 @@
           "div_mixing": "Yes",
           "div_video": "Yes",
           "type": "Standalone device",
-          "link": "/category/standalone/chamelion"
+          "link": "/category/standalone/chamelion",
+          "img_A": "CHAMELION",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PBX-MF-150 12G",
@@ -84,7 +102,10 @@
           "div_video": "Yes",
           "div_ETHERNET": "Yes",
           "type": "ProBox",
-          "link": "/category/pbx/pbx-mf-150"
+          "link": "/category/pbx/pbx-mf-150",
+          "img_A": "MF-150_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PBX-3T1R1",
@@ -94,7 +115,10 @@
           "div_video": "Yes",
           "div_ETHERNET": "Yes",
           "type": "ProBox",
-          "link": "/category/pbx/pbx-3t1r1"
+          "link": "/category/pbx/pbx-3t1r1",
+          "img_A": "2t2re1-12G_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PN-TDM-066",
@@ -103,7 +127,10 @@
           "div_stream": "Yes",
           "div_video": "Yes",
           "type": "PROFNEXT",
-          "link": "/category/profnext/pn-tdm-066"
+          "link": "/category/profnext/pn-tdm-066",
+          "img_A": "TDM_066",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PFC-01 и PBC-02",
@@ -113,7 +140,10 @@
           "div_audio": "Yes",
           "type": "Standalone device",
           "div_ETHERNET": "Yes",
-          "link": "/category/standalone/pfc-pbc"
+          "link": "/category/standalone/pfc-pbc",
+          "img_A": "PFC_PFB_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PBX-ENP-200",
@@ -121,7 +151,10 @@
           "div_stream": "Yes",
           "type": "ProBox",
           "div_ETHERNET": "Yes",
-          "link": "/category/pbx/pbx-enp-200"
+          "link": "/category/pbx/pbx-enp-200",
+          "img_A": "ENP200_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PBX-STR-500",
@@ -132,7 +165,10 @@
           "div_audio": "Yes",
           "type": "ProBox",
           "div_ETHERNET": "Yes",
-          "link": "/category/pbx/pbx-str-500"
+          "link": "/category/pbx/pbx-str-500",
+          "img_A": "str500_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PN-MPE-264",
@@ -144,7 +180,10 @@
           "div_modul": "Yes",
           "div_ETHERNET": "Yes",
           "type": "PROFNEXT",
-          "link": "/category/profnext/pn-mpe-264"
+          "link": "/category/profnext/pn-mpe-264",
+          "img_A": "MPE-264_A",
+          "img_B": "MPE-264_B",
+          "img_C": "MPE-264_C"
         },
         {
           "name": "PDMX-2106",
@@ -155,7 +194,10 @@
           "div_audio": "Yes",
           "div_sync": "Yes",
           "type": "Standalone device",
-          "link": "/category/standalone/pdmx-2106"
+          "link": "/category/standalone/pdmx-2106",
+          "img_A": "PDMX2106_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PBX-MTV-508",
@@ -164,7 +206,10 @@
           "div_video": "Yes",
           "type": "ProBox",
           "div_ETHERNET": "Yes",
-          "link": "/category/pbx/pbx-mtv-508"
+          "link": "/category/pbx/pbx-mtv-508",
+          "img_A": "MTV508_A0",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PBX-CC-300",
@@ -173,7 +218,10 @@
           "div_sync": "Yes",
           "div_modul": "Yes",
           "type": "ProBox",
-          "link": "/category/pbx/pbx-cc-300"
+          "link": "/category/pbx/pbx-cc-300",
+          "img_A": "CC300_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PN-MSC-030 + PN-MEX-031-XX",
@@ -182,7 +230,10 @@
           "div_video": "Yes",
           "div_modul": "Yes",
           "type": "PROFNEXT",
-          "link": "/category/profnext/pn-msc-mex"
+          "link": "/category/profnext/pn-msc-mex",
+          "img_A": "MSC30MEX31_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PEAI-9088",
@@ -193,7 +244,10 @@
           "div_audio": "Yes",
           "type": "Standalone device",
           "div_ETHERNET": "Yes",
-          "link": "/category/standalone/peai-9088"
+          "link": "/category/standalone/peai-9088",
+          "img_A": "PEAI9088_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PRAA-4065ME",
@@ -201,7 +255,10 @@
           "div_commut": "Yes",
           "div_audio": "Yes",
           "type": "Standalone device",
-          "link": "/category/standalone/praa-4065me"
+          "link": "/category/standalone/praa-4065me",
+          "img_A": "null",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PN-COA-305",
@@ -210,7 +267,10 @@
           "div_audio": "Yes",
           "div_modul": "Yes",
           "type": "PROFNEXT",
-          "link": "/category/profnext/pn-coa-305"
+          "link": "/category/profnext/pn-coa-305",
+          "img_A": "null",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PCOA-7105",
@@ -219,7 +279,10 @@
           "div_audio": "Yes",
           "div_modul": "Yes",
           "type": "PROFLEX",
-          "link": "/category/proflex/pcoa-7105"
+          "link": "/category/proflex/pcoa-7105",
+          "img_A": "null",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PSGP-2059",
@@ -229,7 +292,10 @@
           "div_sync": "Yes",
           "type": "Standalone device",
           "div_ETHERNET": "Yes",
-          "link": "/category/standalone/psgp-2059"
+          "link": "/category/standalone/psgp-2059",
+          "img_A": "2059_A0",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PESI-4259",
@@ -238,7 +304,10 @@
           "div_video": "Yes",
           "div_audio": "Yes",
           "type": "Standalone device",
-          "link": "/category/standalone/pesi-4259"
+          "link": "/category/standalone/pesi-4259",
+          "img_A": "PESI4259_A",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PNTP-2051",
@@ -248,7 +317,10 @@
           "div_audio": "Yes",
           "type": "Standalone device",
           "div_ETHERNET": "Yes",
-          "link": "/category/standalone/pntp-2051"
+          "link": "/category/standalone/pntp-2051",
+          "img_A": "null",
+          "img_B": "null",
+          "img_C": "null"
         },
         {
           "name": "PNTP-5021",
@@ -257,7 +329,10 @@
           "div_access": "Yes",
           "type": "Standalone device",
           "div_ETHERNET": "Yes",
-          "link": "/category/standalone/pntp-5021"
+          "link": "/category/standalone/pntp-5021",
+          "img_A": "5021_A0",
+          "img_B": "null",
+          "img_C": "null"
         }
       ]
     }
