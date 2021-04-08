@@ -1,14 +1,6 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import Solution from "../../modules/Solution";
-import ModulSystem from "../../modules/Solution/Category/ModulSystem";
+import SolutionPath from "../../components/SolutionPath";
 
 export default function ModulSystemPage() {
-  return (
-    <Layout>
-      <Solution>
-        <ModulSystem />
-      </Solution>
-    </Layout>
-  );
+  return <SolutionPath dev={"div_modul"} />
 }

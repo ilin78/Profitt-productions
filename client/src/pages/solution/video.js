@@ -1,14 +1,6 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import Solution from "../../modules/Solution";
-import Video from "../../modules/Solution/Category/Video";
+import SolutionPath from "../../components/SolutionPath";
 
 export default function VideoPage() {
-  return (
-    <Layout>
-      <Solution>
-        <Video />
-      </Solution>
-    </Layout>
-  );
+  return <SolutionPath dev={"div_video"} />
 }

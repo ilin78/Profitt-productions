@@ -41,7 +41,7 @@
           "task": "Converter ASI & IP",
           "options": "Решение для двунаправленного преобразования ASI в IP, IP в ASI",
           "other": "",
-          "img_A": "200_A",
+          "img_A": "200_A0",
           "img_B": "null",
           "img_C": "null",
           "link": "/category/pbx/pbx-enp-200",
@@ -119,6 +119,9 @@
         "syncSystem": "Синхронизация",
         "modulSystem": "Модульные системы",
         "accessory": "Аксессуары",
+        "multiview":"MultiView",
+        "asi_t2mi":"ASI, T2MI",
+        "camera_chanel":"Камерный канал",
         "solo_pbx":"ProBox",
         "solo_profnext":"PROFNEXT",
         "solo_standev":"Автономные устройства"

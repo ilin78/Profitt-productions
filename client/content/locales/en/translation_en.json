@@ -41,7 +41,7 @@
           "task": "Converter ASI & IP",
           "options": "Bidirectional (ASI-to-IP and IP-to-ASI) converter solution",
           "other": "",
-          "img_A": "200_A",
+          "img_A": "200_A0",
           "img_B": "null",
           "img_C": "null",
           "link": "/category/pbx/pbx-enp-200",
@@ -119,6 +119,9 @@
         "syncSystem": "Sync and Genlock",
         "modulSystem": "Modular systems",
         "accessory": "Accessories",
+        "camera_chanel":"Camera chanel",
+        "multiview":"MultiView",
+        "asi_t2mi":"ASI, T2MI",
         "solo_pbx":"ProBox",
         "solo_profnext":"PROFNEXT",
         "solo_standev":"Standalone devices"

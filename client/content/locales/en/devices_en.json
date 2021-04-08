@@ -118,8 +118,8 @@
           "img_C": "null"
         },
         {
-          "name": "PFC-01 и PBC-02",
-          "discription": "Оптический камерный канал",
+          "name": "PFC-01 / PFB-02 series",
+          "discription": "3G/HD SDI camera control system",
           "div_cam_chanel": "Eсть",
           "type": "Standalone Devices",
           "link": "/category/standalone/pfc-pbc",
@@ -141,6 +141,7 @@
           "name": "PBX-STR-500",
           "discription": "H.264 streaming server",
           "div_stream": "Eсть",
+          "div_multiview": "Eсть",
           "type": "ProBox",
           "link": "/category/pbx/pbx-str-500",
           "img_A": "str500_A",
@@ -171,6 +172,7 @@
           "name": "PBX-MTV-508",
           "discription": "Eight-input 3G/HD/SD-SDI multiscreen",
           "div_stream": "Eсть",
+          "div_multiview": "Eсть",
           "type": "ProBox",
           "div_ETHERNET": "Eсть",
           "link": "/category/pbx/pbx-mtv-508",
@@ -194,6 +196,7 @@
           "discription": "Modular cascadable Multiscreen",
           "div_stream": "Eсть",
           "div_modul": "Eсть",
+          "div_multiview": "Eсть",
           "type": "PROFNEXT",
           "link": "/category/profnext/pn-msc-mex",
           "img_A": "MSC30MEX31_A",
@@ -263,7 +266,7 @@
         },
         {
           "name": "PNTP-2051",
-          "discription": "Сервер точного времени",
+          "discription": "Time reference system",
           "div_sync": "Eсть",
           "type": "Standalone Devices",
           "div_ETHERNET": "Eсть",

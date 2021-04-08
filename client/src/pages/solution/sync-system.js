@@ -1,14 +1,6 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import Solution from "../../modules/Solution";
-import SyncSystem from "../../modules/Solution/Category/SyncSystem";
+import SolutionPath from "../../components/SolutionPath";
 
 export default function SyncSystemPage() {
-  return (
-    <Layout>
-      <Solution>
-        <SyncSystem />
-      </Solution>
-    </Layout>
-  );
+  return <SolutionPath dev={"div_sync"} />
 }

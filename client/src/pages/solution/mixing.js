@@ -1,14 +1,6 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import Solution from "../../modules/Solution";
-import Mixing from "../../modules/Solution/Category/Mixing";
+import SolutionPath from "../../components/SolutionPath";
 
 export default function MixingPage() {
-  return (
-    <Layout>
-      <Solution>
-        <Mixing />
-      </Solution>
-    </Layout>
-  );
+  return <SolutionPath dev={"div_mixing"} />
 }

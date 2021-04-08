@@ -1,14 +1,6 @@
 import React from "react";
-import Layout from "../../components/layout/Layout";
-import Solution from "../../modules/Solution";
-import Commutation from "../../modules/Solution/Category/Commutation";
+import SolutionPath from "../../components/SolutionPath";
 
 export default function CommutationPage() {
-  return (
-    <Layout>
-      <Solution>
-        <Commutation />
-      </Solution>
-    </Layout>
-  );
+  return <SolutionPath dev={"div_commut"} />
 }
