@@ -51,7 +51,7 @@ function SolutionPath(props) {
                 case "div_multiview": device = list.div_multiview;
                   break;
                default:
-                  return;
+                  return null;
               }
               if (device === "Eсть" || device === "Yes") {
                 return (
