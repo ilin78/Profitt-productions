@@ -1,4 +1,5 @@
 import React from "react";
+import StepperImage from "../../StepperImage";
 import "./ItemInfo.scss";
 export default function ItemInfo(props) {
   return (
@@ -16,12 +17,59 @@ export default function ItemInfo(props) {
           </div>
         </div>
         <div className="ItemInfo__image">
+
+          <StepperImage />
+
           <div className="ItemInfo__image_content">
             <div className="ItemInfo__image_content-item"></div>
             <div className="ItemInfo__image_content-item"></div>
             <div className="ItemInfo__image_content-item"></div>
           </div>
         </div>
+
+
+  {/* <div className="ItemInfo__description ">
+            <div className="ItemInfo__header">{props.description}</div>
+            <div className="ItemInfo__description_item">
+              {props.description_1}
+            </div>
+            <div className="ItemInfo__description_item">
+              {props.description_2}
+            </div>
+            <div className="ItemInfo__description_item">
+              {props.description_3}
+            </div>
+            <div className="ItemInfo__description_item">
+              {props.description_4}
+            </div>
+          </div> */}
+          {/* <div className="ItemInfo__properties ">
+            <div className="ItemInfo__header">{props.properties}</div>
+            <div className="ItemInfo__properties_item">
+              {props.properties_1}
+            </div>
+            <div className="ItemInfo__properties_item">
+              {props.properties_2}
+            </div>
+            <div className="ItemInfo__properties_item">
+              {props.properties_3}
+            </div>
+            <div className="ItemInfo__properties_item">
+              {props.properties_4}
+            </div> 
+          </div>*/}
+          {/* <div className="ItemInfo__apply">
+              <div className="ItemInfo__header">{props.applying}</div>
+              <div className="ItemInfo__apply_item">{props.applying_1}</div>
+              <div className="ItemInfo__apply_item">{props.applying_2}</div>
+              <div className="ItemInfo__apply_item">{props.applying_3}</div>
+              <div className="ItemInfo__apply_item">{props.applying_4}</div>
+              <div className="ItemInfo__apply_item">{props.applying_5}</div>
+              <div className="ItemInfo__apply_item">{props.applying_6}</div>
+            </div> */}
+
+
+
         <div className="ItemInfo__spec">
           <div className="ItemInfo__spec_content">
             <div className="ItemInfo__spec_content-header">
