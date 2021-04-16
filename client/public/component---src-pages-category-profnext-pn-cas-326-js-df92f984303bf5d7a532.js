@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[238],{1477:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(8703);function f(){return r.createElement(u.Z,{id:"PNCAS326"})}}}]);
+//# sourceMappingURL=component---src-pages-category-profnext-pn-cas-326-js-df92f984303bf5d7a532.js.map

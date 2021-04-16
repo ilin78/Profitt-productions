@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[802],{3331:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(8703);function f(){return r.createElement(u.Z,{id:"PAC4212"})}}}]);
+//# sourceMappingURL=component---src-pages-category-standalone-pac-4212-js-353401ff52bad325ab86.js.map

@@ -47,6 +47,22 @@ function PageTamplate(props) {
                     description_2={info.description_2}
                     description_3={info.description_3}
                     description_4={info.description_4}
+
+                    // ФОТО
+                    img_1={info.img_1}
+                    img_2={info.img_2}
+                    img_3={info.img_3}
+                    img_4={info.img_4}
+                    img_5={info.img_5}
+                    img_6={info.img_6}
+                    // ОПИСАНИЕ К ФОТО
+                    img_label_1={info.img_label_1}
+                    img_label_2={info.img_label_2}
+                    img_label_3={info.img_label_3}
+                    img_label_4={info.img_label_4}
+                    img_label_5={info.img_label_5}
+                    img_label_6={info.img_label_6}
+
                     // СВОЙСТВО
                     properties_1={info.properties_1}
                     properties_2={info.properties_2}

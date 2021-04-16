@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[148],{8748:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(8703);function f(){return r.createElement(u.Z,{id:"PNTDM066"})}}}]);
+//# sourceMappingURL=component---src-pages-category-profnext-pn-tdm-066-js-0669d86e7105804b5691.js.map

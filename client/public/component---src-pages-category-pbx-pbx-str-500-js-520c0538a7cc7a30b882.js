@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[656],{1101:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(574);function f(){return r.createElement(u.Z,{id:"PBXSTR500"})}}}]);
-//# sourceMappingURL=component---src-pages-category-pbx-pbx-str-500-js-520c0538a7cc7a30b882.js.map

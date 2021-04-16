@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[599],{7204:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(574);function f(){return r.createElement(u.Z,{id:"PNCOA305"})}}}]);
-//# sourceMappingURL=component---src-pages-category-profnext-pn-coa-305-js-d75354d5de3890ab92c2.js.map

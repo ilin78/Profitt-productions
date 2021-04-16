@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[651],{8082:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(8703);function f(){return r.createElement(u.Z,{id:"PNCSE055"})}}}]);
+//# sourceMappingURL=component---src-pages-category-profnext-pn-cse-055-js-d054d5af46578b04bffc.js.map

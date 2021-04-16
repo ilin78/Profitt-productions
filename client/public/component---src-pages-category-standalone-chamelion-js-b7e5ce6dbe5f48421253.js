@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[744],{2118:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(574);function f(){return r.createElement(u.Z,{id:"CHAMELION"})}}}]);
-//# sourceMappingURL=component---src-pages-category-standalone-chamelion-js-b7e5ce6dbe5f48421253.js.map

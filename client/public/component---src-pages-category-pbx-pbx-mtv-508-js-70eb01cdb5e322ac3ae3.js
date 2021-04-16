@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[547],{4693:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(8703);function f(){return r.createElement(u.Z,{id:"PBXMTV508"})}}}]);
+//# sourceMappingURL=component---src-pages-category-pbx-pbx-mtv-508-js-70eb01cdb5e322ac3ae3.js.map

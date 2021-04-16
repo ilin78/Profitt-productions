@@ -2,6 +2,26 @@ import React from "react";
 import StepperImage from "../../StepperImage";
 import "./ItemInfo.scss";
 export default function ItemInfo(props) {
+  let ArrImg = [];
+
+  if (props.img_1 !== "" && props.img_1 !== undefined ) {
+    ArrImg.push({ imgPath: props.img_1, label: props.img_label_1 });
+  } 
+  if (props.img_2 !== "" && props.img_2 !== undefined) {
+    ArrImg.push({ imgPath: props.img_2, label: props.img_label_2 });
+  } 
+  if (props.img_3 !== "" && props.img_3 !== undefined) {
+    ArrImg.push({ imgPath: props.img_3, label: props.img_label_3 });
+  } 
+  if (props.img_4 !== "" && props.img_4 !== undefined) {
+    ArrImg.push({ imgPath: props.img_4, label: props.img_label_4 });
+  } 
+  if (props.img_5 !== "" && props.img_5 !== undefined) {
+    ArrImg.push({ imgPath: props.img_5, label: props.img_label_5 });
+  } 
+  if (props.img_6 !== "" && props.img_6 !== undefined) {
+    ArrImg.push({ imgPath: props.img_6, label: props.img_label_6 });
+  } 
   return (
     <div className="ItemInfo">
       <div className="ItemInfo__container">
@@ -17,8 +37,7 @@ export default function ItemInfo(props) {
           </div>
         </div>
         <div className="ItemInfo__image">
-
-          <StepperImage />
+          <StepperImage tutorialSteps={ArrImg}/>
 
           <div className="ItemInfo__image_content">
             <div className="ItemInfo__image_content-item"></div>
@@ -27,8 +46,7 @@ export default function ItemInfo(props) {
           </div>
         </div>
 
-
-  {/* <div className="ItemInfo__description ">
+        {/* <div className="ItemInfo__description ">
             <div className="ItemInfo__header">{props.description}</div>
             <div className="ItemInfo__description_item">
               {props.description_1}
@@ -43,7 +61,7 @@ export default function ItemInfo(props) {
               {props.description_4}
             </div>
           </div> */}
-          {/* <div className="ItemInfo__properties ">
+        {/* <div className="ItemInfo__properties ">
             <div className="ItemInfo__header">{props.properties}</div>
             <div className="ItemInfo__properties_item">
               {props.properties_1}
@@ -58,7 +76,7 @@ export default function ItemInfo(props) {
               {props.properties_4}
             </div> 
           </div>*/}
-          {/* <div className="ItemInfo__apply">
+        {/* <div className="ItemInfo__apply">
               <div className="ItemInfo__header">{props.applying}</div>
               <div className="ItemInfo__apply_item">{props.applying_1}</div>
               <div className="ItemInfo__apply_item">{props.applying_2}</div>
@@ -67,8 +85,6 @@ export default function ItemInfo(props) {
               <div className="ItemInfo__apply_item">{props.applying_5}</div>
               <div className="ItemInfo__apply_item">{props.applying_6}</div>
             </div> */}
-
-
 
         <div className="ItemInfo__spec">
           <div className="ItemInfo__spec_content">

@@ -1,2 +1,0 @@
-(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[427],{9678:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(574);function f(){return r.createElement(u.Z,{id:"PBXMF150"})}}}]);
-//# sourceMappingURL=component---src-pages-category-pbx-pbx-mf-150-js-7c478a92d4aa72e4050c.js.map

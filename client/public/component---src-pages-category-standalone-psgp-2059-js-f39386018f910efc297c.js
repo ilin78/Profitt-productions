@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[348],{3491:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(8703);function f(){return r.createElement(u.Z,{id:"PSGP2059"})}}}]);
+//# sourceMappingURL=component---src-pages-category-standalone-psgp-2059-js-f39386018f910efc297c.js.map

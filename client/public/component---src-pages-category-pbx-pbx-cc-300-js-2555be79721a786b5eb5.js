@@ -1,0 +1,2 @@
+(self.webpackChunkprofitt=self.webpackChunkprofitt||[]).push([[201],{6075:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return f}});var r=n(7294),u=n(8703);function f(){return r.createElement(u.Z,{id:"PBXCC300"})}}}]);
+//# sourceMappingURL=component---src-pages-category-pbx-pbx-cc-300-js-2555be79721a786b5eb5.js.map
