@@ -4,6 +4,8 @@ import { connect } from "react-redux";
 import JSONData_en from "../../../../../../content/locales/en/translation_en.json";
 import JSONData_ru from "../../../../../../content/locales/ru/translation_ru.json";
 
+import "./Links.scss";
+
 function Links({ isLanguage }) {
   let navigate = null;
   if (isLanguage) {
@@ -14,16 +16,16 @@ function Links({ isLanguage }) {
   return (
     <div>
       <nav className="navigate__link">
-        <Link to="/">
+        <Link to="/" activeClassName="headActive">
           <button> {navigate.productions} </button>
         </Link>
-        <Link to="/solution/">
+        <Link to="/solution/" activeClassName="headActive">
           <button> {navigate.solution} </button>
         </Link>
-        <Link to="/support/">
+        <Link to="/support/" activeClassName="headActive">
           <button> {navigate.support} </button>
         </Link>
-        <Link to="/about/">
+        <Link to="/about/" activeClassName="headActive">
           <button> {navigate.about} </button>
         </Link>
       </nav>

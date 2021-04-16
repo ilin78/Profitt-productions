@@ -10,7 +10,6 @@ export default function ListItem(props) {
         <button className="ListItem__btn">
           <div className="ListItem__container">
             <div className="ListItem__container_type">{props.type}</div>
-
             <div className="ListItem__container_image">
               <div className="viewImage">
                 <div className="viewImage_A">
