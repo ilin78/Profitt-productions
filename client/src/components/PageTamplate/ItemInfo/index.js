@@ -39,11 +39,11 @@ export default function ItemInfo(props) {
         <div className="ItemInfo__image">
           <StepperImage tutorialSteps={ArrImg}/>
 
-          <div className="ItemInfo__image_content">
+          {/* <div className="ItemInfo__image_content">
             <div className="ItemInfo__image_content-item"></div>
             <div className="ItemInfo__image_content-item"></div>
             <div className="ItemInfo__image_content-item"></div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="ItemInfo__description ">

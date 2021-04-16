@@ -10,29 +10,6 @@ import Image from "../Image";
 
 const AutoPlaySwipeableViews = SwipeableViews;
 
-const tutorialSteps1 = [
-  {
-    label: "San Francisco – Oakland Bay Bridge, United States",
-    imgPath:
-      "https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-  {
-    label: "Bird",
-    imgPath:
-      "https://images.unsplash.com/photo-1538032746644-0212e812a9e7?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-  {
-    label: "Bali, Indonesia",
-    imgPath:
-      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80",
-  },
-  {
-    label: "NeONBRAND Digital Marketing, Las Vegas, United States",
-    imgPath:
-      "https://images.unsplash.com/photo-1518732714860-b62714ce0c59?auto=format&fit=crop&w=400&h=250&q=60",
-  },
-];
-
 const styles = (theme) => ({
   root: {
     maxWidth: 1000,
@@ -45,8 +22,7 @@ const styles = (theme) => ({
     paddingLeft: theme.spacing.unit * 4,
     backgroundColor: theme.palette.background.default,
   },
- img: {
-
+  img: {
     height: "100%",
     display: "block",
     maxWidth: 1000,
@@ -79,8 +55,7 @@ class StepperImage extends React.Component {
   render() {
     const { classes, theme } = this.props;
     const { activeStep } = this.state;
-    // __________________________________________________________
-    const maxSteps =  this.props.tutorialSteps.length;
+    const maxSteps = this.props.tutorialSteps.length;
 
     return (
       <div className={classes.root}>
@@ -93,14 +68,13 @@ class StepperImage extends React.Component {
           onChangeIndex={this.handleStepChange}
           enableMouseEvents
         >
-          { this.props.tutorialSteps.map((step, index) => (
+          {this.props.tutorialSteps.map((step, index) => (
             <div key={step.label}>
               {Math.abs(activeStep - index) <= 2 ? (
-                
-                < Image 
-                className={classes.img}
-                alt={step.label}
-                filename={`${step.imgPath}.jpg`}
+                <Image
+                  className={classes.img}
+                  alt={step.label}
+                  filename={`${step.imgPath}.jpg`}
                 />
               ) : null}
             </div>
