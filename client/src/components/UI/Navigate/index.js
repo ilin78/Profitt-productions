@@ -4,10 +4,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import List from "@material-ui/core/List";
 import MenuIcon from "@material-ui/icons/Menu";
-import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
-import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
-import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
-import ContactSupportOutlinedIcon from '@material-ui/icons/ContactSupportOutlined';
+import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
+import ImportantDevicesIcon from "@material-ui/icons/ImportantDevices";
+import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
+import ContactSupportOutlinedIcon from "@material-ui/icons/ContactSupportOutlined";
 // import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
 import { Link } from "gatsby";
 import { connect } from "react-redux";
@@ -69,27 +69,39 @@ function Navigate({ isLanguage }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="siteProfitt"><ImportantDevicesIcon fontSize="small"/><div>Profitt.ru</div></button>
+          <button className="siteProfitt">
+            <ImportantDevicesIcon fontSize="small" />
+            <div>Profitt.ru</div>
+          </button>
         </a>
-        <div>
-          <TreeLanguage />
-        </div>
+
         <div>
           <nav className="navigate__link">
-            <Link to="/">
-              <button> <HomeOutlinedIcon fontSize="small" /><div>{navigate.productions}</div>
-                {/*  FiberNewOutlinedIcon - использовать в сл. появ. нового прод.  */}
-                {/* <FiberNewOutlinedIcon color="secondary"/>  */}
-              </button>
-            </Link>
+            {/* <Link to="/"> */}
+            {/* <button> <HomeOutlinedIcon fontSize="small" /><div>{navigate.productions}</div> */}
+            {/*  FiberNewOutlinedIcon - использовать в сл. появ. нового прод.  */}
+            {/* <FiberNewOutlinedIcon color="secondary"/>  */}
+            {/* </button> */}
+            {/* </Link> */}
             <div>
               <TreeSolution />
             </div>
+            <div>
+              <TreeLanguage />
+            </div>
             <Link to="/support/">
-              <button><ContactSupportOutlinedIcon fontSize="small" /><div>{navigate.support}</div></button>
+              <button>
+                <ContactSupportOutlinedIcon fontSize="small" />
+                <div>{navigate.support}</div>
+              </button>
             </Link>
+
             <Link to="/about/">
-              <button> <InfoOutlinedIcon fontSize="small" /><div>{navigate.about}</div></button>
+              <button>
+                {" "}
+                <InfoOutlinedIcon fontSize="small" />
+                <div>{navigate.about}</div>
+              </button>
             </Link>
           </nav>
         </div>

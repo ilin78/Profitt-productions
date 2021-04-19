@@ -21,7 +21,7 @@ import GraphicEqOutlinedIcon from '@material-ui/icons/GraphicEqOutlined';
 
 class TreeSolution extends React.Component {
   state = {
-    open: false,
+    open: true,
   };
 
   handleClick = () => {

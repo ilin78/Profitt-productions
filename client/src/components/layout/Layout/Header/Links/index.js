@@ -16,9 +16,9 @@ function Links({ isLanguage }) {
   return (
     <div>
       <nav className="navigate__link">
-        <Link to="/" activeClassName="headActive">
+        {/* <Link to="/" activeClassName="headActive">
           <button> {navigate.productions} </button>
-        </Link>
+        </Link> */}
         <Link to="/solution/" activeClassName="headActive">
           <button> {navigate.solution} </button>
         </Link>
