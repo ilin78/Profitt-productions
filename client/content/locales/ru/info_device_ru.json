@@ -309,7 +309,14 @@
           "img_1":"str500_A",
           "img_label_1":"str500_A",
           "img_2":"500_A",
-          "img_label_2":"500_A"
+          "img_label_2":"500_A",
+          "img_3":"str500_web_1",
+          "img_label_3":"str500_web_1",
+          "img_4":"str500_web_2",
+          "img_label_4":"str500_web_2",
+          "img_5":"str500_web_3",
+          "img_label_5":"str500_web_3"
+
         },
         {
           "id": "PNMPE264",
