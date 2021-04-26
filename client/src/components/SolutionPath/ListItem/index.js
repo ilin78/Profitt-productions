@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import "./ListItem.scss";
-import Image from "../../Image";
+import MinImage from "../../MinImage";
 
 export default function ListItem(props) {
   return (
@@ -13,7 +13,7 @@ export default function ListItem(props) {
             <div className="ListItem__container_image">
               <div className="viewImage">
                 <div className="viewImage_A">
-                  <Image
+                  <MinImage
                     alt={`${props.img_A}.- front`}
                     filename={`${props.img_A}.jpg`}
                   />
