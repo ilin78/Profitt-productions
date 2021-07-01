@@ -19,7 +19,7 @@ https://www.figma.com/file/r9fmqEBic6ohbXF1YhWZyn/Untitled?node-id=0%3A1
 
 
 
-# Запуск прокета
+### Запуск проекта
 
 ```
 cd server
